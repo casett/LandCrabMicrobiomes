@@ -2,7 +2,7 @@
 #  TBD - The role of the microbiome in sea-to-land transitions in crabs
  
 
-## by Cassie Ettinger, Victoria Watson-Zink, Laeitita Wilkins et al.
+## by Cassie Ettinger, Victoria Watson-Zink, Laetitia Wilkins et al.
 
 ### To cite this work or code
 	
