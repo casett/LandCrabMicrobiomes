@@ -1,0 +1,4 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Propionibacteriaceae	31957	F	43	7	50	0.51020
+Comamonadaceae	80864	F	10	2	12	0.12245
+Hominidae	9604	F	20	15	35	0.35714

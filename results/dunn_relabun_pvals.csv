@@ -1,0 +1,640 @@
+TaxonomicLevel,Category,Taxon,comparison,Zsc,pval,padj,DataSet
+genus,Genus,Trametes,Petrolisthes - Tuerkayana,-3.065339592636,0.00217422971350225,0.0326134457025338,Kraken - Fungi
+genus,Genus,Trametes,Ocypode - Tuerkayana,-0.741215388753669,0.458562854201243,1,Kraken - Fungi
+genus,Genus,Trametes,Geograpsus - Tuerkayana,-2.04776454859064,0.0405830756093326,0.608746134139988,Kraken - Fungi
+genus,Genus,Trametes,Gecarcoidea - Tuerkayana,0.677836567756131,0.49787532256091,1,Kraken - Fungi
+genus,Genus,Trametes,Birgus - Tuerkayana,0.416051410553764,0.677372384058102,1,Kraken - Fungi
+genus,Genus,Trametes,Ocypode - Petrolisthes,0.588905289974068,0.555924808924448,1,Kraken - Fungi
+genus,Genus,Trametes,Geograpsus - Petrolisthes,-0.742532756923824,0.457764612640235,1,Kraken - Fungi
+genus,Genus,Trametes,Gecarcoidea - Petrolisthes,3.35447561989828,0.00079515559751244,0.0119273339626866,Kraken - Fungi
+genus,Genus,Trametes,Birgus - Petrolisthes,3.07410153823514,0.00211137558154341,0.0316706337231512,Kraken - Fungi
+genus,Genus,Trametes,Geograpsus - Ocypode,-0.979911869877732,0.327129623235154,1,Kraken - Fungi
+genus,Genus,Trametes,Gecarcoidea - Ocypode,1.07043604822209,0.284423080529614,1,Kraken - Fungi
+genus,Genus,Trametes,Birgus - Ocypode,0.934198732993828,0.350201389179296,1,Kraken - Fungi
+genus,Genus,Trametes,Gecarcoidea - Geograpsus,2.33549683248457,0.0195174811821778,0.292762217732666,Kraken - Fungi
+genus,Genus,Trametes,Birgus - Geograpsus,2.1992595172563,0.0278594744858508,0.417892117287762,Kraken - Fungi
+genus,Genus,Trametes,Birgus - Gecarcoidea,-0.235969951862134,0.813455986758935,1,Kraken - Fungi
+genus,Genus,Torulaspora,Petrolisthes - Tuerkayana,-3.61028885354906,0.000305856199493198,0.00458784299239797,Kraken - Fungi
+genus,Genus,Torulaspora,Ocypode - Tuerkayana,-1.62062347710548,0.105098414073848,1,Kraken - Fungi
+genus,Genus,Torulaspora,Geograpsus - Tuerkayana,-2.52515751083877,0.0115646443354931,0.173469665032397,Kraken - Fungi
+genus,Genus,Torulaspora,Gecarcoidea - Tuerkayana,-0.733933387156639,0.462989337451307,1,Kraken - Fungi
+genus,Genus,Torulaspora,Birgus - Tuerkayana,-2.30464433037085,0.021186501067728,0.31779751601592,Kraken - Fungi
+genus,Genus,Torulaspora,Ocypode - Petrolisthes,-0.0682788741998918,0.945563640822758,1,Kraken - Fungi
+genus,Genus,Torulaspora,Geograpsus - Petrolisthes,-0.990043675898432,0.322152771546907,1,Kraken - Fungi
+genus,Genus,Torulaspora,Gecarcoidea - Petrolisthes,2.30974838703444,0.0209020882552053,0.31353132382808,Kraken - Fungi
+genus,Genus,Torulaspora,Birgus - Petrolisthes,0.6275038970556,0.530328982454561,1,Kraken - Fungi
+genus,Genus,Torulaspora,Geograpsus - Ocypode,-0.678400525299968,0.497517776129989,1,Kraken - Fungi
+genus,Genus,Torulaspora,Gecarcoidea - Ocypode,1.18721088984632,0.235144446497211,1,Kraken - Fungi
+genus,Genus,Torulaspora,Birgus - Ocypode,0.369786998476723,0.711541203370784,1,Kraken - Fungi
+genus,Genus,Torulaspora,Gecarcoidea - Geograpsus,2.06302220202804,0.0391105188183906,0.586657782275859,Kraken - Fungi
+genus,Genus,Torulaspora,Birgus - Geograpsus,1.24559831065844,0.212911902811505,1,Kraken - Fungi
+genus,Genus,Torulaspora,Birgus - Gecarcoidea,-1.41581971117281,0.156828296926177,1,Kraken - Fungi
+genus,Diet_group,Trametes,Detritivore - Herbivore,-3.82580719578244,0.000130344278613588,0.000391032835840764,Kraken - Fungi
+genus,Diet_group,Trametes,Carnivore/Omnivore - Herbivore,-0.634117946338635,0.526003851552433,1,Kraken - Fungi
+genus,Diet_group,Trametes,Carnivore/Omnivore - Detritivore,2.40632530728504,0.0161139086915621,0.0483417260746862,Kraken - Fungi
+genus,Diet_group,Torulaspora,Detritivore - Herbivore,-3.80490114553226,0.000141860834842523,0.00042558250452757,Kraken - Fungi
+genus,Diet_group,Torulaspora,Carnivore/Omnivore - Herbivore,-2.79676474149354,0.00516171031772346,0.0154851309531704,Kraken - Fungi
+genus,Diet_group,Torulaspora,Carnivore/Omnivore - Detritivore,0.227064068121258,0.820373923798733,1,Kraken - Fungi
+genus,Grade,Trametes,IV - V,-0.672204956938159,0.501453225751135,1,Kraken - Fungi
+genus,Grade,Trametes,III - V,0.00359349734109997,0.997132810123029,1,Kraken - Fungi
+genus,Grade,Trametes,II - V,-3.3563265165878,0.000789852572339822,0.00789852572339822,Kraken - Fungi
+genus,Grade,Trametes,I - V,-2.59134733388902,0.00956009483882299,0.0956009483882299,Kraken - Fungi
+genus,Grade,Trametes,III - IV,0.587968596701448,0.55655337143532,1,Kraken - Fungi
+genus,Grade,Trametes,II - IV,-2.1135087394944,0.0345572477873682,0.345572477873682,Kraken - Fungi
+genus,Grade,Trametes,I - IV,-1.37275092436836,0.16982979198768,1,Kraken - Fungi
+genus,Grade,Trametes,II - III,-2.86534941546878,0.00416549333741494,0.0416549333741494,Kraken - Fungi
+genus,Grade,Trametes,I - III,-2.14304472483443,0.0321095072457548,0.321095072457548,Kraken - Fungi
+genus,Grade,Trametes,I - II,0.951886370496848,0.34115461249472,1,Kraken - Fungi
+genus,Genus,Methanococcus,Petrolisthes - Tuerkayana,-4.04819450963992,5.16142452481525e-05,0.000774213678722287,Kraken - Archaea
+genus,Genus,Methanococcus,Ocypode - Tuerkayana,-2.56284642891099,0.0103817957897018,0.155726936845526,Kraken - Archaea
+genus,Genus,Methanococcus,Geograpsus - Tuerkayana,-1.25629726907402,0.209008211688364,1,Kraken - Archaea
+genus,Genus,Methanococcus,Gecarcoidea - Tuerkayana,-1.85119504021674,0.0641414990429621,0.962122485644431,Kraken - Archaea
+genus,Genus,Methanococcus,Birgus - Tuerkayana,-0.916248050208288,0.359536808588385,1,Kraken - Archaea
+genus,Genus,Methanococcus,Ocypode - Petrolisthes,-0.836416208948676,0.402920797042481,1,Kraken - Archaea
+genus,Genus,Methanococcus,Geograpsus - Petrolisthes,0.495021837949216,0.620584705525513,1,Kraken - Archaea
+genus,Genus,Methanococcus,Gecarcoidea - Petrolisthes,1.48865286216382,0.136578803750036,1,Kraken - Archaea
+genus,Genus,Methanococcus,Birgus - Petrolisthes,2.4899888681036,0.0127747096410119,0.191620644615179,Kraken - Archaea
+genus,Genus,Methanococcus,Geograpsus - Ocypode,0.979911869877732,0.327129623235154,1,Kraken - Archaea
+genus,Genus,Methanococcus,Gecarcoidea - Ocypode,1.51807294111497,0.128996011667487,1,Kraken - Archaea
+genus,Genus,Methanococcus,Birgus - Ocypode,2.00463478121592,0.0450021054714622,0.675031582071933,Kraken - Archaea
+genus,Genus,Methanococcus,Gecarcoidea - Geograpsus,0.253012156852495,0.800258818967747,1,Kraken - Archaea
+genus,Genus,Methanococcus,Birgus - Geograpsus,0.739573996953447,0.459558524587795,1,Kraken - Archaea
+genus,Genus,Methanococcus,Birgus - Gecarcoidea,0.842749828079053,0.399368373186087,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Petrolisthes - Tuerkayana,-1.20015802989467,0.230077971859066,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Ocypode - Tuerkayana,-0.516465784733241,0.605529129975933,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Geograpsus - Tuerkayana,-0.516465784733241,0.605529129975933,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Gecarcoidea - Tuerkayana,-0.960895448006923,0.336604739795241,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Birgus - Tuerkayana,2.77286972139141,0.00555643605708964,0.0833465408563446,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Ocypode - Petrolisthes,0,1,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Geograpsus - Petrolisthes,0,1,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Gecarcoidea - Petrolisthes,0,1,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Birgus - Petrolisthes,3.99889356487323,6.36392888382406e-05,0.000954589332573609,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Geograpsus - Ocypode,0,1,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Gecarcoidea - Ocypode,0,1,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Birgus - Ocypode,1.94311300078185,0.0520025065473376,0.780037598210065,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Gecarcoidea - Geograpsus,0,1,1,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Birgus - Geograpsus,1.94311300078185,0.0520025065473376,0.780037598210065,Kraken - Archaea
+genus,Genus,unclassified Candidatus Methanoperedenaceae,Birgus - Gecarcoidea,3.36557044220179,0.000763855605042972,0.0114578340756446,Kraken - Archaea
+genus,Diet_group,Methanobrevibacter,Detritivore - Herbivore,-3.0313772862757,0.00243440851483663,0.0073032255445099,Kraken - Archaea
+genus,Diet_group,Methanobrevibacter,Carnivore/Omnivore - Herbivore,0.567660170303145,0.570265741675807,1,Kraken - Archaea
+genus,Diet_group,Methanobrevibacter,Carnivore/Omnivore - Detritivore,2.97675455158966,0.00291317133167733,0.00873951399503198,Kraken - Archaea
+genus,Diet_group,Methanococcus,Detritivore - Herbivore,-3.84671324603262,0.000119712940477663,0.00035913882143299,Kraken - Archaea
+genus,Diet_group,Methanococcus,Carnivore/Omnivore - Herbivore,-0.509509616272091,0.610395059620205,1,Kraken - Archaea
+genus,Diet_group,Methanococcus,Carnivore/Omnivore - Detritivore,2.54754808136045,0.0108482902546861,0.0325448707640582,Kraken - Archaea
+genus,Diet_group,Natrinema,Detritivore - Herbivore,-2.80141073352375,0.00508797153305784,0.0152639145991735,Kraken - Archaea
+genus,Diet_group,Natrinema,Carnivore/Omnivore - Herbivore,-2.75245955746988,0.00591494517504156,0.0177448355251247,Kraken - Archaea
+genus,Diet_group,Natrinema,Carnivore/Omnivore - Detritivore,-0.526124060280963,0.598802012540201,1,Kraken - Archaea
+genus,Diet_group,unclassified Candidatus Methanoperedenaceae,Detritivore - Herbivore,-0.859451016405438,0.390091733729072,1,Kraken - Archaea
+genus,Diet_group,unclassified Candidatus Methanoperedenaceae,Carnivore/Omnivore - Herbivore,2.9109764545274,0.0036030116778374,0.0108090350335122,Kraken - Archaea
+genus,Diet_group,unclassified Candidatus Methanoperedenaceae,Carnivore/Omnivore - Detritivore,3.59399886285227,0.000325641257274167,0.000976923771822501,Kraken - Archaea
+genus,Genus,Bacillus,Petrolisthes - Tuerkayana,2.89017733019965,0.00385024568320492,0.0577536852480738,Kraken - Bacteria
+genus,Genus,Bacillus,Ocypode - Tuerkayana,1.26886024176476,0.204490914672384,1,Kraken - Bacteria
+genus,Genus,Bacillus,Geograpsus - Tuerkayana,1.77137914939436,0.0764976734938623,1,Kraken - Bacteria
+genus,Genus,Bacillus,Gecarcoidea - Tuerkayana,4.15583937058759,3.24095473648348e-05,0.000486143210472522,Kraken - Bacteria
+genus,Genus,Bacillus,Birgus - Tuerkayana,2.47293478857237,0.0134008593336407,0.20101289000461,Kraken - Bacteria
+genus,Genus,Bacillus,Ocypode - Petrolisthes,0.0256045778249595,0.979572734692116,1,Kraken - Bacteria
+genus,Genus,Bacillus,Geograpsus - Petrolisthes,0.537696134324149,0.590786848471343,1,Kraken - Bacteria
+genus,Genus,Bacillus,Gecarcoidea - Petrolisthes,1.97263193170138,0.0485375122259216,0.728062683388824,Kraken - Bacteria
+genus,Genus,Bacillus,Birgus - Petrolisthes,0.170227121009764,0.864831523500336,1,Kraken - Bacteria
+genus,Genus,Bacillus,Geograpsus - Ocypode,0.376889180722205,0.706255962104853,1,Kraken - Bacteria
+genus,Genus,Bacillus,Gecarcoidea - Ocypode,0.934198732993828,0.350201389179296,1,Kraken - Bacteria
+genus,Genus,Bacillus,Birgus - Ocypode,0.0583874208121144,0.95344003441657,1,Kraken - Bacteria
+genus,Genus,Bacillus,Gecarcoidea - Geograpsus,0.447636892892876,0.654415272941338,1,Kraken - Bacteria
+genus,Genus,Bacillus,Birgus - Geograpsus,-0.428174419288837,0.668524138886525,1,Kraken - Bacteria
+genus,Genus,Bacillus,Birgus - Gecarcoidea,-1.51694969054229,0.129279386488387,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Petrolisthes - Tuerkayana,4.84615592740548,1.25876597777432e-06,1.88814896666149e-05,Kraken - Bacteria
+genus,Genus,Paenibacillus,Ocypode - Tuerkayana,1.6583123951777,0.0972544284390033,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Geograpsus - Tuerkayana,0.452267016866645,0.651076634077834,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Gecarcoidea - Tuerkayana,1.14063532781032,0.254021709509096,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Birgus - Tuerkayana,1.92599079941742,0.0541055226778388,0.811582840167582,Kraken - Bacteria
+genus,Genus,Paenibacillus,Ocypode - Petrolisthes,-0.435277823024311,0.663360780161294,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Geograpsus - Petrolisthes,-1.66429755862236,0.0960529800632661,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Gecarcoidea - Petrolisthes,-2.93391449740357,0.00334716400370507,0.050207460055576,Kraken - Bacteria
+genus,Genus,Paenibacillus,Birgus - Petrolisthes,-2.09279225241415,0.0363677037315993,0.54551555597399,Kraken - Bacteria
+genus,Genus,Paenibacillus,Geograpsus - Ocypode,-0.904534033733291,0.365712296281513,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Gecarcoidea - Ocypode,-1.01204862740998,0.31151480355771,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Birgus - Ocypode,-0.60333668172518,0.546284735212482,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Gecarcoidea - Geograpsus,0.155699788832305,0.876269663627762,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Birgus - Geograpsus,0.564411734517104,0.572473954657173,1,Kraken - Bacteria
+genus,Genus,Paenibacillus,Birgus - Gecarcoidea,0.707909855586404,0.47900123899421,1,Kraken - Bacteria
+genus,Genus,Escherichia,Petrolisthes - Tuerkayana,3.09453330304205,0.00197122803003031,0.0295684204504546,Kraken - Bacteria
+genus,Genus,Escherichia,Ocypode - Tuerkayana,1.20604537831105,0.227799993988229,1,Kraken - Bacteria
+genus,Genus,Escherichia,Geograpsus - Tuerkayana,-0.80403025220737,0.421379503742869,1,Kraken - Bacteria
+genus,Genus,Escherichia,Gecarcoidea - Tuerkayana,-1.04714062880947,0.295034723166509,1,Kraken - Bacteria
+genus,Genus,Escherichia,Birgus - Tuerkayana,0.336580916403045,0.736432844155921,1,Kraken - Bacteria
+genus,Genus,Escherichia,Ocypode - Petrolisthes,-0.128022889124797,0.898130859187004,1,Kraken - Bacteria
+genus,Genus,Escherichia,Geograpsus - Petrolisthes,-2.17638911512155,0.0295261770136106,0.442892655204159,Kraken - Bacteria
+genus,Genus,Escherichia,Gecarcoidea - Petrolisthes,-3.77503674239299,0.000159984080804738,0.00239976121207107,Kraken - Bacteria
+genus,Genus,Escherichia,Birgus - Petrolisthes,-2.29305945360211,0.0218445823128185,0.327668734692277,Kraken - Bacteria
+genus,Genus,Escherichia,Geograpsus - Ocypode,-1.50755672288882,0.131668016022814,1,Kraken - Bacteria
+genus,Genus,Escherichia,Gecarcoidea - Ocypode,-1.71269767715535,0.0867681727038757,1,Kraken - Bacteria
+genus,Genus,Escherichia,Birgus - Ocypode,-0.992586153805942,0.320911675159789,1,Kraken - Bacteria
+genus,Genus,Escherichia,Gecarcoidea - Geograpsus,0.233549683248457,0.815334594355228,1,Kraken - Bacteria
+genus,Genus,Escherichia,Birgus - Geograpsus,0.953661206597866,0.340255162868925,1,Kraken - Bacteria
+genus,Genus,Escherichia,Birgus - Gecarcoidea,1.247269745557,0.212298606881878,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Petrolisthes - Tuerkayana,-4.68072490177116,2.85862319079027e-06,4.2879347861854e-05,Kraken - Bacteria
+genus,Genus,Paracoccus,Ocypode - Tuerkayana,-0.917097006424031,0.359091809606665,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Geograpsus - Tuerkayana,-0.716089443372189,0.473936121783068,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Gecarcoidea - Tuerkayana,-0.846127025957654,0.397481885528046,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Birgus - Tuerkayana,-2.26724645077051,0.0233751746786558,0.350627620179837,Kraken - Bacteria
+genus,Genus,Paracoccus,Ocypode - Petrolisthes,1.11806656502323,0.263538564964787,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Geograpsus - Petrolisthes,1.32290318762291,0.185867575145391,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Gecarcoidea - Petrolisthes,3.1074794050998,0.00188690132207667,0.0283035198311501,Kraken - Bacteria
+genus,Genus,Paracoccus,Birgus - Petrolisthes,1.58544867607133,0.112864429193537,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Geograpsus - Ocypode,0.150755672288882,0.880168454906725,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Gecarcoidea - Ocypode,0.447636892892876,0.654415272941338,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Birgus - Ocypode,-0.291937104060571,0.770334713642339,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Gecarcoidea - Geograpsus,0.253012156852495,0.800258818967747,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Birgus - Geograpsus,-0.486561840100952,0.626568871568948,1,Kraken - Bacteria
+genus,Genus,Paracoccus,Birgus - Gecarcoidea,-1.28097973868016,0.200200782871216,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Petrolisthes - Tuerkayana,-2.16033457004823,0.0307467786153292,0.461201679229937,Kraken - Bacteria
+genus,Genus,Bacteroides,Ocypode - Tuerkayana,-0.753778361444409,0.450982319268883,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Geograpsus - Tuerkayana,0.150755672288882,0.880168454906725,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Gecarcoidea - Tuerkayana,-3.79588477943434,0.000147117818996674,0.0022067672849501,Kraken - Bacteria
+genus,Genus,Bacteroides,Birgus - Tuerkayana,-0.205688337801861,0.837034368865163,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Ocypode - Petrolisthes,0.179232044774716,0.857755503017503,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Geograpsus - Petrolisthes,1.10099684647326,0.270898029657264,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Gecarcoidea - Petrolisthes,-2.21295257312693,0.0269009155691099,0.403513733536649,Kraken - Bacteria
+genus,Genus,Bacteroides,Birgus - Petrolisthes,1.63217768968185,0.102642059266406,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Geograpsus - Ocypode,0.678400525299968,0.497517776129989,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Gecarcoidea - Ocypode,-1.24559831065844,0.212911902811505,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Birgus - Ocypode,0.622799155329218,0.533416513472694,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Gecarcoidea - Geograpsus,-2.12140962284015,0.0338873461682956,0.508310192524434,Kraken - Bacteria
+genus,Genus,Bacteroides,Birgus - Geograpsus,-0.253012156852495,0.800258818967747,1,Kraken - Bacteria
+genus,Genus,Bacteroides,Birgus - Gecarcoidea,3.23615933982356,0.00121149736543063,0.0181724604814594,Kraken - Bacteria
+genus,Genus,Castellaniella,Petrolisthes - Tuerkayana,-2.52889288531312,0.0114422941928054,0.171634412892081,Kraken - Bacteria
+genus,Genus,Castellaniella,Ocypode - Tuerkayana,-1.53711746242331,0.124264547450249,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Geograpsus - Tuerkayana,-0.419213853388177,0.675059848484424,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Gecarcoidea - Tuerkayana,1.86716783829483,0.0618781533712757,0.928172300569135,Kraken - Bacteria
+genus,Genus,Castellaniella,Birgus - Tuerkayana,-0.666508013163471,0.505086443544476,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Ocypode - Petrolisthes,-0.457405628819903,0.647379519286077,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Geograpsus - Petrolisthes,0.681793295788158,0.495369664109215,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Gecarcoidea - Petrolisthes,4.16826005045193,3.06933641493612e-05,0.000460400462240417,Kraken - Bacteria
+genus,Genus,Castellaniella,Birgus - Petrolisthes,1.45467213096744,0.145760051476032,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Geograpsus - Ocypode,0.838427706776353,0.401790533915114,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Gecarcoidea - Ocypode,2.46001253435128,0.0138932163479854,0.208398245219782,Kraken - Bacteria
+genus,Genus,Castellaniella,Birgus - Ocypode,1.141445815939,0.253684448021708,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Gecarcoidea - Geograpsus,1.37760701923672,0.168324652599599,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Birgus - Geograpsus,0.0590403008244309,0.952920008663774,1,Kraken - Bacteria
+genus,Genus,Castellaniella,Birgus - Gecarcoidea,-2.28382454945945,0.0223818442846483,0.335727664269724,Kraken - Bacteria
+genus,Genus,Vibrio,Petrolisthes - Tuerkayana,0.720111523349409,0.471456333107995,1,Kraken - Bacteria
+genus,Genus,Vibrio,Ocypode - Tuerkayana,0.577896743774047,0.56333383385006,1,Kraken - Bacteria
+genus,Genus,Vibrio,Geograpsus - Tuerkayana,-1.23117132369253,0.218258794207933,1,Kraken - Bacteria
+genus,Genus,Vibrio,Gecarcoidea - Tuerkayana,-2.81419043992546,0.00489002495675379,0.0733503743513069,Kraken - Bacteria
+genus,Genus,Vibrio,Birgus - Tuerkayana,-1.61745829271463,0.105779391544503,1,Kraken - Bacteria
+genus,Genus,Vibrio,Ocypode - Petrolisthes,0.273115496799568,0.784764434703819,1,Kraken - Bacteria
+genus,Genus,Vibrio,Geograpsus - Petrolisthes,-1.57041410659751,0.116318802738143,1,Kraken - Bacteria
+genus,Genus,Vibrio,Gecarcoidea - Petrolisthes,-3.63151191487496,0.000281765645957812,0.00422648468936718,Kraken - Bacteria
+genus,Genus,Vibrio,Birgus - Petrolisthes,-2.34980182727203,0.0187834085242381,0.281751127863571,Kraken - Bacteria
+genus,Genus,Vibrio,Geograpsus - Ocypode,-1.35680105059994,0.174844433610415,1,Kraken - Bacteria
+genus,Genus,Vibrio,Gecarcoidea - Ocypode,-2.02409725481996,0.0429601460284251,0.644402190426376,Kraken - Bacteria
+genus,Genus,Vibrio,Birgus - Ocypode,-1.40129809949074,0.161124949289052,1,Kraken - Bacteria
+genus,Genus,Vibrio,Gecarcoidea - Geograpsus,-0.272474630456533,0.785257095540933,1,Kraken - Bacteria
+genus,Genus,Vibrio,Birgus - Geograpsus,0.350324524872685,0.72609516183253,1,Kraken - Bacteria
+genus,Genus,Vibrio,Birgus - Gecarcoidea,1.07871977994119,0.280712665268496,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Petrolisthes - Tuerkayana,-4.33040037689847,1.48838471921763e-05,0.000223257707882644,Kraken - Bacteria
+genus,Genus,Citrobacter,Ocypode - Tuerkayana,-1.29398618714624,0.195670192014223,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Geograpsus - Tuerkayana,-2.70103912850913,0.00691232058214505,0.103684808732176,Kraken - Bacteria
+genus,Genus,Citrobacter,Gecarcoidea - Tuerkayana,-2.03350970326839,0.0420010542555003,0.630015813832505,Kraken - Bacteria
+genus,Genus,Citrobacter,Birgus - Tuerkayana,-1.77172454606603,0.0764402930117348,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Ocypode - Petrolisthes,0.580370430699081,0.561664841031434,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Geograpsus - Petrolisthes,-0.853485927498649,0.393389888298806,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Gecarcoidea - Petrolisthes,1.53538187577434,0.124690053027987,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Birgus - Petrolisthes,1.81575595743748,0.0694078160707015,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Geograpsus - Ocypode,-1.05528970602217,0.291292847617813,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Gecarcoidea - Ocypode,0.194624736040381,0.845686736785953,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Birgus - Ocypode,0.330862051268647,0.740748687735021,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Gecarcoidea - Geograpsus,1.55699788832305,0.119470986771701,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Birgus - Geograpsus,1.69323520355131,0.0904107062465968,1,Kraken - Bacteria
+genus,Genus,Citrobacter,Birgus - Gecarcoidea,0.235969951862134,0.813455986758935,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Petrolisthes - Tuerkayana,2.96802722461581,0.00299717782775602,0.0449576674163403,Kraken - Bacteria
+genus,Genus,Pseudomonas,Ocypode - Tuerkayana,1.4698678048166,0.141597560693229,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Geograpsus - Tuerkayana,0.0628148634537008,0.94991392991862,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Gecarcoidea - Tuerkayana,3.52007541738184,0.00043142410759297,0.00647136161389455,Kraken - Bacteria
+genus,Genus,Pseudomonas,Birgus - Tuerkayana,-0.0701210242506343,0.944097332956864,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Ocypode - Petrolisthes,0.196301763324689,0.844373981308432,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Geograpsus - Petrolisthes,-1.23755459487304,0.215881259131231,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Gecarcoidea - Petrolisthes,1.22496771393301,0.220587385368494,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Birgus - Petrolisthes,-2.62016254887577,0.00878878638739436,0.131831795810915,Kraken - Bacteria
+genus,Genus,Pseudomonas,Geograpsus - Ocypode,-1.05528970602217,0.291292847617813,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Gecarcoidea - Ocypode,0.4087119456848,0.682751066227114,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Birgus - Ocypode,-1.45968552030286,0.14437652319833,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Gecarcoidea - Geograpsus,1.77108509796746,0.0765465517046754,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Birgus - Geograpsus,-0.0973123680201904,0.92247833435781,1,Kraken - Bacteria
+genus,Genus,Pseudomonas,Birgus - Gecarcoidea,-3.23615933982356,0.00121149736543063,0.0181724604814594,Kraken - Bacteria
+genus,Diet_group,Streptomyces,Detritivore - Herbivore,2.7595986330234,0.00578724143636619,0.0173617243090986,Kraken - Bacteria
+genus,Diet_group,Streptomyces,Carnivore/Omnivore - Herbivore,-1.2516214486684,0.210707835207379,0.632123505622138,Kraken - Bacteria
+genus,Diet_group,Streptomyces,Carnivore/Omnivore - Detritivore,-3.44472805783957,0.000571634184270221,0.00171490255281066,Kraken - Bacteria
+genus,Diet_group,Paenibacillus,Detritivore - Herbivore,4.91292180879166,8.97290680248945e-07,2.69187204074684e-06,Kraken - Bacteria
+genus,Diet_group,Paenibacillus,Carnivore/Omnivore - Herbivore,1.50914533080592,0.131261647370097,0.393784942110291,Kraken - Bacteria
+genus,Diet_group,Paenibacillus,Carnivore/Omnivore - Detritivore,-2.39524901127912,0.0166090811563561,0.0498272434690684,Kraken - Bacteria
+genus,Diet_group,Escherichia,Detritivore - Herbivore,4.16030399978528,3.17824267882839e-05,9.53472803648518e-05,Kraken - Bacteria
+genus,Diet_group,Escherichia,Carnivore/Omnivore - Herbivore,0.501202394267654,0.616228689442982,1,Kraken - Bacteria
+genus,Diet_group,Escherichia,Carnivore/Omnivore - Detritivore,-2.80507196349798,0.00503053469489708,0.0150916040846912,Kraken - Bacteria
+genus,Diet_group,Paracoccus,Detritivore - Herbivore,-4.74567340679024,2.07813790046411e-06,6.23441370139234e-06,Kraken - Bacteria
+genus,Diet_group,Paracoccus,Carnivore/Omnivore - Herbivore,-2.06296013110167,0.03911641626852,0.11734924880556,Kraken - Bacteria
+genus,Diet_group,Paracoccus,Carnivore/Omnivore - Detritivore,1.70851865891239,0.0875401472086231,0.262620441625869,Kraken - Bacteria
+genus,Diet_group,Castellaniella,Detritivore - Herbivore,-4.07998502725527,4.50386016914621e-05,0.000135115805074386,Kraken - Bacteria
+genus,Diet_group,Castellaniella,Carnivore/Omnivore - Herbivore,-1.62122165548215,0.104970110043207,0.314910330129622,Kraken - Bacteria
+genus,Diet_group,Castellaniella,Carnivore/Omnivore - Detritivore,1.62122165548215,0.104970110043207,0.314910330129622,Kraken - Bacteria
+genus,Diet_group,Citrobacter,Detritivore - Herbivore,-3.78399509528209,0.000154330865644957,0.000462992596934871,Kraken - Bacteria
+genus,Diet_group,Citrobacter,Carnivore/Omnivore - Herbivore,-1.76943828694492,0.0768207609932593,0.230462282979778,Kraken - Bacteria
+genus,Diet_group,Citrobacter,Carnivore/Omnivore - Detritivore,1.237776078661,0.215799100631897,0.647397301895692,Kraken - Bacteria
+genus,Grade,Bacillus,IV - V,-3.07471526599491,0.00210703604866628,0.0210703604866628,Kraken - Bacteria
+genus,Grade,Bacillus,III - V,-3.14071667612178,0.00168534987386817,0.0168534987386817,Kraken - Bacteria
+genus,Grade,Bacillus,II - V,-0.176081369713921,0.860230017056526,1,Kraken - Bacteria
+genus,Grade,Bacillus,I - V,-1.87836889616707,0.0603307174723356,0.603307174723355,Kraken - Bacteria
+genus,Grade,Bacillus,III - IV,0.150964909963885,0.880003396393166,1,Kraken - Bacteria
+genus,Grade,Bacillus,II - IV,2.53462138307787,0.0112568919859796,0.112568919859796,Kraken - Bacteria
+genus,Grade,Bacillus,I - IV,1.41526975830897,0.156989418272411,1,Kraken - Bacteria
+genus,Grade,Bacillus,II - III,2.52824948423716,0.0114632861822359,0.114632861822359,Kraken - Bacteria
+genus,Grade,Bacillus,I - III,1.34200373545457,0.179594784479608,1,Kraken - Bacteria
+genus,Grade,Bacillus,I - II,-1.3888178192495,0.164888155278406,1,Kraken - Bacteria
+genus,Grade,Paenibacillus,IV - V,-1.39005346033508,0.164512644107565,1,Kraken - Bacteria
+genus,Grade,Paenibacillus,III - V,-0.941496303368313,0.346450582753421,1,Kraken - Bacteria
+genus,Grade,Paenibacillus,II - V,3.05087924259427,0.00228172322753132,0.0228172322753132,Kraken - Bacteria
+genus,Grade,Paenibacillus,I - V,2.43958887124138,0.0147039854402816,0.147039854402816,Kraken - Bacteria
+genus,Grade,Paenibacillus,III - IV,0.452894729891656,0.650624546007688,1,Kraken - Bacteria
+genus,Grade,Paenibacillus,II - IV,3.66288544701848,0.000249390083601588,0.00249390083601588,Kraken - Bacteria
+genus,Grade,Paenibacillus,I - IV,3.17676430727723,0.00148928015063676,0.0148928015063676,Kraken - Bacteria
+genus,Grade,Paenibacillus,II - III,3.40470930543937,0.000662345200832051,0.00662345200832051,Kraken - Bacteria
+genus,Grade,Paenibacillus,I - III,2.88166693582106,0.00395577629264382,0.0395577629264382,Kraken - Bacteria
+genus,Grade,Paenibacillus,I - II,-0.795839424513759,0.426125373534074,1,Kraken - Bacteria
+genus,Grade,Escherichia,IV - V,0.402493091500009,0.687321171656864,1,Kraken - Bacteria
+genus,Grade,Escherichia,III - V,0.99899226082592,0.317798440349554,1,Kraken - Bacteria
+genus,Grade,Escherichia,II - V,3.72645674272115,0.000194190380584789,0.00194190380584789,Kraken - Bacteria
+genus,Grade,Escherichia,I - V,2.96644843967848,0.0030126086983169,0.030126086983169,Kraken - Bacteria
+genus,Grade,Escherichia,III - IV,0.452894729891656,0.650624546007688,1,Kraken - Bacteria
+genus,Grade,Escherichia,II - IV,2.64585868515652,0.00814838488678391,0.0814838488678391,Kraken - Bacteria
+genus,Grade,Escherichia,I - IV,1.91334752732758,0.055703577104735,0.55703577104735,Kraken - Bacteria
+genus,Grade,Escherichia,II - III,2.32598952549818,0.0200191094763631,0.200191094763631,Kraken - Bacteria
+genus,Grade,Escherichia,I - III,1.52926007063428,0.1261999840672,1,Kraken - Bacteria
+genus,Grade,Escherichia,I - II,-0.983095759693466,0.325560311050489,1,Kraken - Bacteria
+genus,Grade,Paracoccus,IV - V,2.02491369744334,0.042876226851139,0.42876226851139,Kraken - Bacteria
+genus,Grade,Paracoccus,III - V,0.808536901747597,0.418781571779853,1,Kraken - Bacteria
+genus,Grade,Paracoccus,II - V,-2.59091158293341,0.00957220813412729,0.0957220813412729,Kraken - Bacteria
+genus,Grade,Paracoccus,I - V,-2.40522846460417,0.0161623580315819,0.161623580315819,Kraken - Bacteria
+genus,Grade,Paracoccus,III - IV,-1.11237302078652,0.265977799624906,1,Kraken - Bacteria
+genus,Grade,Paracoccus,II - IV,-3.84563244329056,0.000120241894305396,0.00120241894305396,Kraken - Bacteria
+genus,Grade,Paracoccus,I - IV,-3.74165738677394,0.000182810632981835,0.00182810632981835,Kraken - Bacteria
+genus,Grade,Paracoccus,II - III,-2.89905940859194,0.00374283968691588,0.0374283968691588,Kraken - Bacteria
+genus,Grade,Paracoccus,I - III,-2.73082155470407,0.00631766686805468,0.0631766686805468,Kraken - Bacteria
+genus,Grade,Paracoccus,I - II,0.400520494689931,0.688773191396835,1,Kraken - Bacteria
+genus,Grade,Vibrio,IV - V,3.21994473200007,0.00128215313006024,0.0128215313006024,Kraken - Bacteria
+genus,Grade,Vibrio,III - V,1.6673827662706,0.0954383184641713,0.954383184641713,Kraken - Bacteria
+genus,Grade,Vibrio,II - V,2.29983829830428,0.021457382807161,0.21457382807161,Kraken - Bacteria
+genus,Grade,Vibrio,I - V,3.82545860560854,0.000130528866813083,0.00130528866813083,Kraken - Bacteria
+genus,Grade,Vibrio,III - IV,-1.46197597017657,0.143747794909089,1,Kraken - Bacteria
+genus,Grade,Vibrio,II - IV,-0.953462589245592,0.340355742385202,1,Kraken - Bacteria
+genus,Grade,Vibrio,I - IV,-0.0485929530749861,0.961243685964007,1,Kraken - Bacteria
+genus,Grade,Vibrio,II - III,0.539359889970593,0.589638551626567,1,Kraken - Bacteria
+genus,Grade,Vibrio,I - III,1.62288823822413,0.104613298319717,1,Kraken - Bacteria
+genus,Grade,Vibrio,I - II,1.0403129732206,0.29819451884252,1,Kraken - Bacteria
+genus,Grade,Citrobacter,IV - V,2.06640783058767,0.0387899871713118,0.387899871713118,Kraken - Bacteria
+genus,Grade,Citrobacter,III - V,1.86143162269002,0.0626832483596618,0.626832483596618,Kraken - Bacteria
+genus,Grade,Citrobacter,II - V,-1.49848839123888,0.134006406502695,1,Kraken - Bacteria
+genus,Grade,Citrobacter,I - V,-1.39445983602647,0.163178789926219,1,Kraken - Bacteria
+genus,Grade,Citrobacter,III - IV,-0.301929819927771,0.76270556295011,1,Kraken - Bacteria
+genus,Grade,Citrobacter,II - IV,-3.00340715612362,0.00266974994196638,0.0266974994196638,Kraken - Bacteria
+genus,Grade,Citrobacter,I - IV,-3.0006148523804,0.00269435122171656,0.0269435122171656,Kraken - Bacteria
+genus,Grade,Citrobacter,II - III,-2.86534941546878,0.00416549333741494,0.0416549333741494,Kraken - Bacteria
+genus,Grade,Citrobacter,I - III,-2.86606224122275,0.00415612523218675,0.0415612523218675,Kraken - Bacteria
+genus,Grade,Citrobacter,I - II,0.228868854108532,0.818970848901759,1,Kraken - Bacteria
+genus,Genus,Alphaproteobacteria,Petrolisthes - Tuerkayana,-4.09463116959404,4.22840972959509e-05,0.000634261459439263,MAG
+genus,Genus,Alphaproteobacteria,Ocypode - Tuerkayana,-0.654475232612996,0.512805678749131,1,MAG
+genus,Genus,Alphaproteobacteria,Geograpsus - Tuerkayana,-1.35929471388853,0.17405321844367,1,MAG
+genus,Genus,Alphaproteobacteria,Gecarcoidea - Tuerkayana,-1.66726428409392,0.0954618652027359,1,MAG
+genus,Genus,Alphaproteobacteria,Birgus - Tuerkayana,0.693132342825564,0.488226502239161,1,MAG
+genus,Genus,Alphaproteobacteria,Ocypode - Petrolisthes,1.12867200392476,0.259036223559305,1,MAG
+genus,Genus,Alphaproteobacteria,Geograpsus - Petrolisthes,0.410426183245368,0.681493342467971,1,MAG
+genus,Genus,Alphaproteobacteria,Gecarcoidea - Petrolisthes,1.72546333985309,0.084444005017422,1,MAG
+genus,Genus,Alphaproteobacteria,Birgus - Petrolisthes,4.25346776800995,2.10485247510321e-05,0.000315727871265481,MAG
+genus,Genus,Alphaproteobacteria,Geograpsus - Ocypode,-0.52861461095665,0.597072822535266,1,MAG
+genus,Genus,Alphaproteobacteria,Gecarcoidea - Ocypode,-0.233978923976802,0.815001340787401,1,MAG
+genus,Genus,Alphaproteobacteria,Birgus - Ocypode,0.994410426901409,0.320023093898914,1,MAG
+genus,Genus,Alphaproteobacteria,Gecarcoidea - Geograpsus,0.448459604288871,0.653821533558112,1,MAG
+genus,Genus,Alphaproteobacteria,Birgus - Geograpsus,1.67684895516708,0.0935720219122979,1,MAG
+genus,Genus,Alphaproteobacteria,Birgus - Gecarcoidea,2.12763276719761,0.033367543245718,0.500513148685771,MAG
+genus,Genus,Marinicella,Petrolisthes - Tuerkayana,4.2428192456803,2.207292157067e-05,0.00033109382356005,MAG
+genus,Genus,Marinicella,Ocypode - Tuerkayana,1.93469779437398,0.0530273912025269,0.795410868037903,MAG
+genus,Genus,Marinicella,Geograpsus - Tuerkayana,0.427141071485165,0.669276579551262,1,MAG
+genus,Genus,Marinicella,Gecarcoidea - Tuerkayana,1.09388797830989,0.274004111875618,1,MAG
+genus,Genus,Marinicella,Birgus - Tuerkayana,1.54266253351395,0.122912676877765,1,MAG
+genus,Genus,Marinicella,Ocypode - Petrolisthes,0.110953170574824,0.91165348182836,1,MAG
+genus,Genus,Marinicella,Geograpsus - Petrolisthes,-1.42532149892274,0.154064288318549,1,MAG
+genus,Genus,Marinicella,Gecarcoidea - Petrolisthes,-2.46662436129834,0.0136393356974106,0.204590035461159,MAG
+genus,Genus,Marinicella,Birgus - Petrolisthes,-1.98598307844724,0.0470352028666826,0.705528043000239,MAG
+genus,Genus,Marinicella,Geograpsus - Ocypode,-1.13066754216661,0.258195047583945,1,MAG
+genus,Genus,Marinicella,Gecarcoidea - Ocypode,-1.30398573147055,0.192238447370892,1,MAG
+genus,Genus,Marinicella,Birgus - Ocypode,-1.07043604822209,0.284423080529614,1,MAG
+genus,Genus,Marinicella,Gecarcoidea - Geograpsus,0.155699788832305,0.876269663627762,1,MAG
+genus,Genus,Marinicella,Birgus - Geograpsus,0.389249472080761,0.697091610005963,1,MAG
+genus,Genus,Marinicella,Birgus - Gecarcoidea,0.404519917477945,0.685830434451606,1,MAG
+genus,Genus,Anaerorhabdus,Petrolisthes - Tuerkayana,-4.45669468464326,8.32330128188841e-06,0.000124849519228326,MAG
+genus,Genus,Anaerorhabdus,Ocypode - Tuerkayana,-0.497536930833277,0.618810466576406,1,MAG
+genus,Genus,Anaerorhabdus,Geograpsus - Tuerkayana,0.523051645234984,0.600938314048943,1,MAG
+genus,Genus,Anaerorhabdus,Gecarcoidea - Tuerkayana,-2.10295034582739,0.0354701102044578,0.532051653066867,MAG
+genus,Genus,Anaerorhabdus,Birgus - Tuerkayana,-0.735795267727417,0.461855301591116,1,MAG
+genus,Genus,Anaerorhabdus,Ocypode - Petrolisthes,1.44737523000552,0.147791859342723,1,MAG
+genus,Genus,Anaerorhabdus,Geograpsus - Petrolisthes,2.4874053353987,0.0128678694566852,0.193018041850279,MAG
+genus,Genus,Anaerorhabdus,Gecarcoidea - Petrolisthes,1.56930684523094,0.116576458071248,1,MAG
+genus,Genus,Anaerorhabdus,Birgus - Petrolisthes,3.03354130989566,0.00241701617092788,0.0362552425639182,MAG
+genus,Genus,Anaerorhabdus,Geograpsus - Ocypode,0.765441432051196,0.444008729358406,1,MAG
+genus,Genus,Anaerorhabdus,Gecarcoidea - Ocypode,-0.612671996558497,0.540093242399692,1,MAG
+genus,Genus,Anaerorhabdus,Birgus - Ocypode,0.0988180639610479,0.921282725726059,1,MAG
+genus,Genus,Anaerorhabdus,Gecarcoidea - Geograpsus,-1.60085263616898,0.109409562153341,1,MAG
+genus,Genus,Anaerorhabdus,Birgus - Geograpsus,-0.889362575649432,0.373808251222135,1,MAG
+genus,Genus,Anaerorhabdus,Birgus - Gecarcoidea,1.23233693390011,0.217823248575753,1,MAG
+genus,Genus,Moheibacter,Petrolisthes - Tuerkayana,-3.25894889566831,0.00111825809565576,0.0167738714348364,MAG
+genus,Genus,Moheibacter,Ocypode - Tuerkayana,-1.45835336635407,0.144743167540913,1,MAG
+genus,Genus,Moheibacter,Geograpsus - Tuerkayana,-0.374267678090867,0.708205176661298,1,MAG
+genus,Genus,Moheibacter,Gecarcoidea - Tuerkayana,1.80086090110293,0.0717248069566628,1,MAG
+genus,Genus,Moheibacter,Birgus - Tuerkayana,0.0720344360441172,0.942574503024322,1,MAG
+genus,Genus,Moheibacter,Ocypode - Petrolisthes,-0.0569903902223157,0.954552850192381,1,MAG
+genus,Genus,Moheibacter,Geograpsus - Petrolisthes,1.04774640485642,0.29475546126778,1,MAG
+genus,Genus,Moheibacter,Gecarcoidea - Petrolisthes,4.72326263323666,2.32090811913297e-06,3.48136217869946e-05,MAG
+genus,Genus,Moheibacter,Birgus - Petrolisthes,2.87167510369198,0.00408302507470723,0.0612453761206085,MAG
+genus,Genus,Moheibacter,Geograpsus - Ocypode,0.813064266197401,0.416181212728163,1,MAG
+genus,Genus,Moheibacter,Gecarcoidea - Ocypode,2.34924230209219,0.0188116606943012,0.282174910414518,MAG
+genus,Genus,Moheibacter,Birgus - Ocypode,1.44953248426965,0.147188935380178,1,MAG
+genus,Genus,Moheibacter,Gecarcoidea - Geograpsus,1.29958084796589,0.193744667301723,1,MAG
+genus,Genus,Moheibacter,Birgus - Geograpsus,0.399871030143351,0.689251510723744,1,MAG
+genus,Genus,Moheibacter,Birgus - Gecarcoidea,-1.55834311653718,0.119151933204353,1,MAG
+genus,Genus,UBA10566,Petrolisthes - Tuerkayana,-3.39323016030803,0.000690735745788288,0.0103610361868243,MAG
+genus,Genus,UBA10566,Ocypode - Tuerkayana,-0.949560975485672,0.342335375443602,1,MAG
+genus,Genus,UBA10566,Geograpsus - Tuerkayana,-1.75985300790011,0.078432732709747,1,MAG
+genus,Genus,UBA10566,Gecarcoidea - Tuerkayana,-3.82073595343141,0.000133054042701889,0.00199581064052833,MAG
+genus,Genus,UBA10566,Birgus - Tuerkayana,-1.76667815355953,0.0772821440726322,1,MAG
+genus,Genus,UBA10566,Ocypode - Petrolisthes,0.520380385170185,0.602798478551728,1,MAG
+genus,Genus,UBA10566,Geograpsus - Petrolisthes,-0.305347168157712,0.760101755137224,1,MAG
+genus,Genus,UBA10566,Gecarcoidea - Petrolisthes,-1.18236914047303,0.237059262331418,1,MAG
+genus,Genus,UBA10566,Birgus - Petrolisthes,1.01754385488788,0.308894780905571,1,MAG
+genus,Genus,UBA10566,Geograpsus - Ocypode,-0.60771902431083,0.543373843197741,1,MAG
+genus,Genus,UBA10566,Gecarcoidea - Ocypode,-1.06896557073287,0.285085183573394,1,MAG
+genus,Genus,UBA10566,Birgus - Ocypode,0,1,1,MAG
+genus,Genus,UBA10566,Gecarcoidea - Geograpsus,-0.284403683956453,0.776101036130033,1,MAG
+genus,Genus,UBA10566,Birgus - Geograpsus,0.784561886776422,0.43271048363809,1,MAG
+genus,Genus,UBA10566,Birgus - Gecarcoidea,1.8515026800512,0.0640972695385931,0.961459043078897,MAG
+genus,Genus,Citrobacter,Petrolisthes - Tuerkayana,-4.18827181083261,2.81086742146027e-05,0.000421630113219041,MAG
+genus,Genus,Citrobacter,Ocypode - Tuerkayana,-2.326282782913,0.0200034698986958,0.300052048480437,MAG
+genus,Genus,Citrobacter,Geograpsus - Tuerkayana,-1.37062066668928,0.170493237070012,1,MAG
+genus,Genus,Citrobacter,Gecarcoidea - Tuerkayana,-1.09021279688153,0.275619417582452,1,MAG
+genus,Genus,Citrobacter,Birgus - Tuerkayana,-0.416433214259469,0.677093028205033,1,MAG
+genus,Genus,Citrobacter,Ocypode - Petrolisthes,-0.533918223652372,0.593398113218318,1,MAG
+genus,Genus,Citrobacter,Geograpsus - Petrolisthes,0.439948616289554,0.659974323409756,1,MAG
+genus,Genus,Citrobacter,Gecarcoidea - Petrolisthes,2.42378647169144,0.0153596336491189,0.230394504736783,MAG
+genus,Genus,Citrobacter,Birgus - Petrolisthes,3.14541001116125,0.00165854210014089,0.0248781315021134,MAG
+genus,Genus,Citrobacter,Geograpsus - Ocypode,0.716746587167789,0.473530474462393,1,MAG
+genus,Genus,Citrobacter,Gecarcoidea - Ocypode,1.68504889133498,0.0919791390579092,1,MAG
+genus,Genus,Citrobacter,Birgus - Ocypode,2.03569490340469,0.0417810011943009,0.626715017914514,MAG
+genus,Genus,Citrobacter,Gecarcoidea - Geograpsus,0.759733026151032,0.447414183297066,1,MAG
+genus,Genus,Citrobacter,Birgus - Geograpsus,1.11037903822074,0.266835727087927,1,MAG
+genus,Genus,Citrobacter,Birgus - Gecarcoidea,0.607336708376142,0.543627481922298,1,MAG
+genus,Genus,Dysgonomonas,Petrolisthes - Tuerkayana,-0.0389249472080764,0.96895022664239,1,MAG
+genus,Genus,Dysgonomonas,Ocypode - Tuerkayana,0.753778361444409,0.450982319268883,1,MAG
+genus,Genus,Dysgonomonas,Geograpsus - Tuerkayana,-1.75881617670362,0.0786087362397594,1,MAG
+genus,Genus,Dysgonomonas,Gecarcoidea - Tuerkayana,-3.16012082622859,0.00157703724547083,0.0236555586820624,MAG
+genus,Genus,Dysgonomonas,Birgus - Tuerkayana,-2.37476535462148,0.0175601092337933,0.263401638506899,MAG
+genus,Genus,Dysgonomonas,Ocypode - Petrolisthes,0.785207053298757,0.432332180705859,1,MAG
+genus,Genus,Dysgonomonas,Geograpsus - Petrolisthes,-1.77525072919719,0.0758564968654351,1,MAG
+genus,Genus,Dysgonomonas,Gecarcoidea - Petrolisthes,-3.35113783321182,0.000804802338397066,0.012072035075956,MAG
+genus,Genus,Dysgonomonas,Birgus - Petrolisthes,-2.5100155882224,0.0120725832202016,0.181088748303024,MAG
+genus,Genus,Dysgonomonas,Geograpsus - Ocypode,-1.88444590361102,0.0595046856404299,0.892570284606449,MAG
+genus,Genus,Dysgonomonas,Gecarcoidea - Ocypode,-2.37442177969265,0.0175764598663796,0.263646897995694,MAG
+genus,Genus,Dysgonomonas,Birgus - Ocypode,-1.96570983400785,0.0493321382127215,0.739982073190823,MAG
+genus,Genus,Dysgonomonas,Gecarcoidea - Geograpsus,0.0583874208121142,0.95344003441657,1,MAG
+genus,Genus,Dysgonomonas,Birgus - Geograpsus,0.467099366496914,0.640428787412791,1,MAG
+genus,Genus,Dysgonomonas,Birgus - Gecarcoidea,0.707909855586404,0.47900123899421,1,MAG
+genus,Genus,UBA5962,Petrolisthes - Tuerkayana,-2.50818964955725,0.0121351516527052,0.182027274790578,MAG
+genus,Genus,UBA5962,Ocypode - Tuerkayana,0.143046779331346,0.886253236490459,1,MAG
+genus,Genus,UBA5962,Geograpsus - Tuerkayana,0.559182864658898,0.576036926312163,1,MAG
+genus,Genus,UBA5962,Gecarcoidea - Tuerkayana,-2.05654826072371,0.0397296994725867,0.595945492088801,MAG
+genus,Genus,UBA5962,Birgus - Tuerkayana,1.50490943314135,0.132347362745185,1,MAG
+genus,Genus,UBA5962,Ocypode - Petrolisthes,1.24568564778425,0.212879824751202,1,MAG
+genus,Genus,UBA5962,Geograpsus - Petrolisthes,1.66974884702995,0.0949690648792121,1,MAG
+genus,Genus,UBA5962,Gecarcoidea - Petrolisthes,-0.0518254188154401,0.958667801477484,1,MAG
+genus,Genus,UBA5962,Birgus - Petrolisthes,3.76252540600095,0.000168206214868755,0.00252309322303132,MAG
+genus,Genus,UBA5962,Geograpsus - Ocypode,0.312102063995664,0.754962957988188,1,MAG
+genus,Genus,UBA5962,Gecarcoidea - Ocypode,-1.20876609617217,0.226752720356169,1,MAG
+genus,Genus,UBA5962,Birgus - Ocypode,0.644675251291823,0.519137657691261,1,MAG
+genus,Genus,UBA5962,Gecarcoidea - Geograpsus,-1.61168812822956,0.107029822351547,1,MAG
+genus,Genus,UBA5962,Birgus - Geograpsus,0.241753219234433,0.808971389397282,1,MAG
+genus,Genus,UBA5962,Birgus - Gecarcoidea,3.21025458265655,0.00132617459658996,0.0198926189488495,MAG
+genus,Genus,Paracoccus,Petrolisthes - Tuerkayana,-3.32458099521509,0.000885515079272855,0.0132827261890928,MAG
+genus,Genus,Paracoccus,Ocypode - Tuerkayana,-0.595058211304355,0.551804560707965,1,MAG
+genus,Genus,Paracoccus,Geograpsus - Tuerkayana,-0.189912195097134,0.849377936074742,1,MAG
+genus,Genus,Paracoccus,Gecarcoidea - Tuerkayana,1.71956673613127,0.0855112270208381,1,MAG
+genus,Genus,Paracoccus,Birgus - Tuerkayana,-0.315646496769303,0.752270841229614,1,MAG
+genus,Genus,Paracoccus,Ocypode - Petrolisthes,0.851531539369394,0.39447415098128,1,MAG
+genus,Genus,Paracoccus,Geograpsus - Petrolisthes,1.26439531603334,0.206088173240698,1,MAG
+genus,Genus,Paracoccus,Gecarcoidea - Petrolisthes,4.69247496716891,2.69919571282715e-06,4.04879356924073e-05,MAG
+genus,Genus,Paracoccus,Birgus - Petrolisthes,2.51274465983884,0.0119796006560178,0.179694009840267,MAG
+genus,Genus,Paracoccus,Geograpsus - Ocypode,0.303859512155415,0.761234924774374,1,MAG
+genus,Genus,Paracoccus,Gecarcoidea - Ocypode,1.47105353770579,0.141276638804295,1,MAG
+genus,Genus,Paracoccus,Birgus - Ocypode,0.411894990557621,0.680416392676935,1,MAG
+genus,Genus,Paracoccus,Gecarcoidea - Geograpsus,1.07877259431758,0.280689114807085,1,MAG
+genus,Genus,Paracoccus,Birgus - Geograpsus,0.0196140471694105,0.984351257968566,1,MAG
+genus,Genus,Paracoccus,Birgus - Gecarcoidea,-1.83451641693147,0.0665773731245808,0.998660596868712,MAG
+genus,Genus,Demequina,Petrolisthes - Tuerkayana,-3.80809940317578,0.000140038982632594,0.0021005847394889,MAG
+genus,Genus,Demequina,Ocypode - Tuerkayana,-0.749503556057649,0.453553756119355,1,MAG
+genus,Genus,Demequina,Geograpsus - Tuerkayana,-1.15601395934315,0.247675447200078,1,MAG
+genus,Genus,Demequina,Gecarcoidea - Tuerkayana,0.609783926936793,0.542004950139169,1,MAG
+genus,Genus,Demequina,Birgus - Tuerkayana,-0.902858372441297,0.366601066188481,1,MAG
+genus,Genus,Demequina,Ocypode - Petrolisthes,0.906180962756412,0.364840077610688,1,MAG
+genus,Genus,Demequina,Geograpsus - Petrolisthes,0.491926808353481,0.622771085857855,1,MAG
+genus,Genus,Demequina,Gecarcoidea - Petrolisthes,3.91850195836008,8.91010056450678e-05,0.00133651508467602,MAG
+genus,Genus,Demequina,Birgus - Petrolisthes,2.2984494691156,0.0215362207235586,0.323043310853379,MAG
+genus,Genus,Demequina,Geograpsus - Ocypode,-0.304882802464129,0.76045541423079,1,MAG
+genus,Genus,Demequina,Gecarcoidea - Ocypode,1.04304531456494,0.296927306057338,1,MAG
+genus,Genus,Demequina,Birgus - Ocypode,0.255841303572533,0.798073379344774,1,MAG
+genus,Genus,Demequina,Gecarcoidea - Geograpsus,1.43664732006115,0.150818230658255,1,MAG
+genus,Genus,Demequina,Birgus - Geograpsus,0.649443309068739,0.516051878227293,1,MAG
+genus,Genus,Demequina,Birgus - Gecarcoidea,-1.36347734296086,0.172732120292148,1,MAG
+genus,Genus,Bacteroidales,Petrolisthes - Tuerkayana,-2.29273168201539,0.0218634573564702,0.327951860347054,MAG
+genus,Genus,Bacteroidales,Ocypode - Tuerkayana,0.597062154825585,0.550465883901332,1,MAG
+genus,Genus,Bacteroidales,Geograpsus - Tuerkayana,1.10520015893247,0.269072868024795,1,MAG
+genus,Genus,Bacteroidales,Gecarcoidea - Tuerkayana,-0.363979553287853,0.715873277798085,1,MAG
+genus,Genus,Bacteroidales,Birgus - Tuerkayana,2.16969629817045,0.030029860680159,0.450447910202385,MAG
+genus,Genus,Bacteroidales,Ocypode - Petrolisthes,1.61386514319475,0.10655668077465,1,MAG
+genus,Genus,Bacteroidales,Geograpsus - Petrolisthes,2.13168283619842,0.0330329287585095,0.495493931377642,MAG
+genus,Genus,Bacteroidales,Gecarcoidea - Petrolisthes,1.57617606766077,0.114985232344771,1,MAG
+genus,Genus,Bacteroidales,Birgus - Petrolisthes,4.28976398714527,1.78863093083381e-05,0.000268294639625072,MAG
+genus,Genus,Bacteroidales,Geograpsus - Ocypode,0.381103503080161,0.703126448140929,1,MAG
+genus,Genus,Bacteroidales,Gecarcoidea - Ocypode,-0.7675239107176,0.442770082450111,1,MAG
+genus,Genus,Bacteroidales,Birgus - Ocypode,0.551042807694687,0.581604329798805,1,MAG
+genus,Genus,Bacteroidales,Gecarcoidea - Geograpsus,-1.25952641758786,0.207840254439137,1,MAG
+genus,Genus,Bacteroidales,Birgus - Geograpsus,0.0590403008244309,0.952920008663774,1,MAG
+genus,Genus,Bacteroidales,Birgus - Gecarcoidea,2.28382454945945,0.0223818442846482,0.335727664269724,MAG
+genus,Genus,Kluyvera,Petrolisthes - Tuerkayana,3.08480206624003,0.00203687657556951,0.0305531486335427,MAG
+genus,Genus,Kluyvera,Ocypode - Tuerkayana,1.595497531724,0.110601021518246,1,MAG
+genus,Genus,Kluyvera,Geograpsus - Tuerkayana,-1.11810456947587,0.263522335079602,1,MAG
+genus,Genus,Kluyvera,Gecarcoidea - Tuerkayana,-0.584341868755286,0.558990328505678,1,MAG
+genus,Genus,Kluyvera,Birgus - Tuerkayana,-0.28515883195258,0.775522458809587,1,MAG
+genus,Genus,Kluyvera,Ocypode - Petrolisthes,0.273115496799568,0.784764434703819,1,MAG
+genus,Genus,Kluyvera,Geograpsus - Petrolisthes,-2.49217890829605,0.0126962067545771,0.190443101318657,MAG
+genus,Genus,Kluyvera,Gecarcoidea - Petrolisthes,-3.27103095273664,0.00107156181378875,0.0160734272068312,MAG
+genus,Genus,Kluyvera,Birgus - Petrolisthes,-2.9506034308359,0.00317153835972901,0.0475730753959351,MAG
+genus,Genus,Kluyvera,Geograpsus - Ocypode,-2.0352015758999,0.0418305945652447,0.62745891847867,MAG
+genus,Genus,Kluyvera,Gecarcoidea - Ocypode,-1.84893499238362,0.0644672001586716,0.967008002380075,MAG
+genus,Genus,Kluyvera,Birgus - Ocypode,-1.69323520355131,0.0904107062465968,1,MAG
+genus,Genus,Kluyvera,Gecarcoidea - Geograpsus,0.778498944161523,0.436274928840529,1,MAG
+genus,Genus,Kluyvera,Birgus - Geograpsus,0.934198732993827,0.350201389179296,1,MAG
+genus,Genus,Kluyvera,Birgus - Gecarcoidea,0.269679944985297,0.787406490666269,1,MAG
+genus,Genus,UJ101,Petrolisthes - Tuerkayana,4.48610016573078,7.25386494032724e-06,0.000108807974104909,MAG
+genus,Genus,UJ101,Ocypode - Tuerkayana,1.77137914939436,0.0764976734938623,1,MAG
+genus,Genus,UJ101,Geograpsus - Tuerkayana,0.565333771083307,0.571846762545294,1,MAG
+genus,Genus,UJ101,Gecarcoidea - Tuerkayana,0.864825965757823,0.387134317177557,1,MAG
+genus,Genus,UJ101,Birgus - Tuerkayana,1.76237507616594,0.078005946821796,1,MAG
+genus,Genus,UJ101,Ocypode - Petrolisthes,-0.162162326224743,0.871178026390346,1,MAG
+genus,Genus,UJ101,Geograpsus - Petrolisthes,-1.3911820618228,0.164170225378572,1,MAG
+genus,Genus,UJ101,Gecarcoidea - Petrolisthes,-2.92056335065771,0.00349399152307655,0.0524098728461483,MAG
+genus,Genus,UJ101,Birgus - Petrolisthes,-1.95928078495551,0.0500799127801306,0.751198691701959,MAG
+genus,Genus,UJ101,Geograpsus - Ocypode,-0.904534033733291,0.365712296281513,1,MAG
+genus,Genus,UJ101,Gecarcoidea - Ocypode,-1.26506078426247,0.205849539231764,1,MAG
+genus,Genus,UJ101,Birgus - Ocypode,-0.797961417765561,0.424892880101534,1,MAG
+genus,Genus,UJ101,Gecarcoidea - Geograpsus,-0.0973123680201904,0.92247833435781,1,MAG
+genus,Genus,UJ101,Birgus - Geograpsus,0.369786998476723,0.711541203370784,1,MAG
+genus,Genus,UJ101,Birgus - Gecarcoidea,0.809039834955891,0.41849223344682,1,MAG
+genus,Diet_group,Alphaproteobacteria,Detritivore - Herbivore,-3.60244943493789,0.000315232733088668,0.000945698199266003,MAG
+genus,Diet_group,Alphaproteobacteria,Carnivore/Omnivore - Herbivore,0.921022208895514,0.357038832059421,1,MAG
+genus,Diet_group,Alphaproteobacteria,Carnivore/Omnivore - Detritivore,3.78395871365506,0.000154353439383412,0.000463060318150236,MAG
+genus,Diet_group,Marinicella,Detritivore - Herbivore,4.34845845203687,1.3709778396215e-05,4.1129335188645e-05,MAG
+genus,Diet_group,Marinicella,Carnivore/Omnivore - Herbivore,1.15193478461516,0.249347872999742,0.748043618999227,MAG
+genus,Diet_group,Marinicella,Carnivore/Omnivore - Detritivore,-2.30386956923032,0.0212299663923836,0.0636898991771508,MAG
+genus,Diet_group,Anaerorhabdus,Detritivore - Herbivore,-3.71516698488004,0.000203069546329899,0.000609208638989697,MAG
+genus,Diet_group,Anaerorhabdus,Carnivore/Omnivore - Herbivore,0.413352146203365,0.679348629664931,1,MAG
+genus,Diet_group,Anaerorhabdus,Carnivore/Omnivore - Detritivore,3.3658674762274,0.000763033573634067,0.0022891007209022,MAG
+genus,Diet_group,Moheibacter,Detritivore - Herbivore,-4.81074035203648,1.50372256300009e-06,4.51116768900027e-06,MAG
+genus,Diet_group,Moheibacter,Carnivore/Omnivore - Herbivore,-0.864768884975037,0.387165652277094,1,MAG
+genus,Diet_group,Moheibacter,Carnivore/Omnivore - Detritivore,2.95841986965144,0.00309220623797116,0.00927661871391349,MAG
+genus,Diet_group,Citrobacter,Detritivore - Herbivore,-4.37337419800309,1.22340756806414e-05,3.67022270419244e-05,MAG
+genus,Diet_group,Citrobacter,Carnivore/Omnivore - Herbivore,-0.407427425031984,0.68369408769784,1,MAG
+genus,Diet_group,Citrobacter,Carnivore/Omnivore - Detritivore,3.06817795585311,0.00215368323400947,0.00646104970202842,MAG
+genus,Diet_group,UBA5962,Detritivore - Herbivore,-1.51482691623107,0.129816242200776,0.389448726602327,MAG
+genus,Diet_group,UBA5962,Carnivore/Omnivore - Herbivore,2.56250702245085,0.0103919486052459,0.0311758458157377,MAG
+genus,Diet_group,UBA5962,Carnivore/Omnivore - Detritivore,3.76636938199152,0.000165638677571387,0.00049691603271416,MAG
+genus,Diet_group,Paracoccus,Detritivore - Herbivore,-4.65621946935875,3.22068610709571e-06,9.66205832128712e-06,MAG
+genus,Diet_group,Paracoccus,Carnivore/Omnivore - Herbivore,-1.13579028640094,0.256044343325082,0.768133029975246,MAG
+genus,Diet_group,Paracoccus,Carnivore/Omnivore - Detritivore,2.56459772285619,0.0103295487042078,0.0309886461126233,MAG
+genus,Diet_group,Demequina,Detritivore - Herbivore,-4.58734067831292,4.48927782821761e-06,1.34678334846528e-05,MAG
+genus,Diet_group,Demequina,Carnivore/Omnivore - Herbivore,-1.55402075784559,0.120179465286021,0.360538395858064,MAG
+genus,Diet_group,Demequina,Carnivore/Omnivore - Detritivore,2.09162793893811,0.036471811250142,0.109415433750426,MAG
+genus,Diet_group,Bacteroidales,Detritivore - Herbivore,-2.13512169820094,0.0327510706838655,0.0982532120515965,MAG
+genus,Diet_group,Bacteroidales,Carnivore/Omnivore - Herbivore,2.64603534443978,0.00814413065680658,0.0244323919704197,MAG
+genus,Diet_group,Bacteroidales,Carnivore/Omnivore - Detritivore,4.34285800976307,1.40641036971805e-05,4.21923110915416e-05,MAG
+genus,Diet_group,Kluyvera,Detritivore - Herbivore,3.97214954753368,7.12269789463758e-05,0.000213680936839127,MAG
+genus,Diet_group,Kluyvera,Carnivore/Omnivore - Herbivore,-0.415361100221813,0.677877578828299,1,MAG
+genus,Diet_group,Kluyvera,Carnivore/Omnivore - Detritivore,-3.57210546190759,0.000354122741649543,0.00106236822494863,MAG
+genus,Diet_group,UJ101,Detritivore - Herbivore,4.70386130628988,2.55286701716253e-06,7.65860105148759e-06,MAG
+genus,Diet_group,UJ101,Carnivore/Omnivore - Herbivore,1.51468347880888,0.129852580267143,0.389557740801429,MAG
+genus,Diet_group,UJ101,Carnivore/Omnivore - Detritivore,-2.22356642318744,0.026177629736439,0.078532889209317,MAG
+genus,Grade,Alphaproteobacteria,IV - V,0.0623555927549612,0.950279657951287,1,MAG
+genus,Grade,Alphaproteobacteria,III - V,0.968427391262747,0.332830965148965,1,MAG
+genus,Grade,Alphaproteobacteria,II - V,-2.75407789708551,0.00588577575221457,0.0588577575221457,MAG
+genus,Grade,Alphaproteobacteria,I - V,-3.07230251526996,0.00212414334401236,0.0212414334401236,MAG
+genus,Grade,Alphaproteobacteria,III - IV,0.724371342528953,0.46883778853952,1,MAG
+genus,Grade,Alphaproteobacteria,II - IV,-2.26863552330496,0.0232904995107065,0.232904995107065,MAG
+genus,Grade,Alphaproteobacteria,I - IV,-2.4280278179808,0.0151811788058904,0.151811788058904,MAG
+genus,Grade,Alphaproteobacteria,II - III,-3.17456317645358,0.00150062219883005,0.0150062219883005,MAG
+genus,Grade,Alphaproteobacteria,I - III,-3.42892012955161,0.000605987830919921,0.00605987830919921,MAG
+genus,Grade,Alphaproteobacteria,I - II,0,1,1,MAG
+genus,Grade,Marinicella,IV - V,-1.46889231330931,0.141861999869732,1,MAG
+genus,Grade,Marinicella,III - V,-0.384504215497746,0.700604772082447,1,MAG
+genus,Grade,Marinicella,II - V,2.30343179564538,0.0212545605100669,0.212545605100669,MAG
+genus,Grade,Marinicella,I - V,2.46249580899951,0.0137973785374639,0.137973785374639,MAG
+genus,Grade,Marinicella,III - IV,0.969353632399685,0.332368778486397,1,MAG
+genus,Grade,Marinicella,II - IV,3.13053550135636,0.00174487907643802,0.0174487907643802,MAG
+genus,Grade,Marinicella,I - IV,3.26787609429283,0.0010835779256117,0.010835779256117,MAG
+genus,Grade,Marinicella,II - III,2.29227953237502,0.0218895181205661,0.218895181205661,MAG
+genus,Grade,Marinicella,I - III,2.38751827354127,0.0169625594609975,0.169625594609975,MAG
+genus,Grade,Marinicella,I - II,-0.0884266027237506,0.929537618193386,1,MAG
+genus,Grade,Anaerorhabdus,IV - V,1.79921420496659,0.071984803288397,0.71984803288397,MAG
+genus,Grade,Anaerorhabdus,III - V,0.532768431895153,0.594193888772981,1,MAG
+genus,Grade,Anaerorhabdus,II - V,-2.05626720118437,0.0397567679217108,0.397567679217108,MAG
+genus,Grade,Anaerorhabdus,I - V,-3.14464679367736,0.00166287462320317,0.0166287462320317,MAG
+genus,Grade,Anaerorhabdus,III - IV,-1.13765302014911,0.255265397829838,1,MAG
+genus,Grade,Anaerorhabdus,II - IV,-3.21931599318791,0.00128496799672146,0.0128496799672146,MAG
+genus,Grade,Anaerorhabdus,I - IV,-4.10178838569612,4.09969130962709e-05,0.000409969130962709,MAG
+genus,Grade,Anaerorhabdus,II - III,-2.20793700657103,0.0272486646898482,0.272486646898482,MAG
+genus,Grade,Anaerorhabdus,I - III,-3.08735688037073,0.00201944989390951,0.0201944989390951,MAG
+genus,Grade,Anaerorhabdus,I - II,-0.702512344036454,0.482359706306312,1,MAG
+genus,Grade,Moheibacter,IV - V,-1.1210741895049,0.262256284140163,1,MAG
+genus,Grade,Moheibacter,III - V,-1.10192889809898,0.27049258408892,1,MAG
+genus,Grade,Moheibacter,II - V,-3.43683686475761,0.000588549972727211,0.00588549972727211,MAG
+genus,Grade,Moheibacter,I - V,-4.12839625136777,3.65302197903308e-05,0.000365302197903308,MAG
+genus,Grade,Moheibacter,III - IV,0.0897856654541259,0.928457539489164,1,MAG
+genus,Grade,Moheibacter,II - IV,-1.78755097585941,0.0738484808741947,0.738484808741947,MAG
+genus,Grade,Moheibacter,I - IV,-2.14027379930568,0.0323326461054035,0.323326461054035,MAG
+genus,Grade,Moheibacter,II - III,-1.99121620446417,0.046457123114362,0.46457123114362,MAG
+genus,Grade,Moheibacter,I - III,-2.39388862990844,0.0166708098857649,0.166708098857649,MAG
+genus,Grade,Moheibacter,I - II,-0.243129313975076,0.807905223138608,1,MAG
+genus,Grade,Citrobacter,IV - V,1.05491817577594,0.291462748761861,1,MAG
+genus,Grade,Citrobacter,III - V,-0.0845246833452504,0.932639278589369,1,MAG
+genus,Grade,Citrobacter,II - V,-2.95296872452982,0.00314733848642391,0.0314733848642391,MAG
+genus,Grade,Citrobacter,I - V,-2.57223041012578,0.0101045618252979,0.101045618252979,MAG
+genus,Grade,Citrobacter,III - IV,-0.986148818788511,0.3240600904276,1,MAG
+genus,Grade,Citrobacter,II - IV,-3.29246460466487,0.000993133979589662,0.00993133979589662,MAG
+genus,Grade,Citrobacter,I - IV,-2.96689030896202,0.00300828262955557,0.0300828262955557,MAG
+genus,Grade,Citrobacter,II - III,-2.44621729762613,0.0144363963097714,0.144363963097714,MAG
+genus,Grade,Citrobacter,I - III,-2.04609093568632,0.0407474246418268,0.407474246418268,MAG
+genus,Grade,Citrobacter,I - II,0.596125730626168,0.551091236116886,1,MAG
+genus,Grade,Mangrovibacterium,IV - V,3.75521904956193,0.000173189940006055,0.00173189940006055,MAG
+genus,Grade,Mangrovibacterium,III - V,-0.114991914915214,0.908451530495405,1,MAG
+genus,Grade,Mangrovibacterium,II - V,1.94048856419423,0.0523203426411827,0.523203426411827,MAG
+genus,Grade,Mangrovibacterium,I - V,3.33009607658887,0.000868160225368252,0.00868160225368252,MAG
+genus,Grade,Mangrovibacterium,III - IV,-3.36095562709071,0.000776733029816519,0.00776733029816519,MAG
+genus,Grade,Mangrovibacterium,II - IV,-1.70828713906502,0.087583076484847,0.87583076484847,MAG
+genus,Grade,Mangrovibacterium,I - IV,-0.929340227559112,0.352712793789864,1,MAG
+genus,Grade,Mangrovibacterium,II - III,1.75291964240443,0.0796158014601134,0.796158014601134,MAG
+genus,Grade,Mangrovibacterium,I - III,2.85565911149054,0.00429475975188075,0.0429475975188075,MAG
+genus,Grade,Mangrovibacterium,I - II,0.962289500229054,0.335904201767545,1,MAG
+genus,Grade,Dysgonomonas,IV - V,1.92532777789695,0.05418836460483,0.5418836460483,MAG
+genus,Grade,Dysgonomonas,III - V,3.98159505393928,6.84543346949545e-05,0.000684543346949545,MAG
+genus,Grade,Dysgonomonas,II - V,2.28187081159877,0.022496968562207,0.22496968562207,MAG
+genus,Grade,Dysgonomonas,I - V,3.80541503507017,0.000141566605845929,0.00141566605845929,MAG
+genus,Grade,Dysgonomonas,III - IV,1.52554014279295,0.127124428942453,1,MAG
+genus,Grade,Dysgonomonas,II - IV,0.158910431540932,0.873739441952744,1,MAG
+genus,Grade,Dysgonomonas,I - IV,1.14193439726218,0.253481289527603,1,MAG
+genus,Grade,Dysgonomonas,II - III,-1.44952970429597,0.147189711133967,1,MAG
+genus,Grade,Dysgonomonas,I - III,-0.525358051476402,0.599334308933587,1,MAG
+genus,Grade,Dysgonomonas,I - II,1.0403129732206,0.29819451884252,1,MAG
+genus,Grade,Paracoccus,IV - V,-0.0627259336072657,0.949984746020474,1,MAG
+genus,Grade,Paracoccus,III - V,-1.33270591524238,0.182628331322313,1,MAG
+genus,Grade,Paracoccus,II - V,-3.90214843389583,9.53426585197477e-05,0.000953426585197477,MAG
+genus,Grade,Paracoccus,I - V,-3.49598568841686,0.000472314031447643,0.00472314031447643,MAG
+genus,Grade,Paracoccus,III - IV,-1.01693995570066,0.309181994271941,1,MAG
+genus,Grade,Paracoccus,II - IV,-3.08284947200593,0.00205028835598123,0.0205028835598123,MAG
+genus,Grade,Paracoccus,I - IV,-2.63833388119142,0.00833145082584687,0.0833145082584687,MAG
+genus,Grade,Paracoccus,II - III,-2.19122794244592,0.0284353015034659,0.284353015034659,MAG
+genus,Grade,Paracoccus,I - III,-1.65911661261718,0.0970922963330829,0.970922963330829,MAG
+genus,Grade,Paracoccus,I - II,0.707680071732447,0.479143955600911,1,MAG
+genus,Grade,Demequina,IV - V,0.944057582221453,0.345140223785749,1,MAG
+genus,Grade,Demequina,III - V,-0.486913029975283,0.62631996464982,1,MAG
+genus,Grade,Demequina,II - V,-3.32481658527899,0.000884767196530649,0.00884767196530649,MAG
+genus,Grade,Demequina,I - V,-2.84905883355824,0.00438487710857219,0.0438487710857219,MAG
+genus,Grade,Demequina,III - IV,-1.21318946129565,0.225057392438414,1,MAG
+genus,Grade,Demequina,II - IV,-3.49494977260668,0.00047415097481457,0.0047415097481457,MAG
+genus,Grade,Demequina,I - IV,-3.07716158361416,0.00208981983971469,0.0208981983971469,MAG
+genus,Grade,Demequina,II - III,-2.42017228375553,0.0155131553168103,0.155131553168103,MAG
+genus,Grade,Demequina,I - III,-1.90402155062727,0.0569073775510884,0.569073775510883,MAG
+genus,Grade,Demequina,I - II,0.710063285454923,0.477664892449311,1,MAG
+genus,Grade,Kluyvera,IV - V,0.136930639376292,0.891085620217217,1,MAG
+genus,Grade,Kluyvera,III - V,1.62066730083629,0.105089010043299,1,MAG
+genus,Grade,Kluyvera,II - V,2.60887906963891,0.00908393381737431,0.0908393381737431,MAG
+genus,Grade,Kluyvera,I - V,4.09461512426663,4.22870255672508e-05,0.000422870255672508,MAG
+genus,Grade,Kluyvera,III - IV,1.18388271497994,0.236459493343727,1,MAG
+genus,Grade,Kluyvera,II - IV,1.9784348726846,0.0478796689354145,0.478796689354145,MAG
+genus,Grade,Kluyvera,I - IV,3.03098544805227,0.0024375699545164,0.024375699545164,MAG
+genus,Grade,Kluyvera,II - III,0.842749828079053,0.399368373186087,1,MAG
+genus,Grade,Kluyvera,I - III,1.88816804639539,0.0590033940639146,0.590033940639146,MAG
+genus,Grade,Kluyvera,I - II,0.977894194827363,0.328126656594633,1,MAG
+genus,Grade,UJ101,IV - V,-1.51038644645364,0.130944844987659,1,MAG
+genus,Grade,UJ101,III - V,-0.449187167637554,0.653296643679098,1,MAG
+genus,Grade,UJ101,II - V,2.95026131704345,0.00317505261101272,0.0317505261101272,MAG
+genus,Grade,UJ101,I - V,2.30214724469257,0.0213268698742544,0.213268698742544,MAG
+genus,Grade,UJ101,III - IV,0.953462589245592,0.340355742385202,1,MAG
+genus,Grade,UJ101,II - IV,3.68672201174962,0.000227161268221004,0.00227161268221004,MAG
+genus,Grade,UJ101,I - IV,3.1828384264116,0.00145838971694585,0.0145838971694585,MAG
+genus,Grade,UJ101,II - III,2.89905940859194,0.00374283968691588,0.0374283968691588,MAG
+genus,Grade,UJ101,I - III,2.31469636541583,0.0206295548248232,0.206295548248232,MAG
+genus,Grade,UJ101,I - II,-0.81664568397817,0.414130939835369,1,MAG

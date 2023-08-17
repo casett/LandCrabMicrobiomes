@@ -1,0 +1,12 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Metazoa	33208	K	4723453	250552	4974005	0.46758
+Fungi	4751	K	84206	27632	111838	0.01051
+Viridiplantae	33090	K	227372	5303552	5530924	0.51993
+Heunggongvirae	2731360	K	14801	323	15124	0.00142
+Orthornavirae	2732396	K	1352	17	1369	0.00013
+Pararnavirae	2732397	K	463	1435	1898	0.00018
+Bamfordvirae	2732005	K	818	25	843	0.00008
+Helvetiavirae	2732006	K	11	789	800	0.00008
+Shotokuvirae	2732092	K	271	0	271	0.00003
+Sangervirae	2732091	K	141	0	141	0.00001
+Loebvirae	2732090	K	33	485	518	0.00005

@@ -1,0 +1,169 @@
+Taxid	Sci.Name	Rank	Named Lineage	Taxid Lineage
+976	Bacteroidetes	phylum	root,cellular organisms,Bacteria,FCB group,Bacteroidetes/Chlorobi group,Bacteroidetes	1,131567,2,1783270,68336,976
+1090	Chlorobi	phylum	root,cellular organisms,Bacteria,FCB group,Bacteroidetes/Chlorobi group,Chlorobi	1,131567,2,1783270,68336,1090
+1117	Cyanobacteria	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Cyanobacteria/Melainabacteria group,Cyanobacteria	1,131567,2,1783272,1798711,1117
+1224	Proteobacteria	phylum	root,cellular organisms,Bacteria,Proteobacteria	1,131567,2,1224
+1239	Firmicutes	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Firmicutes	1,131567,2,1783272,1239
+1297	Deinococcus-Thermus	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Deinococcus-Thermus	1,131567,2,1783272,1297
+2763	Rhodophyta	phylum	root,cellular organisms,Eukaryota,Rhodophyta	1,131567,2759,2763
+2830	Haptophyta	phylum	root,cellular organisms,Eukaryota,Haptista,Haptophyta	1,131567,2759,2608109,2830
+2836	Bacillariophyta	phylum	root,cellular organisms,Eukaryota,Sar,Stramenopiles,Ochrophyta,Bacillariophyta	1,131567,2759,2698737,33634,2696291,2836
+3041	Chlorophyta	phylum	root,cellular organisms,Eukaryota,Viridiplantae,Chlorophyta	1,131567,2759,33090,3041
+4761	Chytridiomycota	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Fungi,Fungi incertae sedis,Chytridiomycota	1,131567,2759,33154,4751,112252,4761
+4762	Oomycota	phylum	root,cellular organisms,Eukaryota,Sar,Stramenopiles,Oomycota	1,131567,2759,2698737,33634,4762
+4890	Ascomycota	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Fungi,Dikarya,Ascomycota	1,131567,2759,33154,4751,451864,4890
+5204	Basidiomycota	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Fungi,Dikarya,Basidiomycota	1,131567,2759,33154,4751,451864,5204
+5719	Parabasalia	phylum	root,cellular organisms,Eukaryota,Metamonada,Parabasalia	1,131567,2759,2611341,5719
+5752	Heterolobosea	phylum	root,cellular organisms,Eukaryota,Discoba,Heterolobosea	1,131567,2759,2611352,5752
+5794	Apicomplexa	phylum	root,cellular organisms,Eukaryota,Sar,Alveolata,Apicomplexa	1,131567,2759,2698737,33630,5794
+5878	Ciliophora	phylum	root,cellular organisms,Eukaryota,Sar,Alveolata,Ciliophora	1,131567,2759,2698737,33630,5878
+6029	Microsporidia	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Fungi,Fungi incertae sedis,Microsporidia	1,131567,2759,33154,4751,112252,6029
+6040	Porifera	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Porifera	1,131567,2759,33154,33208,6040
+6073	Cnidaria	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Cnidaria	1,131567,2759,33154,33208,6072,6073
+6157	Platyhelminthes	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Platyhelminthes	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,6157
+6217	Nemertea	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Nemertea	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,6217
+6231	Nematoda	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Ecdysozoa,Nematoda	1,131567,2759,33154,33208,6072,33213,33317,1206794,6231
+6340	Annelida	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Annelida	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,6340
+6433	Sipuncula	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Sipuncula	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,6433
+6447	Mollusca	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Mollusca	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,6447
+6656	Arthropoda	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Ecdysozoa,Panarthropoda,Arthropoda	1,131567,2759,33154,33208,6072,33213,33317,1206794,88770,6656
+7568	Brachiopoda	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Brachiopoda	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,7568
+7586	Echinodermata	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Deuterostomia,Echinodermata	1,131567,2759,33154,33208,6072,33213,33511,7586
+7711	Chordata	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Deuterostomia,Chordata	1,131567,2759,33154,33208,6072,33213,33511,7711
+10190	Rotifera	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Gnathifera,Rotifera	1,131567,2759,33154,33208,6072,33213,33317,2697495,2697496,10190
+10197	Ctenophora	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Ctenophora	1,131567,2759,33154,33208,6072,10197
+10205	Bryozoa	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Bryozoa	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,10205
+10219	Hemichordata	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Deuterostomia,Hemichordata	1,131567,2759,33154,33208,6072,33213,33511,10219
+10226	Placozoa	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Placozoa	1,131567,2759,33154,33208,6072,10226
+10229	Chaetognatha	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Gnathifera,Chaetognatha	1,131567,2759,33154,33208,6072,33213,33317,2697495,2697496,10229
+10232	Acanthocephala	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Acanthocephala	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,10232
+27563	Onychophora	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Ecdysozoa,Panarthropoda,Onychophora	1,131567,2759,33154,33208,6072,33213,33317,1206794,88770,27563
+28889	Crenarchaeota	phylum	root,cellular organisms,Archaea,TACK group,Crenarchaeota	1,131567,2157,1783275,28889
+28890	Euryarchaeota	phylum	root,cellular organisms,Archaea,Euryarchaeota	1,131567,2157,28890
+29178	Foraminifera	phylum	root,cellular organisms,Eukaryota,Sar,Rhizaria,Retaria,Foraminifera	1,131567,2759,2698737,543769,2662056,29178
+32066	Fusobacteria	phylum	root,cellular organisms,Bacteria,Fusobacteria	1,131567,2,32066
+33310	Nematomorpha	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Ecdysozoa,Nematomorpha	1,131567,2759,33154,33208,6072,33213,33317,1206794,33310
+33313	Gastrotricha	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Gastrotricha	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,33313
+33467	Priapulida	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Ecdysozoa,Scalidophora,Priapulida	1,131567,2759,33154,33208,6072,33213,33317,1206794,1215728,33467
+33682	Euglenozoa	phylum	root,cellular organisms,Eukaryota,Discoba,Euglenozoa	1,131567,2759,2611352,33682
+35493	Streptophyta	phylum	root,cellular organisms,Eukaryota,Viridiplantae,Streptophyta	1,131567,2759,33090,35493
+40117	Nitrospirae	phylum	root,cellular organisms,Bacteria,Nitrospirae	1,131567,2,40117
+42241	Tardigrada	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Ecdysozoa,Panarthropoda,Tardigrada	1,131567,2759,33154,33208,6072,33213,33317,1206794,88770,42241
+43120	Entoprocta	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Lophotrochozoa,Entoprocta	1,131567,2759,33154,33208,6072,33213,33317,2697495,1206795,43120
+51516	Kinorhyncha	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Ecdysozoa,Scalidophora,Kinorhyncha	1,131567,2759,33154,33208,6072,33213,33317,1206794,1215728,51516
+51967	Candidatus Korarchaeota	phylum	root,cellular organisms,Archaea,TACK group,Candidatus Korarchaeota	1,131567,2157,1783275,51967
+57723	Acidobacteria	phylum	root,cellular organisms,Bacteria,Acidobacteria	1,131567,2,57723
+62680	Candidatus Marinimicrobia	phylum	root,cellular organisms,Bacteria,FCB group,Candidatus Marinimicrobia	1,131567,2,1783270,62680
+65842	Fibrobacteres	phylum	root,cellular organisms,Bacteria,FCB group,Fibrobacteres	1,131567,2,1783270,65842
+66780	Gnathostomulida	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Protostomia,Spiralia,Gnathifera,Gnathostomulida	1,131567,2759,33154,33208,6072,33213,33317,2697495,2697496,66780
+67810	Candidatus Bipolaricaulota	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Bipolaricaulota	1,131567,2,2323,1783234,67810
+67812	Candidatus Omnitrophica	phylum	root,cellular organisms,Bacteria,PVC group,Candidatus Omnitrophica	1,131567,2,1783257,67812
+67814	Caldiserica	phylum	root,cellular organisms,Bacteria,Caldiserica/Cryosericota group,Caldiserica	1,131567,2,2498710,67814
+67817	Candidatus Aminicenantes	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Aminicenantes	1,131567,2,2323,1783234,67817
+67818	Atribacterota	phylum	root,cellular organisms,Bacteria,Atribacterota	1,131567,2,67818
+67819	Armatimonadetes	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Armatimonadetes	1,131567,2,1783272,67819
+67820	Candidatus Microgenomates	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Microgenomates group,Candidatus Microgenomates	1,131567,2,2323,1783234,1783273,1794810,67820
+68297	Dictyoglomi	phylum	root,cellular organisms,Bacteria,Dictyoglomi	1,131567,2,68297
+74015	Candidatus Latescibacteria	phylum	root,cellular organisms,Bacteria,FCB group,Candidatus Latescibacteria	1,131567,2,1783270,74015
+74152	Elusimicrobia	phylum	root,cellular organisms,Bacteria,Elusimicrobia	1,131567,2,74152
+74201	Verrucomicrobia	phylum	root,cellular organisms,Bacteria,PVC group,Verrucomicrobia	1,131567,2,1783257,74201
+95818	Candidatus Saccharibacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Saccharibacteria	1,131567,2,2323,1783234,95818
+134625	Kiritimatiellaeota	phylum	root,cellular organisms,Bacteria,PVC group,Kiritimatiellaeota	1,131567,2,1783257,134625
+136419	Cercozoa	phylum	root,cellular organisms,Eukaryota,Sar,Rhizaria,Cercozoa	1,131567,2759,2698737,543769,136419
+142182	Gemmatimonadetes	phylum	root,cellular organisms,Bacteria,FCB group,Gemmatimonadetes	1,131567,2,1783270,142182
+142187	Candidatus Hydrogenedentes	phylum	root,cellular organisms,Bacteria,FCB group,Candidatus Hydrogenedentes	1,131567,2,1783270,142187
+192989	Nanoarchaeota	phylum	root,cellular organisms,Archaea,DPANN group,Nanoarchaeota	1,131567,2157,1783276,192989
+200295	Candidatus Sumerlaeota	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Sumerlaeota	1,131567,2,2323,1783234,200295
+200783	Aquificae	phylum	root,cellular organisms,Bacteria,Aquificae	1,131567,2,200783
+200795	Chloroflexi	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Chloroflexi	1,131567,2,1783272,200795
+200918	Thermotogae	phylum	root,cellular organisms,Bacteria,Thermotogae	1,131567,2,200918
+200930	Deferribacteres	phylum	root,cellular organisms,Bacteria,Deferribacteres	1,131567,2,200930
+200938	Chrysiogenetes	phylum	root,cellular organisms,Bacteria,Chrysiogenetes	1,131567,2,200938
+200940	Thermodesulfobacteria	phylum	root,cellular organisms,Bacteria,Thermodesulfobacteria	1,131567,2,200940
+201174	Actinobacteria	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Actinobacteria	1,131567,2,1783272,201174
+203682	Planctomycetes	phylum	root,cellular organisms,Bacteria,PVC group,Planctomycetes	1,131567,2,1783257,203682
+203691	Spirochaetes	phylum	root,cellular organisms,Bacteria,Spirochaetes	1,131567,2,203691
+204428	Chlamydiae	phylum	root,cellular organisms,Bacteria,PVC group,Chlamydiae	1,131567,2,1783257,204428
+207245	Fornicata	phylum	root,cellular organisms,Eukaryota,Metamonada,Fornicata	1,131567,2759,2611341,207245
+221216	Candidatus Parcubacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Parcubacteria	1,131567,2,2323,1783234,1783273,1794811,221216
+221235	Candidatus Absconditabacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Absconditabacteria	1,131567,2,2323,1783234,221235
+256845	Lentisphaerae	phylum	root,cellular organisms,Bacteria,PVC group,Lentisphaerae	1,131567,2,1783257,256845
+363464	Candidatus Gracilibacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Candidatus Gracilibacteria	1,131567,2,2323,1783234,1783273,363464
+422282	candidate division WWE3	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,candidate division WWE3	1,131567,2,2323,1783234,422282
+451459	Blastocladiomycota	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Fungi,Fungi incertae sedis,Blastocladiomycota	1,131567,2759,33154,4751,112252,451459
+456828	Candidatus Cloacimonetes	phylum	root,cellular organisms,Bacteria,FCB group,Candidatus Cloacimonetes	1,131567,2,1783270,456828
+508458	Synergistetes	phylum	root,cellular organisms,Bacteria,Synergistetes	1,131567,2,508458
+544448	Tenericutes	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Tenericutes	1,131567,2,1783272,544448
+555280	Discosea	phylum	root,cellular organisms,Eukaryota,Amoebozoa,Discosea	1,131567,2759,554915,555280
+555369	Tubulinea	phylum	root,cellular organisms,Eukaryota,Amoebozoa,Tubulinea	1,131567,2759,554915,555369
+640293	candidate division NC10	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,candidate division NC10	1,131567,2,2323,1783234,640293
+651137	Thaumarchaeota	phylum	root,cellular organisms,Archaea,TACK group,Thaumarchaeota	1,131567,2157,1783275,651137
+743724	Candidatus Aenigmarchaeota	phylum	root,cellular organisms,Archaea,DPANN group,Candidatus Aenigmarchaeota	1,131567,2157,1783276,743724
+743725	Candidatus Diapherotrites	phylum	root,cellular organisms,Archaea,DPANN group,Candidatus Diapherotrites	1,131567,2157,1783276,743725
+928852	Candidatus Bathyarchaeota	phylum	root,cellular organisms,Archaea,TACK group,Candidatus Bathyarchaeota	1,131567,2157,1783275,928852
+1052815	Candidatus Aerophobetes	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Aerophobetes	1,131567,2,2323,1783234,1052815
+1134404	Ignavibacteriae	phylum	root,cellular organisms,Bacteria,FCB group,Bacteroidetes/Chlorobi group,Ignavibacteriae	1,131567,2,1783270,68336,1134404
+1154676	Candidatus Eremiobacteraeota	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Candidatus Eremiobacteraeota	1,131567,2,1783272,1154676
+1293497	Nitrospinae	phylum	root,cellular organisms,Bacteria,Nitrospinae/Tectomicrobia group,Nitrospinae	1,131567,2,1802340,1293497
+1312402	Xenacoelomorpha	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Metazoa,Eumetazoa,Bilateria,Xenacoelomorpha	1,131567,2759,33154,33208,6072,33213,1312402
+1379697	candidate division Zixibacteria	phylum	root,cellular organisms,Bacteria,FCB group,candidate division Zixibacteria	1,131567,2,1783270,1379697
+1462430	Candidatus Nanohaloarchaeota	phylum	root,cellular organisms,Archaea,DPANN group,Candidatus Nanohaloarchaeota	1,131567,2157,1783276,1462430
+1618330	Candidatus Berkelbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Berkelbacteria	1,131567,2,2323,1783234,1618330
+1619053	Candidatus Peregrinibacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Peregrinibacteria	1,131567,2,2323,1783234,1619053
+1655434	Candidatus Lokiarchaeota	phylum	root,cellular organisms,Archaea,Asgard group,Candidatus Lokiarchaeota	1,131567,2157,1935183,1655434
+1662329	Candidatus Kapabacteria	phylum	root,cellular organisms,Bacteria,FCB group,Bacteroidetes/Chlorobi group,Candidatus Kapabacteria	1,131567,2,1783270,68336,1662329
+1703755	candidate division WOR-3	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,candidate division WOR-3	1,131567,2,2323,1783234,1703755
+1706441	Candidatus Thorarchaeota	phylum	root,cellular organisms,Archaea,Asgard group,Candidatus Thorarchaeota	1,131567,2157,1935183,1706441
+1736114	Imbricatea	phylum	root,cellular organisms,Eukaryota,Sar,Rhizaria,Imbricatea	1,131567,2759,2698737,543769,1736114
+1752716	Candidatus Dadabacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Dadabacteria	1,131567,2,2323,1783234,1752716
+1752718	Candidatus Daviesbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Microgenomates group,Candidatus Daviesbacteria	1,131567,2,2323,1783234,1783273,1794810,1752718
+1752719	Candidatus Levybacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Microgenomates group,Candidatus Levybacteria	1,131567,2,2323,1783234,1783273,1794810,1752719
+1752722	Candidatus Woesebacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Microgenomates group,Candidatus Woesebacteria	1,131567,2,2323,1783234,1783273,1794810,1752722
+1752723	Candidatus Roizmanbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Microgenomates group,Candidatus Roizmanbacteria	1,131567,2,2323,1783234,1783273,1794810,1752723
+1752726	Candidatus Beckwithbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Microgenomates group,Candidatus Beckwithbacteria	1,131567,2,2323,1783234,1783273,1794810,1752726
+1752727	Candidatus Campbellbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Campbellbacteria	1,131567,2,2323,1783234,1783273,1794811,1752727
+1752728	Candidatus Falkowbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Falkowbacteria	1,131567,2,2323,1783234,1783273,1794811,1752728
+1752729	Candidatus Nomurabacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Nomurabacteria	1,131567,2,2323,1783234,1783273,1794811,1752729
+1752732	Candidatus Uhrbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Uhrbacteria	1,131567,2,2323,1783234,1783273,1794811,1752732
+1752734	Candidatus Kaiserbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Kaiserbacteria	1,131567,2,2323,1783234,1783273,1794811,1752734
+1752735	Candidatus Wolfebacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Wolfebacteria	1,131567,2,2323,1783234,1783273,1794811,1752735
+1752737	Candidatus Moranbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Moranbacteria	1,131567,2,2323,1783234,1783273,1794811,1752737
+1752738	Candidatus Giovannonibacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Giovannonibacteria	1,131567,2,2323,1783234,1783273,1794811,1752738
+1798710	Candidatus Melainabacteria	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Cyanobacteria/Melainabacteria group,Candidatus Melainabacteria	1,131567,2,1783272,1798711,1798710
+1801616	Candidatus Woesearchaeota	phylum	root,cellular organisms,Archaea,DPANN group,Candidatus Woesearchaeota	1,131567,2157,1783276,1801616
+1801631	Candidatus Micrarchaeota	phylum	root,cellular organisms,Archaea,DPANN group,Candidatus Micrarchaeota	1,131567,2157,1783276,1801631
+1817797	Candidatus Coatesbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Coatesbacteria	1,131567,2,2323,1783234,1817797
+1817801	Candidatus Eisenbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Candidatus Eisenbacteria	1,131567,2,2323,1783234,1817801
+1817911	Candidatus Nealsonbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Nealsonbacteria	1,131567,2,2323,1783234,1783273,1794811,1817911
+1817912	Candidatus Niyogibacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Niyogibacteria	1,131567,2,2323,1783234,1783273,1794811,1817912
+1817917	Candidatus Sungbacteria	phylum	root,cellular organisms,Bacteria,Bacteria incertae sedis,Bacteria candidate phyla,Patescibacteria group,Parcubacteria group,Candidatus Sungbacteria	1,131567,2,2323,1783234,1783273,1794811,1817917
+1853220	Rhodothermaeota	phylum	root,cellular organisms,Bacteria,FCB group,Bacteroidetes/Chlorobi group,Rhodothermaeota	1,131567,2,1783270,68336,1853220
+1913637	Mucoromycota	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Fungi,Fungi incertae sedis,Mucoromycota	1,131567,2759,33154,4751,112252,1913637
+1913638	Zoopagomycota	phylum	root,cellular organisms,Eukaryota,Opisthokonta,Fungi,Fungi incertae sedis,Zoopagomycota	1,131567,2759,33154,4751,112252,1913638
+1930617	Calditrichaeota	phylum	root,cellular organisms,Bacteria,Calditrichaeota	1,131567,2,1930617
+1936272	Candidatus Heimdallarchaeota	phylum	root,cellular organisms,Archaea,Asgard group,Candidatus Heimdallarchaeota	1,131567,2157,1935183,1936272
+1936987	Balneolaeota	phylum	root,cellular organisms,Bacteria,FCB group,Bacteroidetes/Chlorobi group,Balneolaeota	1,131567,2,1783270,68336,1936987
+2109258	Abditibacteriota	phylum	root,cellular organisms,Bacteria,Terrabacteria group,Abditibacteriota	1,131567,2,1783272,2109258
+2138240	Coprothermobacterota	phylum	root,cellular organisms,Bacteria,Coprothermobacterota	1,131567,2,2138240
+2283796	Candidatus Thermoplasmatota	phylum	root,cellular organisms,Archaea,Candidatus Thermoplasmatota	1,131567,2157,2283796
+2497438	Perkinsozoa	phylum	root,cellular organisms,Eukaryota,Sar,Alveolata,Perkinsozoa	1,131567,2759,2698737,33630,2497438
+2497569	Negarnaviricota	phylum	root,Viruses,Riboviria,Orthornavirae,Negarnaviricota	1,10239,2559587,2732396,2497569
+2604748	Endomyxa	phylum	root,cellular organisms,Eukaryota,Sar,Rhizaria,Endomyxa	1,131567,2759,2698737,543769,2604748
+2605435	Evosea	phylum	root,cellular organisms,Eukaryota,Amoebozoa,Evosea	1,131567,2759,554915,2605435
+2662611	Preaxostyla	phylum	root,cellular organisms,Eukaryota,Metamonada,Preaxostyla	1,131567,2759,2611341,2662611
+2731361	Peploviricota	phylum	root,Viruses,Duplodnaviria,Heunggongvirae,Peploviricota	1,10239,2731341,2731360,2731361
+2731618	Uroviricota	phylum	root,Viruses,Duplodnaviria,Heunggongvirae,Uroviricota	1,10239,2731341,2731360,2731618
+2732007	Nucleocytoviricota	phylum	root,Viruses,Varidnaviria,Bamfordvirae,Nucleocytoviricota	1,10239,2732004,2732005,2732007
+2732008	Preplasmiviricota	phylum	root,Viruses,Varidnaviria,Bamfordvirae,Preplasmiviricota	1,10239,2732004,2732005,2732008
+2732009	Dividoviricota	phylum	root,Viruses,Varidnaviria,Helvetiavirae,Dividoviricota	1,10239,2732004,2732006,2732009
+2732405	Duplornaviricota	phylum	root,Viruses,Riboviria,Orthornavirae,Duplornaviricota	1,10239,2559587,2732396,2732405
+2732406	Kitrinoviricota	phylum	root,Viruses,Riboviria,Orthornavirae,Kitrinoviricota	1,10239,2559587,2732396,2732406
+2732407	Lenarviricota	phylum	root,Viruses,Riboviria,Orthornavirae,Lenarviricota	1,10239,2559587,2732396,2732407
+2732408	Pisuviricota	phylum	root,Viruses,Riboviria,Orthornavirae,Pisuviricota	1,10239,2559587,2732396,2732408
+2732409	Artverviricota	phylum	root,Viruses,Riboviria,Pararnavirae,Artverviricota	1,10239,2559587,2732397,2732409
+2732410	Hofneiviricota	phylum	root,Viruses,Monodnaviria,Loebvirae,Hofneiviricota	1,10239,2731342,2732090,2732410
+2732412	Phixviricota	phylum	root,Viruses,Monodnaviria,Sangervirae,Phixviricota	1,10239,2731342,2732091,2732412
+2732415	Cossaviricota	phylum	root,Viruses,Monodnaviria,Shotokuvirae,Cossaviricota	1,10239,2731342,2732092,2732415
+2732416	Cressdnaviricota	phylum	root,Viruses,Monodnaviria,Shotokuvirae,Cressdnaviricota	1,10239,2731342,2732092,2732416
+2806169	Prasinodermophyta	phylum	root,cellular organisms,Eukaryota,Viridiplantae,Prasinodermophyta	1,131567,2759,33090,2806169
+2840024	Taleaviricota	phylum	root,Viruses,Adnaviria,Zilligvirae,Taleaviricota	1,10239,2840022,2840023,2840024

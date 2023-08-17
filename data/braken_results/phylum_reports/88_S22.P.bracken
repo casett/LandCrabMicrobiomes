@@ -1,0 +1,132 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Arthropoda	6656	P	4653906	965048	5618954	0.54536
+Onychophora	27563	P	31	26	57	0.00001
+Nematoda	6231	P	33304	12614	45918	0.00446
+Priapulida	33467	P	245	51	296	0.00003
+Mollusca	6447	P	110050	7382	117432	0.01140
+Platyhelminthes	6157	P	21190	3033	24223	0.00235
+Annelida	6340	P	9930	7602	17532	0.00170
+Bryozoa	10205	P	6240	2505	8745	0.00085
+Nemertea	6217	P	2775	317	3092	0.00030
+Brachiopoda	7568	P	631	14	645	0.00006
+Rotifera	10190	P	3234	942	4176	0.00041
+Gnathostomulida	66780	P	22	0	22	0.00000
+Chordata	7711	P	2776516	619211	3395727	0.32958
+Echinodermata	7586	P	17768	4179	21947	0.00213
+Hemichordata	10219	P	550	41	591	0.00006
+Xenacoelomorpha	1312402	P	94	11	105	0.00001
+Cnidaria	6073	P	14968	3404	18372	0.00178
+Placozoa	10226	P	84	3	87	0.00001
+Ctenophora	10197	P	19	81	100	0.00001
+Porifera	6040	P	296	121	417	0.00004
+Ascomycota	4890	P	57356	74128	131484	0.01276
+Basidiomycota	5204	P	10176	4438	14614	0.00142
+Mucoromycota	1913637	P	9273	3661	12934	0.00126
+Chytridiomycota	4761	P	428	88	516	0.00005
+Zoopagomycota	1913638	P	257	31	288	0.00003
+Microsporidia	6029	P	240	39	279	0.00003
+Streptophyta	35493	P	333231	84735	417966	0.04057
+Chlorophyta	3041	P	3235	4941	8176	0.00079
+Apicomplexa	5794	P	17913	1476	19389	0.00188
+Ciliophora	5878	P	2488	2839	5327	0.00052
+Perkinsozoa	2497438	P	56	1156	1212	0.00012
+Bacillariophyta	2836	P	438	3341	3779	0.00037
+Oomycota	4762	P	1245	6139	7384	0.00072
+Cercozoa	136419	P	52	381	433	0.00004
+Imbricatea	1736114	P	46	27	73	0.00001
+Foraminifera	29178	P	33	330	363	0.00004
+Euglenozoa	33682	P	2567	253	2820	0.00027
+Heterolobosea	5752	P	693	113	806	0.00008
+Evosea	2605435	P	2472	333	2805	0.00027
+Discosea	555280	P	96	33	129	0.00001
+Rhodophyta	2763	P	1154	411	1565	0.00015
+Parabasalia	5719	P	412	9	421	0.00004
+Fornicata	207245	P	48	0	48	0.00000
+Haptophyta	2830	P	122	19770	19892	0.00193
+Proteobacteria	1224	P	88259	47354	135613	0.01316
+Firmicutes	1239	P	43286	8480	51766	0.00502
+Actinobacteria	201174	P	25080	4784	29864	0.00290
+Cyanobacteria	1117	P	5649	838	6487	0.00063
+Candidatus Melainabacteria	1798710	P	42	0	42	0.00000
+Tenericutes	544448	P	2975	317	3292	0.00032
+Chloroflexi	200795	P	924	17	941	0.00009
+Deinococcus-Thermus	1297	P	450	1	451	0.00004
+Armatimonadetes	67819	P	92	0	92	0.00001
+Candidatus Eremiobacteraeota	1154676	P	37	0	37	0.00000
+Abditibacteriota	2109258	P	31	0	31	0.00000
+Bacteroidetes	976	P	54752	2538	57290	0.00556
+Ignavibacteriae	1134404	P	258	0	258	0.00003
+Chlorobi	1090	P	146	12	158	0.00002
+Balneolaeota	1936987	P	60	0	60	0.00001
+Rhodothermaeota	1853220	P	12	13	25	0.00000
+Candidatus Kapabacteria	1662329	P	11	0	11	0.00000
+Candidatus Latescibacteria	74015	P	1479	0	1479	0.00014
+Gemmatimonadetes	142182	P	165	0	165	0.00002
+candidate division Zixibacteria	1379697	P	80	0	80	0.00001
+Candidatus Marinimicrobia	62680	P	60	0	60	0.00001
+Fibrobacteres	65842	P	33	0	33	0.00000
+Candidatus Cloacimonetes	456828	P	16	0	16	0.00000
+Spirochaetes	203691	P	6071	40	6111	0.00059
+Planctomycetes	203682	P	4313	28	4341	0.00042
+Chlamydiae	204428	P	511	2	513	0.00005
+Verrucomicrobia	74201	P	476	4	480	0.00005
+Lentisphaerae	256845	P	72	1	73	0.00001
+Candidatus Omnitrophica	67812	P	54	1	55	0.00001
+Kiritimatiellaeota	134625	P	19	3	22	0.00000
+Fusobacteria	32066	P	2330	8657	10987	0.00107
+Candidatus Saccharibacteria	95818	P	304	3	307	0.00003
+Candidatus Moranbacteria	1752737	P	34	0	34	0.00000
+Candidatus Falkowbacteria	1752728	P	17	0	17	0.00000
+Candidatus Campbellbacteria	1752727	P	15	0	15	0.00000
+Candidatus Wolfebacteria	1752735	P	10	0	10	0.00000
+Candidatus Woesebacteria	1752722	P	49	0	49	0.00000
+Candidatus Roizmanbacteria	1752723	P	18	9	27	0.00000
+Candidatus Gracilibacteria	363464	P	45	0	45	0.00000
+Candidatus Aminicenantes	67817	P	119	26	145	0.00001
+Candidatus Absconditabacteria	221235	P	58	47	105	0.00001
+candidate division WOR-3	1703755	P	42	0	42	0.00000
+Candidatus Peregrinibacteria	1619053	P	28	0	28	0.00000
+Candidatus Bipolaricaulota	67810	P	26	0	26	0.00000
+Candidatus Sumerlaeota	200295	P	11	0	11	0.00000
+Acidobacteria	57723	P	861	40	901	0.00009
+Thermotogae	200918	P	406	22	428	0.00004
+Nitrospirae	40117	P	287	538	825	0.00008
+Deferribacteres	200930	P	176	0	176	0.00002
+Aquificae	200783	P	131	7	138	0.00001
+Thermodesulfobacteria	200940	P	115	0	115	0.00001
+Elusimicrobia	74152	P	82	0	82	0.00001
+Atribacterota	67818	P	71	0	71	0.00001
+Synergistetes	508458	P	60	0	60	0.00001
+Dictyoglomi	68297	P	27	0	27	0.00000
+Caldiserica	67814	P	27	0	27	0.00000
+Chrysiogenetes	200938	P	26	0	26	0.00000
+Nitrospinae	1293497	P	26	0	26	0.00000
+Calditrichaeota	1930617	P	23	0	23	0.00000
+Euryarchaeota	28890	P	4021	17765	21786	0.00211
+Crenarchaeota	28889	P	1013	98	1111	0.00011
+Thaumarchaeota	651137	P	575	145	720	0.00007
+Candidatus Bathyarchaeota	928852	P	141	52	193	0.00002
+Candidatus Thermoplasmatota	2283796	P	493	33	526	0.00005
+Candidatus Lokiarchaeota	1655434	P	169	115	284	0.00003
+Candidatus Heimdallarchaeota	1936272	P	133	28	161	0.00002
+Candidatus Thorarchaeota	1706441	P	10	0	10	0.00000
+Nanoarchaeota	192989	P	35	0	35	0.00000
+Candidatus Micrarchaeota	1801631	P	29	0	29	0.00000
+Candidatus Diapherotrites	743725	P	25	2	27	0.00000
+Candidatus Aenigmarchaeota	743724	P	19	0	19	0.00000
+Candidatus Woesearchaeota	1801616	P	18	10	28	0.00000
+Uroviricota	2731618	P	17472	1386	18858	0.00183
+Peploviricota	2731361	P	109	158	267	0.00003
+Nucleocytoviricota	2732007	P	2065	75	2140	0.00021
+Preplasmiviricota	2732008	P	26	0	26	0.00000
+Pisuviricota	2732408	P	487	55	542	0.00005
+Negarnaviricota	2497569	P	331	14	345	0.00003
+Kitrinoviricota	2732406	P	198	3	201	0.00002
+Duplornaviricota	2732405	P	114	5	119	0.00001
+Lenarviricota	2732407	P	62	3	65	0.00001
+Artverviricota	2732409	P	292	1574	1866	0.00018
+Cressdnaviricota	2732416	P	73	1	74	0.00001
+Cossaviricota	2732415	P	71	0	71	0.00001
+Phixviricota	2732412	P	127	0	127	0.00001
+Hofneiviricota	2732410	P	20	446	466	0.00005
+Taleaviricota	2840024	P	11	7352	7363	0.00071

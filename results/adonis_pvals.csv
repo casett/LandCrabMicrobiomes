@@ -1,0 +1,169 @@
+Data,Category,Model,Type,pval,Fmod,R2,padj
+Kraken - Fungi,Genus,Genus + Diet_group + Grade + Ocean,sequential,1e-04,3.27834440291411,0.353836686745605,0.00035
+Kraken - Fungi,Grade,Genus + Diet_group + Grade + Ocean,sequential,5e-04,2.63262620212996,0.113657336547473,0.00110526315789474
+Kraken - Fungi,Ocean,Genus + Diet_group + Grade + Ocean,sequential,0.176,1.33434839891662,0.0576072991010067,0.18984
+Kraken - Fungi,Family,Family + Grade + Diet_group + Ocean,sequential,1e-04,3.5625362824439,0.307607958082855,0.00035
+Kraken - Fungi,Grade,Family + Grade + Diet_group + Ocean,sequential,4e-04,2.46894309635162,0.159886065210223,0.000988235294117647
+Kraken - Fungi,Ocean,Family + Grade + Diet_group + Ocean,sequential,0.173,1.33434839891663,0.0576072991010069,0.18984
+Kraken - Fungi,Genus,Genus + Grade + Diet_group + Ocean,sequential,1e-04,3.27834440291411,0.353836686745605,0.00035
+Kraken - Fungi,Grade,Genus + Grade + Diet_group + Ocean,sequential,0.0011,2.63262620212996,0.113657336547473,0.001925
+Kraken - Fungi,Ocean,Genus + Grade + Diet_group + Ocean,sequential,0.1754,1.33434839891662,0.0576072991010067,0.18984
+Kraken - Fungi,Diet_group,Diet_group + Grade + Genus + Ocean,sequential,1e-04,4.39036710371225,0.189543593796133,0.00035
+Kraken - Fungi,Grade,Diet_group + Grade + Genus + Ocean,sequential,8e-04,2.24232569042314,0.193614091844312,0.00152727272727273
+Kraken - Fungi,Genus,Diet_group + Grade + Genus + Ocean,sequential,1e-04,3.90693744971342,0.0843363376526331,0.00035
+Kraken - Fungi,Ocean,Diet_group + Grade + Genus + Ocean,sequential,0.178,1.33434839891662,0.0576072991010068,0.18984
+Kraken - Fungi,Diet_group,Diet_group + Genus + Grade + Ocean,sequential,1e-04,4.39036710371225,0.189543593796133,0.00035
+Kraken - Fungi,Genus,Diet_group + Genus + Grade + Ocean,sequential,2e-04,2.53699593571535,0.164293092949473,0.00056
+Kraken - Fungi,Grade,Diet_group + Genus + Grade + Ocean,sequential,0.0012,2.63262620212996,0.113657336547473,0.00193846153846154
+Kraken - Fungi,Ocean,Diet_group + Genus + Grade + Ocean,sequential,0.1757,1.33434839891662,0.0576072991010068,0.18984
+Kraken - Fungi,Grade,Grade + Genus + Diet_group + Ocean,sequential,1e-04,3.24084231245297,0.279831223366038,0.00035
+Kraken - Fungi,Genus,Grade + Genus + Diet_group + Ocean,sequential,2e-04,2.89786838967287,0.18766279992704,0.00056
+Kraken - Fungi,Ocean,Grade + Genus + Diet_group + Ocean,sequential,0.1808,1.33434839891662,0.0576072991010067,0.18984
+Kraken - Fungi,Grade,Grade + Diet_Group + Genus + Ocean,sequential,1e-04,3.24084231245297,0.279831223366038,0.00035
+Kraken - Fungi,Diet_group,Grade + Diet_Group + Genus + Ocean,sequential,0.002,2.3933338596526,0.103326462274407,0.00311111111111111
+Kraken - Fungi,Genus,Grade + Diet_Group + Genus + Ocean,sequential,1e-04,3.90693744971342,0.0843363376526331,0.00035
+Kraken - Fungi,Ocean,Grade + Diet_Group + Genus + Ocean,sequential,0.1761,1.33434839891662,0.0576072991010068,0.18984
+Kraken - Fungi,Genus,Genus + Ocean,margin,1e-04,2.52643299330052,0.246760034426179,0.00035
+Kraken - Fungi,Ocean,Genus + Ocean,margin,0.2087,1.23138341638271,0.0601354191906486,0.213790243902439
+Kraken - Fungi,Diet_group,Diet_Group + Infraorder + Ocean,margin,0.0043,2.32166900109211,0.117183722957338,0.00645
+Kraken - Fungi,Infraorder,Diet_Group + Infraorder + Ocean,margin,2e-04,3.34177914564192,0.0843363376526329,0.00056
+Kraken - Fungi,Ocean,Diet_Group + Infraorder + Ocean,margin,0.012,1.75149898826406,0.132607515608972,0.0168
+Kraken - Fungi,Grade,Grade + Infraorder + Ocean,margin,0.0012,2.19686468773817,0.161176140119484,0.00193846153846154
+Kraken - Fungi,Infraorder,Grade + Infraorder + Ocean,margin,0.0049,2.78424960057658,0.0680901599227416,0.00709655172413793
+Kraken - Fungi,Ocean,Grade + Infraorder + Ocean,margin,0.3318,1.10548413745275,0.0540702900311981,0.3318
+Kraken - Fungi,Grade,Grade + Family + Ocean,margin,5e-04,2.40932489212252,0.156025255253454,0.00110526315789474
+Kraken - Fungi,Family,Grade + Family + Ocean,margin,1e-04,2.78143959485289,0.18012299801405,0.00035
+Kraken - Fungi,Ocean,Grade + Family + Ocean,margin,0.1713,1.33434839891662,0.0576072991010064,0.18984
+Kraken - Fungi,Grade,Grade + Genus + Ocean,margin,8e-04,2.57406777209545,0.11112921645783,0.00152727272727273
+Kraken - Fungi,Genus,Grade + Genus + Ocean,margin,3e-04,2.78143959485289,0.18012299801405,0.0007875
+Kraken - Fungi,Ocean,Grade + Genus + Ocean,margin,0.178,1.33434839891662,0.0576072991010064,0.18984
+Kraken - Fungi,Grade,Grade + Diet_Group + Infraorder + Ocean,margin,6e-04,2.40932489212252,0.156025255253454,0.00126
+Kraken - Fungi,Diet_group,Grade + Diet_Group + Infraorder + Ocean,margin,0.001,2.59499821144382,0.112032838091308,0.00182608695652174
+Kraken - Fungi,Infraorder,Grade + Diet_Group + Infraorder + Ocean,margin,1e-04,3.9069374497134,0.0843363376526327,0.00035
+Kraken - Fungi,Ocean,Grade + Diet_Group + Infraorder + Ocean,margin,0.1749,1.33434839891662,0.0576072991010064,0.18984
+Kraken - Archaea,Genus,Genus + Diet_group + Grade + Ocean,sequential,5e-04,3.06202146590944,0.363852784450628,0.003
+Kraken - Archaea,Grade,Genus + Diet_group + Grade + Ocean,sequential,0.1697,1.32479445988844,0.0629688796661667,0.2574
+Kraken - Archaea,Ocean,Genus + Diet_group + Grade + Ocean,sequential,0.3423,1.05902801402618,0.0503367198440199,0.3551
+Kraken - Archaea,Family,Family + Grade + Diet_group + Ocean,sequential,2e-04,3.19720615179637,0.303933169311934,0.00168
+Kraken - Archaea,Grade,Family + Grade + Diet_group + Ocean,sequential,0.0259,1.72362388071287,0.122888494804861,0.0852923076923077
+Kraken - Archaea,Ocean,Family + Grade + Diet_group + Ocean,sequential,0.3551,1.05902801402619,0.0503367198440201,0.3551
+Kraken - Archaea,Genus,Genus + Grade + Diet_group + Ocean,sequential,1e-04,3.06202146590944,0.363852784450628,0.0014
+Kraken - Archaea,Grade,Genus + Grade + Diet_group + Ocean,sequential,0.1686,1.32479445988844,0.0629688796661667,0.2574
+Kraken - Archaea,Ocean,Genus + Grade + Diet_group + Ocean,sequential,0.3479,1.05902801402618,0.0503367198440199,0.3551
+Kraken - Archaea,Diet_group,Diet_group + Grade + Genus + Ocean,sequential,1e-04,5.29009135683904,0.251443628545877,0.0014
+Kraken - Archaea,Grade,Diet_group + Grade + Genus + Ocean,sequential,0.1157,1.38971240516039,0.132108996317048,0.211278260869565
+Kraken - Archaea,Genus,Diet_group + Grade + Genus + Ocean,sequential,0.1014,1.82066391500442,0.04326903925387,0.210763636363636
+Kraken - Archaea,Ocean,Diet_group + Grade + Genus + Ocean,sequential,0.3493,1.05902801402619,0.05033671984402,0.3551
+Kraken - Archaea,Diet_group,Diet_group + Genus + Grade + Ocean,sequential,1e-04,5.29009135683904,0.251443628545877,0.0014
+Kraken - Archaea,Genus,Diet_group + Genus + Grade + Ocean,sequential,0.0948,1.57664153862303,0.112409155904751,0.209557894736842
+Kraken - Archaea,Grade,Diet_group + Genus + Grade + Ocean,sequential,0.1716,1.32479445988845,0.0629688796661667,0.2574
+Kraken - Archaea,Ocean,Diet_group + Genus + Grade + Ocean,sequential,0.3461,1.05902801402619,0.05033671984402,0.3551
+Kraken - Archaea,Grade,Grade + Genus + Diet_group + Ocean,sequential,2e-04,2.70340684032327,0.256991563855638,0.00168
+Kraken - Archaea,Genus,Grade + Genus + Diet_group + Ocean,sequential,0.0133,2.382022962677,0.169830100261157,0.05586
+Kraken - Archaea,Ocean,Grade + Genus + Diet_group + Ocean,sequential,0.3406,1.05902801402618,0.0503367198440199,0.3551
+Kraken - Archaea,Grade,Grade + Diet_Group + Genus + Ocean,sequential,3e-04,2.70340684032327,0.256991563855638,0.0021
+Kraken - Archaea,Diet_group,Grade + Diet_Group + Genus + Ocean,sequential,0.0099,2.66270248651328,0.126561061007287,0.0462
+Kraken - Archaea,Genus,Grade + Diet_Group + Genus + Ocean,sequential,0.1075,1.82066391500442,0.04326903925387,0.210763636363636
+Kraken - Archaea,Ocean,Grade + Diet_Group + Genus + Ocean,sequential,0.3506,1.05902801402618,0.0503367198440199,0.3551
+Kraken - Archaea,Genus,Genus + Ocean,margin,0.0058,2.31866746407977,0.222699122272583,0.03045
+Kraken - Archaea,Ocean,Genus + Ocean,margin,0.2195,1.2466965833287,0.0598702140666208,0.317896551724138
+Kraken - Archaea,Diet_group,Diet_Group + Infraorder + Ocean,margin,0.0855,1.71971840844564,0.0875067659610807,0.1995
+Kraken - Archaea,Infraorder,Diet_Group + Infraorder + Ocean,margin,0.1263,1.70068137025498,0.0432690392538694,0.221025
+Kraken - Archaea,Ocean,Diet_Group + Infraorder + Ocean,margin,0.2852,1.1494310864541,0.0877320931526586,0.3551
+Kraken - Archaea,Grade,Grade + Infraorder + Ocean,margin,0.1574,1.31929038363434,0.102431337197332,0.2574
+Kraken - Archaea,Infraorder,Grade + Infraorder + Ocean,margin,0.0319,2.17266788472791,0.0562295406376738,0.0957
+Kraken - Archaea,Ocean,Grade + Infraorder + Ocean,margin,0.3166,1.09333747070941,0.0565920490398793,0.3551
+Kraken - Archaea,Grade,Grade + Family + Ocean,margin,0.0697,1.58791408965018,0.113212850286012,0.1722
+Kraken - Archaea,Family,Grade + Family + Ocean,margin,0.0257,2.16725417974942,0.154517819687436,0.0852923076923077
+Kraken - Archaea,Ocean,Grade + Family + Ocean,margin,0.3462,1.05902801402617,0.0503367198440193,0.3551
+Kraken - Archaea,Grade,Grade + Genus + Ocean,margin,0.2987,1.12422045577022,0.0534353854435646,0.3551
+Kraken - Archaea,Genus,Grade + Genus + Ocean,margin,0.0264,2.16725417974942,0.154517819687436,0.0852923076923077
+Kraken - Archaea,Ocean,Grade + Genus + Ocean,margin,0.3481,1.05902801402617,0.0503367198440193,0.3551
+Kraken - Archaea,Grade,Grade + Diet_Group + Infraorder + Ocean,margin,0.0695,1.58791408965018,0.113212850286012,0.1722
+Kraken - Archaea,Diet_group,Grade + Diet_Group + Infraorder + Ocean,margin,0.0663,2.06787492881276,0.0982882790497616,0.1722
+Kraken - Archaea,Infraorder,Grade + Diet_Group + Infraorder + Ocean,margin,0.1104,1.8206639150044,0.0432690392538695,0.210763636363636
+Kraken - Archaea,Ocean,Grade + Diet_Group + Infraorder + Ocean,margin,0.3412,1.05902801402617,0.0503367198440194,0.3551
+Kraken - Bacteria,Genus,Genus + Diet_group + Grade + Ocean,sequential,1e-04,6.00911752683887,0.506622689520096,0.000372727272727273
+Kraken - Bacteria,Grade,Genus + Diet_group + Grade + Ocean,sequential,0.0449,1.84932481942308,0.0623658904741212,0.057528125
+Kraken - Bacteria,Ocean,Genus + Diet_group + Grade + Ocean,sequential,0.0325,1.78070609449932,0.0600518200425116,0.0524214285714286
+Kraken - Bacteria,Family,Family + Grade + Diet_group + Ocean,sequential,1e-04,6.43678755723429,0.434143297687307,0.000372727272727273
+Kraken - Bacteria,Grade,Family + Grade + Diet_group + Ocean,sequential,0.0013,2.66569568136778,0.134845282306911,0.00355333333333333
+Kraken - Bacteria,Ocean,Family + Grade + Diet_group + Ocean,sequential,0.0334,1.78070609449932,0.0600518200425113,0.0524214285714286
+Kraken - Bacteria,Genus,Genus + Grade + Diet_group + Ocean,sequential,1e-04,6.00911752683887,0.506622689520096,0.000372727272727273
+Kraken - Bacteria,Grade,Genus + Grade + Diet_group + Ocean,sequential,0.0414,1.84932481942308,0.0623658904741212,0.05658
+Kraken - Bacteria,Ocean,Genus + Grade + Diet_group + Ocean,sequential,0.0333,1.78070609449932,0.0600518200425116,0.0524214285714286
+Kraken - Bacteria,Diet_group,Diet_group + Grade + Genus + Ocean,sequential,1e-04,11.9093285937657,0.401625433724952,0.000372727272727273
+Kraken - Bacteria,Grade,Diet_group + Grade + Genus + Ocean,sequential,0.0017,2.28083441281614,0.153835894792862,0.00435625
+Kraken - Bacteria,Genus,Diet_group + Grade + Genus + Ocean,sequential,0.7068,0.802242434244489,0.0135272514764044,0.72447
+Kraken - Bacteria,Ocean,Diet_group + Grade + Genus + Ocean,sequential,0.0339,1.78070609449932,0.0600518200425115,0.0524214285714286
+Kraken - Bacteria,Diet_group,Diet_group + Genus + Grade + Ocean,sequential,1e-04,11.9093285937657,0.401625433724952,0.000372727272727273
+Kraken - Bacteria,Genus,Diet_group + Genus + Grade + Ocean,sequential,0.0025,2.07564348222096,0.104997255795144,0.00569444444444444
+Kraken - Bacteria,Grade,Diet_group + Genus + Grade + Ocean,sequential,0.0469,1.84932481942309,0.0623658904741214,0.058269696969697
+Kraken - Bacteria,Ocean,Diet_group + Genus + Grade + Ocean,sequential,0.0358,1.78070609449932,0.0600518200425114,0.0524214285714286
+Kraken - Bacteria,Grade,Grade + Genus + Diet_group + Ocean,sequential,1e-04,6.33456305996533,0.427248541575791,0.000372727272727273
+Kraken - Bacteria,Genus,Grade + Genus + Diet_group + Ocean,sequential,1e-04,2.80199501105973,0.141740038418427,0.000372727272727273
+Kraken - Bacteria,Ocean,Grade + Genus + Diet_group + Ocean,sequential,0.0317,1.78070609449932,0.0600518200425115,0.0524214285714286
+Kraken - Bacteria,Grade,Grade + Diet_Group + Genus + Ocean,sequential,1e-04,6.33456305996533,0.427248541575791,0.000372727272727273
+Kraken - Bacteria,Diet_group,Grade + Diet_Group + Genus + Ocean,sequential,1e-04,3.80187129946735,0.128212786942023,0.000372727272727273
+Kraken - Bacteria,Genus,Grade + Diet_Group + Genus + Ocean,sequential,0.7063,0.80224243424449,0.0135272514764044,0.72447
+Kraken - Bacteria,Ocean,Grade + Diet_Group + Genus + Ocean,sequential,0.0357,1.78070609449932,0.0600518200425115,0.0524214285714286
+Kraken - Bacteria,Genus,Genus + Ocean,margin,1e-04,2.82434963766825,0.203449725677003,0.000372727272727273
+Kraken - Bacteria,Ocean,Genus + Ocean,margin,0.063,1.69842130237052,0.0611721975641335,0.0738
+Kraken - Bacteria,Diet_group,Diet_Group + Infraorder + Ocean,margin,5e-04,2.0407014919393,0.0822462121216357,0.00170833333333333
+Kraken - Bacteria,Infraorder,Diet_Group + Infraorder + Ocean,margin,0.8799,0.671279115660921,0.0135272514764042,0.8799
+Kraken - Bacteria,Ocean,Diet_Group + Infraorder + Ocean,margin,0.1565,1.2974168754549,0.0784345167362881,0.173418918918919
+Kraken - Bacteria,Grade,Grade + Infraorder + Ocean,margin,0.0038,2.2273701710833,0.127629246864689,0.0082
+Kraken - Bacteria,Infraorder,Grade + Infraorder + Ocean,margin,0.0443,2.20090431180646,0.0420375806685793,0.057528125
+Kraken - Bacteria,Ocean,Grade + Infraorder + Ocean,margin,0.0508,1.63703912887201,0.062535353371264,0.0612588235294118
+Kraken - Bacteria,Grade,Grade + Family + Ocean,margin,NA,NA,0,NA
+Kraken - Bacteria,Family,Grade + Family + Ocean,margin,0.0023,3.97485073942513,0.0715812838606905,0.00554705882352941
+Kraken - Bacteria,Ocean,Grade + Family + Ocean,margin,0.0679,1.69842130237052,0.0611721975641334,0.0773305555555556
+Kraken - Bacteria,Grade,Grade + Genus + Ocean,margin,0.0391,1.81610246114184,0.061245512952499,0.0552793103448276
+Kraken - Bacteria,Genus,Grade + Genus + Ocean,margin,6e-04,2.55965837477882,0.129481342738716,0.00189230769230769
+Kraken - Bacteria,Ocean,Grade + Genus + Ocean,margin,0.0335,1.78070609449932,0.0600518200425113,0.0524214285714286
+Kraken - Bacteria,Grade,Grade + Diet_Group + Infraorder + Ocean,margin,0.0011,2.62579315032284,0.13282679681319,0.00322142857142857
+Kraken - Bacteria,Diet_group,Grade + Diet_Group + Infraorder + Ocean,margin,1e-04,2.59295455048673,0.0874437620701365,0.000372727272727273
+Kraken - Bacteria,Infraorder,Grade + Diet_Group + Infraorder + Ocean,margin,0.7014,0.802242434244481,0.0135272514764042,0.72447
+Kraken - Bacteria,Ocean,Grade + Diet_Group + Infraorder + Ocean,margin,0.0323,1.78070609449932,0.0600518200425114,0.0524214285714286
+MAG,Genus,Genus + Diet_group + Grade + Ocean,sequential,1e-04,6.64775511518276,0.515561532102001,0.000161538461538462
+MAG,Grade,Genus + Diet_group + Grade + Ocean,sequential,1e-04,3.11954119814366,0.0967734467773661,0.000161538461538462
+MAG,Ocean,Genus + Diet_group + Grade + Ocean,sequential,0.0605,1.49657881099564,0.0464264071909688,0.06657
+MAG,Family,Family + Grade + Diet_group + Ocean,sequential,1e-04,6.32327056878613,0.392317106253604,0.000161538461538462
+MAG,Grade,Family + Grade + Diet_group + Ocean,sequential,1e-04,4.72825856568553,0.220017872625763,0.000161538461538462
+MAG,Ocean,Family + Grade + Diet_group + Ocean,sequential,0.0634,1.49657881099564,0.0464264071909688,0.06657
+MAG,Genus,Genus + Grade + Diet_group + Ocean,sequential,1e-04,6.64775511518276,0.515561532102001,0.000161538461538462
+MAG,Grade,Genus + Grade + Diet_group + Ocean,sequential,5e-04,3.11954119814366,0.0967734467773661,0.00075
+MAG,Ocean,Genus + Grade + Diet_group + Ocean,sequential,0.0628,1.49657881099564,0.0464264071909688,0.06657
+MAG,Diet_group,Diet_group + Grade + Genus + Ocean,sequential,1e-04,10.9823091734891,0.340689814555314,0.000161538461538462
+MAG,Grade,Diet_group + Grade + Genus + Ocean,sequential,1e-04,3.58135920764575,0.222199645818414,0.000161538461538462
+MAG,Genus,Diet_group + Grade + Genus + Ocean,sequential,1e-04,3.18780279463993,0.0494455185056382,0.000161538461538462
+MAG,Ocean,Diet_group + Grade + Genus + Ocean,sequential,0.0611,1.49657881099563,0.0464264071909687,0.06657
+MAG,Diet_group,Diet_group + Genus + Grade + Ocean,sequential,1e-04,10.9823091734891,0.340689814555314,0.000161538461538462
+MAG,Genus,Diet_group + Genus + Grade + Ocean,sequential,1e-04,3.75805240964521,0.174871717546686,0.000161538461538462
+MAG,Grade,Diet_group + Genus + Grade + Ocean,sequential,3e-04,3.11954119814366,0.0967734467773661,0.000466666666666667
+MAG,Ocean,Diet_group + Genus + Grade + Ocean,sequential,0.0633,1.49657881099563,0.0464264071909687,0.06657
+MAG,Grade,Grade + Genus + Diet_group + Ocean,sequential,1e-04,6.58384588603843,0.408484080814232,0.000161538461538462
+MAG,Genus,Grade + Genus + Diet_group + Ocean,sequential,1e-04,4.38082480934913,0.203850898065134,0.000161538461538462
+MAG,Ocean,Grade + Genus + Diet_group + Ocean,sequential,0.0601,1.49657881099564,0.0464264071909689,0.06657
+MAG,Grade,Grade + Diet_Group + Genus + Ocean,sequential,1e-04,6.58384588603843,0.408484080814232,0.000161538461538462
+MAG,Diet_group,Grade + Diet_Group + Genus + Ocean,sequential,1e-04,4.97733581670373,0.154405379559496,0.000161538461538462
+MAG,Genus,Grade + Diet_Group + Genus + Ocean,sequential,1e-04,3.18780279463993,0.0494455185056382,0.000161538461538462
+MAG,Ocean,Grade + Diet_Group + Genus + Ocean,sequential,0.0609,1.49657881099564,0.0464264071909688,0.06657
+MAG,Genus,Genus + Ocean,margin,1e-04,4.34771388723944,0.290975609679771,0.000161538461538462
+MAG,Ocean,Genus + Ocean,margin,0.0022,2.47681375570327,0.0828817639937437,0.00318620689655172
+MAG,Diet_group,Diet_Group + Infraorder + Ocean,margin,1e-04,2.24648992489742,0.0923135277485542,0.000161538461538462
+MAG,Infraorder,Diet_Group + Infraorder + Ocean,margin,1e-04,2.40655647906349,0.0494455185056381,0.000161538461538462
+MAG,Ocean,Diet_Group + Infraorder + Ocean,margin,0.0042,1.96408166177097,0.121063067081816,0.00588
+MAG,Grade,Grade + Infraorder + Ocean,margin,1e-04,2.94259977679053,0.162952194457237,0.000161538461538462
+MAG,Infraorder,Grade + Infraorder + Ocean,margin,1e-04,5.12431336423733,0.0945896113560469,0.000161538461538462
+MAG,Ocean,Grade + Infraorder + Ocean,margin,0.1569,1.27244122094858,0.0469759407779129,0.1569
+MAG,Grade,Grade + Family + Ocean,margin,1e-04,3.70527038105105,0.172415635781523,0.000161538461538462
+MAG,Family,Grade + Family + Ocean,margin,1e-04,4.21998428966968,0.196366580428887,0.000161538461538462
+MAG,Ocean,Grade + Family + Ocean,margin,0.0598,1.49657881099563,0.0464264071909686,0.06657
+MAG,Grade,Grade + Genus + Ocean,margin,0.0108,1.94438425968187,0.0603180899745907,0.0146322580645161
+MAG,Genus,Grade + Genus + Ocean,margin,1e-04,4.21998428966968,0.196366580428888,0.000161538461538462
+MAG,Ocean,Grade + Genus + Ocean,margin,0.0663,1.49657881099563,0.0464264071909686,0.0679170731707317
+MAG,Grade,Grade + Diet_Group + Infraorder + Ocean,margin,1e-04,3.70527038105104,0.172415635781522,0.000161538461538462
+MAG,Diet_group,Grade + Diet_Group + Infraorder + Ocean,margin,1e-04,3.28083228011236,0.10177696907284,0.000161538461538462
+MAG,Infraorder,Grade + Diet_Group + Infraorder + Ocean,margin,1e-04,3.18780279463992,0.0494455185056381,0.000161538461538462
+MAG,Ocean,Grade + Diet_Group + Infraorder + Ocean,margin,0.0588,1.49657881099563,0.0464264071909687,0.06657
