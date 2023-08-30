@@ -1,7 +1,7 @@
 Land Crab Gut Microbiomes
 ================
 Cassie Ettinger
-2023-08-17
+2023-08-30
 
 Project: Unlocking the terrestrial realm: Are microbial symbioses the
 key to land crab terrestrial invasions? Collaborators: Cassie Ettinger,
@@ -3615,6 +3615,169 @@ sig.krakfun.genus.plot
 ``` r
 ggsave("plots/relative_abundance/fungi/ra_genus_genus_krakfun_byvar_sig.png",
     dpi = 300, device = "png", height = 12, width = 16, units = "in")
+```
+
+``` r
+# MAG Transform counts to Relative Abundance (RA) and
+# aggregate to genus level
+ps.RA <- transform_sample_counts(physeq_coverM_nC, function(x) x/sum(x))
+ps.RA.gen <- tax_glom(ps.RA, taxrank = "genus", NArm = FALSE)
+ps.RA.gen = filter_taxa(ps.RA.gen, function(x) mean(x) > 0.01,
+    TRUE)
+df_ps.RA.filt <- psmelt(ps.RA.gen)
+
+# Plotting only genera with significant differences based
+# on diet
+avgs_grouped <- df_ps.RA.filt %>%
+    group_by(Genus, phylum, class, order, family, genus, OTU) %>%
+    filter(genus %in% mag.diet.taxa & genus %in% mag.grade.taxa &
+        genus %in% mag.genus.taxa) %>%
+    summarise(meanA = 100 * mean(Abundance), sdA = 100 * sd(Abundance),
+        seA = 100 * se(Abundance))
+```
+
+    ## `summarise()` has grouped output by 'Genus', 'phylum', 'class', 'order',
+    ## 'family', 'genus'. You can override using the `.groups` argument.
+
+``` r
+# Create a bar plot with error bars
+sig.mag.all3.plot = ggplot(avgs_grouped, aes(x = Genus, y = (meanA),
+    fill = genus)) + geom_bar(stat = "identity", position = "dodge") +
+    geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA + seA)),
+        width = 0.4, position = position_dodge(0.9)) + theme_bw() +
+    theme(text = element_text(size = 14)) + ylab("Mean Relative Abundance") +
+    xlab("") + guides(fill = guide_legend(title = "Genus")) +
+    scale_fill_viridis_d(option = "C") + theme(axis.text.x = element_text(angle = -55,
+    hjust = 0, vjust = 0.5)) + facet_wrap(~genus, scales = "free")
+
+# Display and save the plot as a PNG
+sig.mag.all3.plot
+```
+
+![](LandCrabMetaG_files/figure-gfm/across_RA-1.png)<!-- -->
+
+``` r
+ggsave("plots/relative_abundance/mag/ra_genus_all3_mag_byvar_sig.png",
+    dpi = 300, device = "png", height = 12, width = 16, units = "in")
+
+# Kraken - Bacteria Repeat the above process for plotting
+# genera with significant differences across groups
+
+ps.RA <- transform_sample_counts(physeq_krak_nC_bac, function(x) x/sum(x))
+ps.RA.gen <- tax_glom(ps.RA, taxrank = "genus", NArm = FALSE)
+ps.RA.gen = filter_taxa(ps.RA.gen, function(x) mean(x) > 0.01,
+    TRUE)
+df_ps.RA.filt <- psmelt(ps.RA.gen)
+
+avgs_grouped <- df_ps.RA.filt %>%
+    group_by(Genus, phylum, class, order, family, genus, OTU) %>%
+    filter(genus %in% krakbac.diet.taxa & genus %in% krakbac.grade.taxa &
+        genus %in% krakbac.genus.taxa) %>%
+    summarise(meanA = 100 * mean(Abundance), sdA = 100 * sd(Abundance),
+        seA = 100 * se(Abundance))
+```
+
+    ## `summarise()` has grouped output by 'Genus', 'phylum', 'class', 'order',
+    ## 'family', 'genus'. You can override using the `.groups` argument.
+
+``` r
+sig.krakbac.all3.plot = ggplot(avgs_grouped, aes(x = Genus, y = (meanA),
+    fill = genus)) + geom_bar(stat = "identity", position = "dodge") +
+    geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA + seA)),
+        width = 0.4, position = position_dodge(0.9)) + theme_bw() +
+    theme(text = element_text(size = 14)) + ylab("Mean Relative Abundance") +
+    xlab("") + guides(fill = guide_legend(title = "Genus")) +
+    scale_fill_viridis_d(option = "C") + theme(axis.text.x = element_text(angle = -55,
+    hjust = 0, vjust = 0.5)) + facet_wrap(~genus, scales = "free")
+
+sig.krakbac.all3.plot
+```
+
+![](LandCrabMetaG_files/figure-gfm/across_RA-2.png)<!-- -->
+
+``` r
+ggsave("plots/relative_abundance/bacteria/ra_genus_all3_krakbac_byvar_sig.png",
+    dpi = 300, device = "png", height = 12, width = 16, units = "in")
+
+# Kraken - Archaea Repeat the above process for plotting
+# genera with significant differences across groups
+
+# ps.RA <- transform_sample_counts(physeq_krak_nC_arc,
+# function(x) x/sum(x)) ps.RA.gen <- tax_glom(ps.RA,
+# taxrank = 'genus', NArm = FALSE) ps.RA.gen =
+# filter_taxa(ps.RA.gen, function(x) mean(x) > 0.01, TRUE)
+# df_ps.RA.filt <- psmelt(ps.RA.gen) avgs_grouped <-
+# df_ps.RA.filt %>% group_by(Genus, phylum, class, order,
+# family, genus, OTU) %>% filter(genus %in%
+# krakarc.diet.taxa & genus %in% krakarc.grade.taxa & genus
+# %in% krakarc.grade.taxa) %>% summarise(meanA = 100 *
+# mean(Abundance), sdA = 100 * sd(Abundance), seA = 100 *
+# se(Abundance)) sig.krakarc.all3.plot =
+# ggplot(avgs_grouped, aes(x = Genus, y = (meanA), fill =
+# genus)) + geom_bar(stat = 'identity', position = 'dodge')
+# + geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA +
+# seA)), width = 0.4, position = position_dodge(0.9)) +
+# theme_bw() + theme(text = element_text(size = 14)) +
+# ylab('Mean Relative Abundance') + xlab('') + guides(fill
+# = guide_legend(title = 'Genus')) +
+# scale_fill_viridis_d(option = 'C') + theme(axis.text.x =
+# element_text(angle = -55, hjust = 0, vjust = 0.5)) +
+# facet_wrap(~genus, scales='free') sig.krakarc.all3.plot
+# ggsave('plots/relative_abundance/archaea/ra_genus_all3_krakarc_byvar_sig.png',
+# dpi=300, device = 'png', height = 12, width= 16, units =
+# 'in')
+
+# Kraken - Fungi Repeat the above process for plotting
+# genera with significant differences across groups
+
+ps.RA <- transform_sample_counts(physeq_krak_nC_fun, function(x) x/sum(x))
+ps.RA.gen <- tax_glom(ps.RA, taxrank = "genus", NArm = FALSE)
+ps.RA.gen = filter_taxa(ps.RA.gen, function(x) mean(x) > 0.01,
+    TRUE)
+df_ps.RA.filt <- psmelt(ps.RA.gen)
+
+avgs_grouped <- df_ps.RA.filt %>%
+    group_by(Genus, phylum, class, order, family, genus, OTU) %>%
+    filter(genus %in% krakfun.diet.taxa & genus %in% krakfun.genus.taxa &
+        genus %in% krakfun.grade.taxa) %>%
+    summarise(meanA = 100 * mean(Abundance), sdA = 100 * sd(Abundance),
+        seA = 100 * se(Abundance))
+```
+
+    ## `summarise()` has grouped output by 'Genus', 'phylum', 'class', 'order',
+    ## 'family', 'genus'. You can override using the `.groups` argument.
+
+``` r
+sig.krakfun.all3.plot = ggplot(avgs_grouped, aes(x = Genus, y = (meanA),
+    fill = genus)) + geom_bar(stat = "identity", position = "dodge") +
+    geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA + seA)),
+        width = 0.4, position = position_dodge(0.9)) + theme_bw() +
+    theme(text = element_text(size = 14)) + ylab("Mean Relative Abundance") +
+    xlab("") + guides(fill = guide_legend(title = "Genus")) +
+    scale_fill_viridis_d(option = "C") + theme(axis.text.x = element_text(angle = -55,
+    hjust = 0, vjust = 0.5)) + facet_wrap(~genus, scales = "free")
+
+sig.krakfun.all3.plot
+```
+
+![](LandCrabMetaG_files/figure-gfm/across_RA-3.png)<!-- -->
+
+``` r
+ggsave("plots/relative_abundance/fungi/ra_genus_all3_krakfun_byvar_sig.png",
+    dpi = 300, device = "png", height = 12, width = 16, units = "in")
+
+
+# Save combined plot Visualizing only genera different
+# across diet, genus and grade
+sig.krakbac.all3.plot + sig.krakfun.all3.plot + plot_annotation(tag_levels = "A") +
+    plot_layout(widths = c(2, 1))
+```
+
+![](LandCrabMetaG_files/figure-gfm/across_RA-4.png)<!-- -->
+
+``` r
+ggsave("plots/relative_abundance/ra_genus_all3_sig.combo.png",
+    dpi = 300, device = "png", height = 8, width = 12, units = "in")
 ```
 
 # MICROBES OF INTEREST
