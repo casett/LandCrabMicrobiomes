@@ -1,0 +1,1271 @@
+2024-08-02 09:08:42,173 - The log file is created at annotation/annotate.log.
+2024-08-02 09:08:42,174 - 129 FASTAs found
+2024-08-02 09:08:42,367 - Starting the Annotation of Bins with database configuration: 
+ 
+
+KOfam db:
+    Citation: T. Aramaki, R. Blanc-Mathieu, H. Endo, K. Ohkubo, M. Kanehisa, S. Goto, and H. Ogata, "Kofamkoala: Kegg ortholog assignment based on profile hmm and adaptive score threshold," Bioinformatics, vol. 36, no. 7, pp. 2251–2252, 2020.
+    Download Time: 07/29/2024, 13:57:03
+    Origin: Downloaded by DRAM
+KOfam KO list:
+    Citation: T. Aramaki, R. Blanc-Mathieu, H. Endo, K. Ohkubo, M. Kanehisa, S. Goto, and H. Ogata, "Kofamkoala: Kegg ortholog assignment based on profile hmm and adaptive score threshold," Bioinformatics, vol. 36, no. 7, pp. 2251–2252, 2020.
+    Download Time: 07/29/2024, 13:57:06
+    Origin: Downloaded by DRAM
+Pfam db:
+    Citation: J. Mistry, S. Chuguransky, L. Williams, M. Qureshi, G. A. Salazar, E. L. Sonnhammer, S. C. Tosatto, L. Paladin, S. Raj, L. J. Richardson et al., "Pfam: The protein families database in 2021," Nucleic acids research, vol. 49, no. D1, pp. D412–D419, 2021.
+    Download Time: 07/29/2024, 14:36:18
+    Origin: Downloaded by DRAM
+    Description_Db_Updated: 07/29/2024, 17:59:53
+dbCAN db:
+    Citation: Y. Yin, X. Mao, J. Yang, X. Chen, F. Mao, and Y. Xu, "dbcan: a web resource for automated carbohydrate-active enzyme annotation," Nucleic acids research, vol. 40, no. W1, pp. W445–W451, 2012.
+    Version: 11
+    Download Time: 07/29/2024, 14:36:27
+    Origin: Downloaded by DRAM
+    Description_Db_Updated: 07/29/2024, 17:59:54
+MEROPS peptidase db:
+    Description_Db_Updated: 07/29/2024, 17:59:52
+    Citation: N. D. Rawlings, A. J. Barrett, P. D. Thomas, X. Huang, A. Bateman, and R. D. Finn, "The merops database of proteolytic enzymes, their substrates and inhibitors in 2017 and a comparison with peptidases in the panther database," Nucleic acids research, vol. 46, no. D1, pp. D624–D632, 2018.
+    Download Time: 07/29/2024, 14:39:44
+    Origin: Downloaded by DRAM
+
+Pfam hmm dat:
+    Description_Db_Updated: Unknown, or Never
+    Citation: J. Mistry, S. Chuguransky, L. Williams, M. Qureshi, G. A. Salazar, E. L. Sonnhammer, S. C. Tosatto, L. Paladin, S. Raj, L. J. Richardson et al., "Pfam: The protein families database in 2021," Nucleic acids research, vol. 49, no. D1, pp. D412–D419, 2021.
+    Download Time: 07/29/2024, 14:36:20
+    Origin: Downloaded by DRAM
+dbCAN family activities:
+    Citation: Y. Yin, X. Mao, J. Yang, X. Chen, F. Mao, and Y. Xu, "dbcan: a web resource for automated carbohydrate-active enzyme annotation," Nucleic acids research, vol. 40, no. W1, pp. W445–W451, 2012.
+    Version: 11
+    Upload_Date: 08062022
+    Download Time: 07/29/2024, 14:36:27
+    Origin: Downloaded by DRAM
+dbCAN subfamily EC numbers:
+    Citation: Y. Yin, X. Mao, J. Yang, X. Chen, F. Mao, and Y. Xu, "dbcan: a web resource for automated carbohydrate-active enzyme annotation," Nucleic acids research, vol. 40, no. W1, pp. W445–W451, 2012.
+    Version: 11
+    Upload_Date: 08062022
+    Download Time: 07/29/2024, 14:36:28
+    Origin: Downloaded by DRAM
+VOG annotations:
+    Description_Db_Updated: Unknown, or Never
+    Citation: J. Thannesberger, H.-J. Hellinger, I. Klymiuk, M.-T. Kastner, F. J. Rieder, M. Schneider, S. Fister, T. Lion, K. Kosulin, J. Laengle et al., "Viruses comprise an extensive pool of mobile genetic elements in eukaryote cell cultures and human clinical samples," The FASEB Journal, vol. 31, no. 5, pp. 1987–2000, 2017.
+    Version: latest
+    Download Time: 07/29/2024, 14:38:36
+    Origin: Downloaded by DRAM
+
+Genome summary form:
+    Branch: master
+    Download Time: 07/29/2024, 14:39:44
+    Origin: Downloaded by DRAM
+Module step form:
+    Branch: master
+    Download Time: 07/29/2024, 14:39:45
+    Origin: Downloaded by DRAM
+ETC module database:
+    Branch: master
+    Download Time: 07/29/2024, 14:39:45
+    Origin: Downloaded by DRAM
+Function heatmap form:
+    Branch: master
+    Download Time: 07/29/2024, 14:39:45
+    Origin: Downloaded by DRAM
+AMG database:
+    Branch: master
+    Download Time: 07/29/2024, 14:39:45
+    Origin: Downloaded by DRAM
+2024-08-02 09:08:42,381 - Retrieved database locations and descriptions
+2024-08-02 09:08:42,381 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.79
+2024-08-02 09:09:19,496 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 09:09:21,608 - Getting hits from kofam
+2024-08-02 09:37:51,082 - Getting forward best hits from peptidase
+2024-08-02 09:38:13,003 - Getting reverse best hits from peptidase
+2024-08-02 09:38:18,557 - Getting descriptions of hits from peptidase
+2024-08-02 09:38:19,420 - Getting hits from pfam
+2024-08-02 09:39:26,712 - Getting hits from dbCAN
+2024-08-02 09:39:52,038 - Merging ORF annotations
+2024-08-02 09:41:00,347 - Annotating old_originals_METABAT__361-contigs
+2024-08-02 09:42:40,980 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 09:42:43,134 - Getting hits from kofam
+2024-08-02 10:16:11,957 - Getting forward best hits from peptidase
+2024-08-02 10:16:24,681 - Getting reverse best hits from peptidase
+2024-08-02 10:16:29,564 - Getting descriptions of hits from peptidase
+2024-08-02 10:16:29,613 - Getting hits from pfam
+2024-08-02 10:16:45,448 - Getting hits from dbCAN
+2024-08-02 10:17:15,734 - Merging ORF annotations
+2024-08-02 10:18:45,638 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.431
+2024-08-02 10:19:17,348 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 10:19:19,258 - Getting hits from kofam
+2024-08-02 10:44:52,579 - Getting forward best hits from peptidase
+2024-08-02 10:45:02,229 - Getting reverse best hits from peptidase
+2024-08-02 10:45:07,001 - Getting descriptions of hits from peptidase
+2024-08-02 10:45:07,026 - Getting hits from pfam
+2024-08-02 10:45:21,954 - Getting hits from dbCAN
+2024-08-02 10:45:46,900 - Merging ORF annotations
+2024-08-02 10:47:33,586 - Annotating old_originals_METABAT__216-contigs_cleaned
+2024-08-02 10:48:08,593 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 10:48:10,436 - Getting hits from kofam
+2024-08-02 11:19:35,443 - Getting forward best hits from peptidase
+2024-08-02 11:19:47,425 - Getting reverse best hits from peptidase
+2024-08-02 11:19:52,503 - Getting descriptions of hits from peptidase
+2024-08-02 11:19:52,589 - Getting hits from pfam
+2024-08-02 11:20:08,636 - Getting hits from dbCAN
+2024-08-02 11:20:34,635 - Merging ORF annotations
+2024-08-02 11:24:01,270 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.95
+2024-08-02 11:24:42,906 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 11:24:44,780 - Getting hits from kofam
+2024-08-02 11:56:53,704 - Getting forward best hits from peptidase
+2024-08-02 11:57:03,727 - Getting reverse best hits from peptidase
+2024-08-02 11:57:08,614 - Getting descriptions of hits from peptidase
+2024-08-02 11:57:08,639 - Getting hits from pfam
+2024-08-02 11:57:24,472 - Getting hits from dbCAN
+2024-08-02 11:57:50,353 - Merging ORF annotations
+2024-08-02 11:59:32,533 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-02 11:59:40,957 - Annotating old_originals_METABAT__164-contigs
+2024-08-02 12:00:13,447 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 12:00:15,332 - Getting hits from kofam
+2024-08-02 12:27:31,996 - Getting forward best hits from peptidase
+2024-08-02 12:27:42,406 - Getting reverse best hits from peptidase
+2024-08-02 12:27:47,307 - Getting descriptions of hits from peptidase
+2024-08-02 12:27:47,332 - Getting hits from pfam
+2024-08-02 12:28:02,865 - Getting hits from dbCAN
+2024-08-02 12:28:31,392 - Merging ORF annotations
+2024-08-02 12:29:24,358 - Annotating crabs_bin.205
+2024-08-02 12:29:52,797 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 12:29:54,689 - Getting hits from kofam
+2024-08-02 12:56:52,644 - Getting forward best hits from peptidase
+2024-08-02 12:57:02,371 - Getting reverse best hits from peptidase
+2024-08-02 12:57:07,072 - Getting descriptions of hits from peptidase
+2024-08-02 12:57:07,095 - Getting hits from pfam
+2024-08-02 12:57:22,483 - Getting hits from dbCAN
+2024-08-02 12:57:54,322 - Merging ORF annotations
+2024-08-02 12:58:50,768 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.360
+2024-08-02 12:59:10,081 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 12:59:11,887 - Getting hits from kofam
+2024-08-02 13:29:43,552 - Getting forward best hits from peptidase
+2024-08-02 13:29:50,526 - Getting reverse best hits from peptidase
+2024-08-02 13:29:55,253 - Getting descriptions of hits from peptidase
+2024-08-02 13:29:55,269 - Getting hits from pfam
+2024-08-02 13:30:10,062 - Getting hits from dbCAN
+2024-08-02 13:30:32,695 - Merging ORF annotations
+2024-08-02 13:31:07,062 - Annotating old_originals_METABAT__200-contigs
+2024-08-02 13:31:29,242 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 13:31:31,111 - Getting hits from kofam
+2024-08-02 14:03:04,621 - Getting forward best hits from peptidase
+2024-08-02 14:03:15,179 - Getting reverse best hits from peptidase
+2024-08-02 14:03:19,838 - Getting descriptions of hits from peptidase
+2024-08-02 14:03:19,858 - Getting hits from pfam
+2024-08-02 14:03:35,790 - Getting hits from dbCAN
+2024-08-02 14:04:08,968 - Merging ORF annotations
+2024-08-02 14:05:16,158 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.288
+2024-08-02 14:05:43,644 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 14:05:45,495 - Getting hits from kofam
+2024-08-02 14:40:53,834 - Getting forward best hits from peptidase
+2024-08-02 14:41:04,707 - Getting reverse best hits from peptidase
+2024-08-02 14:41:10,464 - Getting descriptions of hits from peptidase
+2024-08-02 14:41:10,499 - Getting hits from pfam
+2024-08-02 14:41:27,361 - Getting hits from dbCAN
+2024-08-02 14:41:55,238 - Merging ORF annotations
+2024-08-02 14:43:38,096 - Annotating crabs_bin.363
+2024-08-02 14:43:43,730 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 14:43:45,562 - Getting hits from kofam
+2024-08-02 15:03:42,414 - Getting forward best hits from peptidase
+2024-08-02 15:03:48,096 - Getting reverse best hits from peptidase
+2024-08-02 15:03:52,704 - Getting descriptions of hits from peptidase
+2024-08-02 15:03:52,716 - Getting hits from pfam
+2024-08-02 15:04:06,789 - Getting hits from dbCAN
+2024-08-02 15:04:23,409 - Merging ORF annotations
+2024-08-02 15:05:04,963 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.430_cleaned
+2024-08-02 15:06:13,213 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 15:06:15,109 - Getting hits from kofam
+2024-08-02 15:38:46,965 - Getting forward best hits from peptidase
+2024-08-02 15:38:59,226 - Getting reverse best hits from peptidase
+2024-08-02 15:39:04,119 - Getting descriptions of hits from peptidase
+2024-08-02 15:39:04,149 - Getting hits from pfam
+2024-08-02 15:39:20,119 - Getting hits from dbCAN
+2024-08-02 15:39:46,889 - Merging ORF annotations
+2024-08-02 15:43:41,234 - Annotating crabs_bin.352_cleaned
+2024-08-02 15:44:10,757 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 15:44:12,584 - Getting hits from kofam
+2024-08-02 16:15:59,849 - Getting forward best hits from peptidase
+2024-08-02 16:16:12,655 - Getting reverse best hits from peptidase
+2024-08-02 16:16:17,453 - Getting descriptions of hits from peptidase
+2024-08-02 16:16:17,506 - Getting hits from pfam
+2024-08-02 16:16:33,621 - Getting hits from dbCAN
+2024-08-02 16:17:09,522 - Merging ORF annotations
+2024-08-02 16:18:50,626 - Annotating Birg_Half_DAS_BirgitHalves_bin.19
+2024-08-02 16:19:17,841 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 16:19:19,573 - Getting hits from kofam
+2024-08-02 16:48:33,754 - Getting forward best hits from peptidase
+2024-08-02 16:48:43,549 - Getting reverse best hits from peptidase
+2024-08-02 16:48:48,435 - Getting descriptions of hits from peptidase
+2024-08-02 16:48:48,460 - Getting hits from pfam
+2024-08-02 16:49:03,773 - Getting hits from dbCAN
+2024-08-02 16:49:28,875 - Merging ORF annotations
+2024-08-02 16:50:14,996 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-02 16:50:18,858 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.354
+2024-08-02 16:50:23,663 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 16:50:25,535 - Getting hits from kofam
+2024-08-02 17:11:35,261 - Getting forward best hits from peptidase
+2024-08-02 17:11:41,014 - Getting reverse best hits from peptidase
+2024-08-02 17:11:45,631 - Getting descriptions of hits from peptidase
+2024-08-02 17:11:45,647 - Getting hits from pfam
+2024-08-02 17:11:59,719 - Getting hits from dbCAN
+2024-08-02 17:12:16,037 - Merging ORF annotations
+2024-08-02 17:13:04,611 - Annotating crabs_bin.89
+2024-08-02 17:13:43,766 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 17:13:45,529 - Getting hits from kofam
+2024-08-02 17:42:54,898 - Getting forward best hits from peptidase
+2024-08-02 17:43:03,155 - Getting reverse best hits from peptidase
+2024-08-02 17:43:08,165 - Getting descriptions of hits from peptidase
+2024-08-02 17:43:08,183 - Getting hits from pfam
+2024-08-02 17:43:22,959 - Getting hits from dbCAN
+2024-08-02 17:43:49,752 - Merging ORF annotations
+2024-08-02 17:44:23,694 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.261
+2024-08-02 17:44:58,383 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 17:45:00,534 - Getting hits from kofam
+2024-08-02 18:11:14,357 - Getting forward best hits from peptidase
+2024-08-02 18:11:23,018 - Getting reverse best hits from peptidase
+2024-08-02 18:11:27,792 - Getting descriptions of hits from peptidase
+2024-08-02 18:11:27,809 - Getting hits from pfam
+2024-08-02 18:11:42,800 - Getting hits from dbCAN
+2024-08-02 18:12:07,636 - Merging ORF annotations
+2024-08-02 18:13:23,397 - Annotating old_originals_CRABS_nocov.29_cleaned
+2024-08-02 18:14:26,687 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 18:14:28,626 - Getting hits from kofam
+2024-08-02 18:45:43,474 - Getting forward best hits from peptidase
+2024-08-02 18:45:51,860 - Getting reverse best hits from peptidase
+2024-08-02 18:45:56,503 - Getting descriptions of hits from peptidase
+2024-08-02 18:45:56,521 - Getting hits from pfam
+2024-08-02 18:46:11,674 - Getting hits from dbCAN
+2024-08-02 18:46:36,033 - Merging ORF annotations
+2024-08-02 18:48:32,944 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-02 18:48:43,185 - Annotating Birg_Half_DAS_BirgitHalves_bin.72
+2024-08-02 18:48:50,468 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 18:48:52,277 - Getting hits from kofam
+2024-08-02 19:14:56,135 - Getting forward best hits from peptidase
+2024-08-02 19:15:02,071 - Getting reverse best hits from peptidase
+2024-08-02 19:15:06,564 - Getting descriptions of hits from peptidase
+2024-08-02 19:15:06,576 - Getting hits from pfam
+2024-08-02 19:15:20,439 - Getting hits from dbCAN
+2024-08-02 19:15:39,784 - Merging ORF annotations
+2024-08-02 19:16:12,306 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-02 19:16:13,148 - Annotating crabs_bin.178
+2024-08-02 19:16:31,220 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 19:16:32,960 - Getting hits from kofam
+2024-08-02 19:44:18,418 - Getting forward best hits from peptidase
+2024-08-02 19:44:26,841 - Getting reverse best hits from peptidase
+2024-08-02 19:44:31,580 - Getting descriptions of hits from peptidase
+2024-08-02 19:44:31,599 - Getting hits from pfam
+2024-08-02 19:44:46,355 - Getting hits from dbCAN
+2024-08-02 19:45:12,767 - Merging ORF annotations
+2024-08-02 19:47:10,083 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-02 19:47:20,353 - Annotating crabs_bin.192
+2024-08-02 19:47:53,709 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 19:47:55,451 - Getting hits from kofam
+2024-08-02 20:15:40,586 - Getting forward best hits from peptidase
+2024-08-02 20:15:48,819 - Getting reverse best hits from peptidase
+2024-08-02 20:15:53,473 - Getting descriptions of hits from peptidase
+2024-08-02 20:15:53,491 - Getting hits from pfam
+2024-08-02 20:16:08,067 - Getting hits from dbCAN
+2024-08-02 20:16:28,758 - Merging ORF annotations
+2024-08-02 20:17:07,555 - Annotating Birg_Half_DAS_BirgitHalves_bin.70
+2024-08-02 20:17:22,935 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 20:17:24,676 - Getting hits from kofam
+2024-08-02 20:43:46,622 - Getting forward best hits from peptidase
+2024-08-02 20:43:53,846 - Getting reverse best hits from peptidase
+2024-08-02 20:43:58,272 - Getting descriptions of hits from peptidase
+2024-08-02 20:43:58,290 - Getting hits from pfam
+2024-08-02 20:44:12,947 - Getting hits from dbCAN
+2024-08-02 20:44:33,757 - Merging ORF annotations
+2024-08-02 20:45:10,906 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-02 20:45:12,748 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.246
+2024-08-02 20:45:55,116 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 20:45:56,895 - Getting hits from kofam
+2024-08-02 21:18:47,867 - Getting forward best hits from peptidase
+2024-08-02 21:18:58,507 - Getting reverse best hits from peptidase
+2024-08-02 21:19:03,550 - Getting descriptions of hits from peptidase
+2024-08-02 21:19:03,571 - Getting hits from pfam
+2024-08-02 21:19:18,941 - Getting hits from dbCAN
+2024-08-02 21:19:44,444 - Merging ORF annotations
+2024-08-02 21:20:48,547 - Annotating Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned
+2024-08-02 21:22:07,006 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 21:22:08,877 - Getting hits from kofam
+2024-08-02 21:56:23,731 - Getting forward best hits from peptidase
+2024-08-02 21:56:35,041 - Getting reverse best hits from peptidase
+2024-08-02 21:56:39,834 - Getting descriptions of hits from peptidase
+2024-08-02 21:56:39,857 - Getting hits from pfam
+2024-08-02 21:56:55,881 - Getting hits from dbCAN
+2024-08-02 21:57:23,936 - Merging ORF annotations
+2024-08-02 21:59:48,211 - Annotating old_originals_METABAT__402-contigs
+2024-08-02 22:00:17,000 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 22:00:18,763 - Getting hits from kofam
+2024-08-02 22:26:01,721 - Getting forward best hits from peptidase
+2024-08-02 22:26:11,630 - Getting reverse best hits from peptidase
+2024-08-02 22:26:16,466 - Getting descriptions of hits from peptidase
+2024-08-02 22:26:16,490 - Getting hits from pfam
+2024-08-02 22:26:31,559 - Getting hits from dbCAN
+2024-08-02 22:26:59,527 - Merging ORF annotations
+2024-08-02 22:27:49,372 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-02 22:27:54,086 - Annotating Birg_nocov.35
+2024-08-02 22:29:34,372 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 22:29:36,582 - Getting hits from kofam
+2024-08-02 23:04:53,746 - Getting forward best hits from peptidase
+2024-08-02 23:05:06,676 - Getting reverse best hits from peptidase
+2024-08-02 23:05:11,713 - Getting descriptions of hits from peptidase
+2024-08-02 23:05:11,744 - Getting hits from pfam
+2024-08-02 23:05:28,107 - Getting hits from dbCAN
+2024-08-02 23:05:56,663 - Merging ORF annotations
+2024-08-02 23:08:29,315 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.20
+2024-08-02 23:10:12,944 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 23:10:14,745 - Getting hits from kofam
+2024-08-02 23:42:12,243 - Getting forward best hits from peptidase
+2024-08-02 23:42:22,846 - Getting reverse best hits from peptidase
+2024-08-02 23:42:27,619 - Getting descriptions of hits from peptidase
+2024-08-02 23:42:27,640 - Getting hits from pfam
+2024-08-02 23:42:43,298 - Getting hits from dbCAN
+2024-08-02 23:43:07,992 - Merging ORF annotations
+2024-08-02 23:44:16,133 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-02 23:44:19,784 - Annotating Tuerk_Half_DAS_TuerkHalves_nocov.84_sub
+2024-08-02 23:45:16,738 - Turning genes from prodigal to mmseqs2 db
+2024-08-02 23:45:18,627 - Getting hits from kofam
+2024-08-03 00:16:25,214 - Getting forward best hits from peptidase
+2024-08-03 00:16:34,083 - Getting reverse best hits from peptidase
+2024-08-03 00:16:38,627 - Getting descriptions of hits from peptidase
+2024-08-03 00:16:38,645 - Getting hits from pfam
+2024-08-03 00:16:53,492 - Getting hits from dbCAN
+2024-08-03 00:17:18,570 - Merging ORF annotations
+2024-08-03 00:18:21,298 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 00:18:25,493 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.177
+2024-08-03 00:18:36,663 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 00:18:38,378 - Getting hits from kofam
+2024-08-03 00:40:32,710 - Getting forward best hits from peptidase
+2024-08-03 00:40:38,609 - Getting reverse best hits from peptidase
+2024-08-03 00:40:43,193 - Getting descriptions of hits from peptidase
+2024-08-03 00:40:43,207 - Getting hits from pfam
+2024-08-03 00:40:57,027 - Getting hits from dbCAN
+2024-08-03 00:41:14,714 - Merging ORF annotations
+2024-08-03 00:41:47,520 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 00:41:48,794 - Annotating Birg_Half_DAS_BirgitHalves_bin.61
+2024-08-03 00:42:11,373 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 00:42:13,275 - Getting hits from kofam
+2024-08-03 01:14:25,390 - Getting forward best hits from peptidase
+2024-08-03 01:14:35,640 - Getting reverse best hits from peptidase
+2024-08-03 01:14:40,452 - Getting descriptions of hits from peptidase
+2024-08-03 01:14:40,479 - Getting hits from pfam
+2024-08-03 01:14:55,691 - Getting hits from dbCAN
+2024-08-03 01:15:18,655 - Merging ORF annotations
+2024-08-03 01:17:49,019 - Annotating old_originals_METABAT__183-contigs
+2024-08-03 01:19:14,887 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 01:19:16,781 - Getting hits from kofam
+2024-08-03 01:55:03,511 - Getting forward best hits from peptidase
+2024-08-03 01:55:21,611 - Getting reverse best hits from peptidase
+2024-08-03 01:55:26,575 - Getting descriptions of hits from peptidase
+2024-08-03 01:55:26,611 - Getting hits from pfam
+2024-08-03 01:55:43,610 - Getting hits from dbCAN
+2024-08-03 01:56:30,893 - Merging ORF annotations
+2024-08-03 01:57:26,963 - Annotating Birg_Half_DAS_BirgitHalves_bin.86
+2024-08-03 01:57:44,231 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 01:57:46,130 - Getting hits from kofam
+2024-08-03 02:21:08,071 - Getting forward best hits from peptidase
+2024-08-03 02:21:14,667 - Getting reverse best hits from peptidase
+2024-08-03 02:21:19,169 - Getting descriptions of hits from peptidase
+2024-08-03 02:21:19,181 - Getting hits from pfam
+2024-08-03 02:21:33,381 - Getting hits from dbCAN
+2024-08-03 02:21:53,194 - Merging ORF annotations
+2024-08-03 02:22:33,195 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 02:22:34,637 - Annotating crabs_bin.266
+2024-08-03 02:23:00,189 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 02:23:02,177 - Getting hits from kofam
+2024-08-03 02:49:18,320 - Getting forward best hits from peptidase
+2024-08-03 02:49:26,926 - Getting reverse best hits from peptidase
+2024-08-03 02:49:31,619 - Getting descriptions of hits from peptidase
+2024-08-03 02:49:31,639 - Getting hits from pfam
+2024-08-03 02:49:46,519 - Getting hits from dbCAN
+2024-08-03 02:50:12,738 - Merging ORF annotations
+2024-08-03 02:50:54,699 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.237
+2024-08-03 02:51:49,181 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 02:51:51,123 - Getting hits from kofam
+2024-08-03 03:21:41,582 - Getting forward best hits from peptidase
+2024-08-03 03:21:52,157 - Getting reverse best hits from peptidase
+2024-08-03 03:21:56,869 - Getting descriptions of hits from peptidase
+2024-08-03 03:21:56,891 - Getting hits from pfam
+2024-08-03 03:22:12,357 - Getting hits from dbCAN
+2024-08-03 03:22:38,278 - Merging ORF annotations
+2024-08-03 03:24:07,749 - Annotating old_originals_METABAT__59-contigs
+2024-08-03 03:24:56,923 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 03:24:58,846 - Getting hits from kofam
+2024-08-03 03:58:56,380 - Getting forward best hits from peptidase
+2024-08-03 03:59:07,401 - Getting reverse best hits from peptidase
+2024-08-03 03:59:12,160 - Getting descriptions of hits from peptidase
+2024-08-03 03:59:12,181 - Getting hits from pfam
+2024-08-03 03:59:27,970 - Getting hits from dbCAN
+2024-08-03 03:59:55,463 - Merging ORF annotations
+2024-08-03 04:01:48,910 - Annotating crabs_bin.393
+2024-08-03 04:01:51,301 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 04:01:53,110 - Getting hits from kofam
+2024-08-03 04:19:24,140 - Getting forward best hits from peptidase
+2024-08-03 04:19:28,319 - Getting reverse best hits from peptidase
+2024-08-03 04:19:32,855 - Getting descriptions of hits from peptidase
+2024-08-03 04:19:32,867 - Getting hits from pfam
+2024-08-03 04:19:47,648 - Getting hits from dbCAN
+2024-08-03 04:20:02,798 - Merging ORF annotations
+2024-08-03 04:20:40,994 - Annotating old_originals_METABAT__381-contigs
+2024-08-03 04:21:18,595 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 04:21:20,416 - Getting hits from kofam
+2024-08-03 04:54:13,902 - Getting forward best hits from peptidase
+2024-08-03 04:54:24,276 - Getting reverse best hits from peptidase
+2024-08-03 04:54:28,936 - Getting descriptions of hits from peptidase
+2024-08-03 04:54:28,955 - Getting hits from pfam
+2024-08-03 04:54:44,485 - Getting hits from dbCAN
+2024-08-03 04:55:15,685 - Merging ORF annotations
+2024-08-03 04:55:49,700 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 04:55:52,427 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.158_cleaned
+2024-08-03 04:56:50,787 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 04:56:52,598 - Getting hits from kofam
+2024-08-03 05:26:59,543 - Getting forward best hits from peptidase
+2024-08-03 05:27:08,259 - Getting reverse best hits from peptidase
+2024-08-03 05:27:12,958 - Getting descriptions of hits from peptidase
+2024-08-03 05:27:12,975 - Getting hits from pfam
+2024-08-03 05:27:28,061 - Getting hits from dbCAN
+2024-08-03 05:27:52,682 - Merging ORF annotations
+2024-08-03 05:28:55,145 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 05:28:59,808 - Annotating old_originals_METABAT__410-contigs
+2024-08-03 05:29:31,292 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 05:29:33,397 - Getting hits from kofam
+2024-08-03 05:55:48,111 - Getting forward best hits from peptidase
+2024-08-03 05:55:56,021 - Getting reverse best hits from peptidase
+2024-08-03 05:56:00,764 - Getting descriptions of hits from peptidase
+2024-08-03 05:56:00,784 - Getting hits from pfam
+2024-08-03 05:56:15,150 - Getting hits from dbCAN
+2024-08-03 05:56:43,608 - Merging ORF annotations
+2024-08-03 05:57:11,662 - Annotating old_originals_METABAT__307-contigs
+2024-08-03 05:58:37,188 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 05:58:38,952 - Getting hits from kofam
+2024-08-03 06:38:31,673 - Getting forward best hits from peptidase
+2024-08-03 06:38:42,943 - Getting reverse best hits from peptidase
+2024-08-03 06:38:47,751 - Getting descriptions of hits from peptidase
+2024-08-03 06:38:47,775 - Getting hits from pfam
+2024-08-03 06:39:03,404 - Getting hits from dbCAN
+2024-08-03 06:39:29,436 - Merging ORF annotations
+2024-08-03 06:40:43,728 - Annotating old_originals_METABAT__485-contigs
+2024-08-03 06:40:55,713 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 06:40:57,555 - Getting hits from kofam
+2024-08-03 07:08:03,221 - Getting forward best hits from peptidase
+2024-08-03 07:08:10,941 - Getting reverse best hits from peptidase
+2024-08-03 07:08:15,585 - Getting descriptions of hits from peptidase
+2024-08-03 07:08:15,601 - Getting hits from pfam
+2024-08-03 07:08:30,300 - Getting hits from dbCAN
+2024-08-03 07:08:53,050 - Merging ORF annotations
+2024-08-03 07:09:25,713 - Annotating old_originals_METABAT__437-contigs
+2024-08-03 07:10:04,254 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 07:10:06,209 - Getting hits from kofam
+2024-08-03 07:40:04,872 - Getting forward best hits from peptidase
+2024-08-03 07:40:17,548 - Getting reverse best hits from peptidase
+2024-08-03 07:40:22,359 - Getting descriptions of hits from peptidase
+2024-08-03 07:40:22,387 - Getting hits from pfam
+2024-08-03 07:40:38,021 - Getting hits from dbCAN
+2024-08-03 07:41:16,790 - Merging ORF annotations
+2024-08-03 07:42:24,916 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.363
+2024-08-03 07:43:24,552 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 07:43:26,419 - Getting hits from kofam
+2024-08-03 08:19:51,783 - Getting forward best hits from peptidase
+2024-08-03 08:20:04,887 - Getting reverse best hits from peptidase
+2024-08-03 08:20:09,659 - Getting descriptions of hits from peptidase
+2024-08-03 08:20:09,687 - Getting hits from pfam
+2024-08-03 08:20:26,257 - Getting hits from dbCAN
+2024-08-03 08:20:58,143 - Merging ORF annotations
+2024-08-03 08:22:03,897 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.305
+2024-08-03 08:22:34,896 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 08:22:36,669 - Getting hits from kofam
+2024-08-03 08:50:35,498 - Getting forward best hits from peptidase
+2024-08-03 08:50:46,355 - Getting reverse best hits from peptidase
+2024-08-03 08:50:51,277 - Getting descriptions of hits from peptidase
+2024-08-03 08:50:51,302 - Getting hits from pfam
+2024-08-03 08:51:06,855 - Getting hits from dbCAN
+2024-08-03 08:51:41,881 - Merging ORF annotations
+2024-08-03 08:53:17,245 - Annotating Birg_Half_DAS_BirgitHalves_nocov.2
+2024-08-03 08:54:09,990 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 08:54:11,786 - Getting hits from kofam
+2024-08-03 09:17:35,668 - Getting forward best hits from peptidase
+2024-08-03 09:17:42,615 - Getting reverse best hits from peptidase
+2024-08-03 09:17:46,421 - Getting descriptions of hits from peptidase
+2024-08-03 09:17:46,451 - Getting hits from pfam
+2024-08-03 09:18:00,665 - Getting hits from dbCAN
+2024-08-03 09:18:20,297 - Merging ORF annotations
+2024-08-03 09:18:52,580 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.331
+2024-08-03 09:19:06,063 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 09:19:07,893 - Getting hits from kofam
+2024-08-03 09:48:51,455 - Getting forward best hits from peptidase
+2024-08-03 09:49:00,729 - Getting reverse best hits from peptidase
+2024-08-03 09:49:05,370 - Getting descriptions of hits from peptidase
+2024-08-03 09:49:05,393 - Getting hits from pfam
+2024-08-03 09:49:20,820 - Getting hits from dbCAN
+2024-08-03 09:49:45,645 - Merging ORF annotations
+2024-08-03 09:51:43,782 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.121_sub
+2024-08-03 09:52:09,065 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 09:52:10,869 - Getting hits from kofam
+2024-08-03 10:19:32,953 - Getting forward best hits from peptidase
+2024-08-03 10:19:41,349 - Getting reverse best hits from peptidase
+2024-08-03 10:19:45,991 - Getting descriptions of hits from peptidase
+2024-08-03 10:19:46,008 - Getting hits from pfam
+2024-08-03 10:20:00,508 - Getting hits from dbCAN
+2024-08-03 10:20:24,313 - Merging ORF annotations
+2024-08-03 10:21:36,243 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 10:21:41,982 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.417
+2024-08-03 10:22:39,300 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 10:22:41,362 - Getting hits from kofam
+2024-08-03 10:58:29,197 - Getting forward best hits from peptidase
+2024-08-03 10:58:39,141 - Getting reverse best hits from peptidase
+2024-08-03 10:58:43,879 - Getting descriptions of hits from peptidase
+2024-08-03 10:58:43,904 - Getting hits from pfam
+2024-08-03 10:59:01,185 - Getting hits from dbCAN
+2024-08-03 10:59:26,290 - Merging ORF annotations
+2024-08-03 11:00:54,153 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.100
+2024-08-03 11:01:10,661 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 11:01:12,823 - Getting hits from kofam
+2024-08-03 11:28:04,310 - Getting forward best hits from peptidase
+2024-08-03 11:28:13,160 - Getting reverse best hits from peptidase
+2024-08-03 11:28:17,711 - Getting descriptions of hits from peptidase
+2024-08-03 11:28:17,731 - Getting hits from pfam
+2024-08-03 11:28:32,410 - Getting hits from dbCAN
+2024-08-03 11:28:55,826 - Merging ORF annotations
+2024-08-03 11:29:38,453 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 11:29:40,888 - Annotating porc_Full_DAS_AndFulls_bin.4
+2024-08-03 11:29:46,340 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 11:29:48,263 - Getting hits from kofam
+2024-08-03 11:51:55,686 - Getting forward best hits from peptidase
+2024-08-03 11:52:01,946 - Getting reverse best hits from peptidase
+2024-08-03 11:52:06,662 - Getting descriptions of hits from peptidase
+2024-08-03 11:52:06,679 - Getting hits from pfam
+2024-08-03 11:52:22,539 - Getting hits from dbCAN
+2024-08-03 11:52:42,625 - Merging ORF annotations
+2024-08-03 11:53:25,038 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 11:53:27,353 - Annotating old_originals_METABAT__206-contigs
+2024-08-03 11:53:55,233 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 11:53:56,935 - Getting hits from kofam
+2024-08-03 12:20:15,654 - Getting forward best hits from peptidase
+2024-08-03 12:20:25,041 - Getting reverse best hits from peptidase
+2024-08-03 12:20:29,650 - Getting descriptions of hits from peptidase
+2024-08-03 12:20:29,673 - Getting hits from pfam
+2024-08-03 12:20:46,079 - Getting hits from dbCAN
+2024-08-03 12:21:13,525 - Merging ORF annotations
+2024-08-03 12:22:11,577 - Annotating crabs_bin.213
+2024-08-03 12:23:54,905 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 12:23:56,792 - Getting hits from kofam
+2024-08-03 12:54:53,433 - Getting forward best hits from peptidase
+2024-08-03 12:55:05,113 - Getting reverse best hits from peptidase
+2024-08-03 12:55:09,946 - Getting descriptions of hits from peptidase
+2024-08-03 12:55:09,968 - Getting hits from pfam
+2024-08-03 12:55:27,597 - Getting hits from dbCAN
+2024-08-03 12:55:56,671 - Merging ORF annotations
+2024-08-03 12:57:17,664 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.427
+2024-08-03 12:58:18,125 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 12:58:20,242 - Getting hits from kofam
+2024-08-03 13:27:15,997 - Getting forward best hits from peptidase
+2024-08-03 13:27:23,899 - Getting reverse best hits from peptidase
+2024-08-03 13:27:28,500 - Getting descriptions of hits from peptidase
+2024-08-03 13:27:28,515 - Getting hits from pfam
+2024-08-03 13:27:43,193 - Getting hits from dbCAN
+2024-08-03 13:28:06,199 - Merging ORF annotations
+2024-08-03 13:28:53,632 - Annotating crabs_bin.389
+2024-08-03 13:29:55,434 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 13:29:57,473 - Getting hits from kofam
+2024-08-03 14:03:34,185 - Getting forward best hits from peptidase
+2024-08-03 14:03:44,044 - Getting reverse best hits from peptidase
+2024-08-03 14:03:48,806 - Getting descriptions of hits from peptidase
+2024-08-03 14:03:48,831 - Getting hits from pfam
+2024-08-03 14:04:03,813 - Getting hits from dbCAN
+2024-08-03 14:04:27,107 - Merging ORF annotations
+2024-08-03 14:05:09,036 - Annotating Birg_Half_DAS_BirgitHalves_bin.38_sub_cleaned
+2024-08-03 14:05:44,533 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 14:05:46,372 - Getting hits from kofam
+2024-08-03 14:35:40,091 - Getting forward best hits from peptidase
+2024-08-03 14:35:53,233 - Getting reverse best hits from peptidase
+2024-08-03 14:35:58,150 - Getting descriptions of hits from peptidase
+2024-08-03 14:35:58,181 - Getting hits from pfam
+2024-08-03 14:36:14,026 - Getting hits from dbCAN
+2024-08-03 14:36:47,529 - Merging ORF annotations
+2024-08-03 14:40:06,298 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.285
+2024-08-03 14:40:56,131 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 14:40:57,967 - Getting hits from kofam
+2024-08-03 15:14:04,225 - Getting forward best hits from peptidase
+2024-08-03 15:14:19,005 - Getting reverse best hits from peptidase
+2024-08-03 15:14:23,852 - Getting descriptions of hits from peptidase
+2024-08-03 15:14:23,886 - Getting hits from pfam
+2024-08-03 15:14:42,281 - Getting hits from dbCAN
+2024-08-03 15:15:22,452 - Merging ORF annotations
+2024-08-03 15:16:58,889 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 15:17:11,068 - Annotating crabs_bin.374
+2024-08-03 15:18:39,911 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 15:18:41,734 - Getting hits from kofam
+2024-08-03 15:49:11,307 - Getting forward best hits from peptidase
+2024-08-03 15:49:20,963 - Getting reverse best hits from peptidase
+2024-08-03 15:49:25,709 - Getting descriptions of hits from peptidase
+2024-08-03 15:49:25,733 - Getting hits from pfam
+2024-08-03 15:49:40,725 - Getting hits from dbCAN
+2024-08-03 15:50:03,280 - Merging ORF annotations
+2024-08-03 15:50:44,122 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 15:50:46,008 - Annotating old_originals_METABAT__479-contigs
+2024-08-03 15:51:31,034 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 15:51:33,194 - Getting hits from kofam
+2024-08-03 16:21:54,438 - Getting forward best hits from peptidase
+2024-08-03 16:22:06,988 - Getting reverse best hits from peptidase
+2024-08-03 16:22:12,077 - Getting descriptions of hits from peptidase
+2024-08-03 16:22:12,105 - Getting hits from pfam
+2024-08-03 16:22:29,836 - Getting hits from dbCAN
+2024-08-03 16:23:04,511 - Merging ORF annotations
+2024-08-03 16:23:58,760 - Annotating old_originals_CRABS_nocov.155
+2024-08-03 16:24:18,815 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 16:24:20,665 - Getting hits from kofam
+2024-08-03 16:43:18,783 - Getting forward best hits from peptidase
+2024-08-03 16:43:23,393 - Getting reverse best hits from peptidase
+2024-08-03 16:43:27,544 - Getting descriptions of hits from peptidase
+2024-08-03 16:43:27,553 - Getting hits from pfam
+2024-08-03 16:43:40,934 - Getting hits from dbCAN
+2024-08-03 16:43:58,091 - Merging ORF annotations
+2024-08-03 16:44:40,141 - Annotating old_originals_METABAT__332-contigs
+2024-08-03 16:45:12,014 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 16:45:13,855 - Getting hits from kofam
+2024-08-03 17:15:38,373 - Getting forward best hits from peptidase
+2024-08-03 17:15:49,691 - Getting reverse best hits from peptidase
+2024-08-03 17:15:54,489 - Getting descriptions of hits from peptidase
+2024-08-03 17:15:54,515 - Getting hits from pfam
+2024-08-03 17:16:12,233 - Getting hits from dbCAN
+2024-08-03 17:16:45,069 - Merging ORF annotations
+2024-08-03 17:17:36,561 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.122
+2024-08-03 17:17:53,853 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 17:17:55,794 - Getting hits from kofam
+2024-08-03 17:43:20,978 - Getting forward best hits from peptidase
+2024-08-03 17:43:29,896 - Getting reverse best hits from peptidase
+2024-08-03 17:43:34,533 - Getting descriptions of hits from peptidase
+2024-08-03 17:43:34,558 - Getting hits from pfam
+2024-08-03 17:43:51,256 - Getting hits from dbCAN
+2024-08-03 17:44:16,724 - Merging ORF annotations
+2024-08-03 17:45:18,801 - Annotating old_originals_METABAT__271-contigs_cleaned
+2024-08-03 17:46:41,421 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 17:46:43,293 - Getting hits from kofam
+2024-08-03 18:25:20,609 - Getting forward best hits from peptidase
+2024-08-03 18:25:39,545 - Getting reverse best hits from peptidase
+2024-08-03 18:25:44,633 - Getting descriptions of hits from peptidase
+2024-08-03 18:25:44,671 - Getting hits from pfam
+2024-08-03 18:26:04,504 - Getting hits from dbCAN
+2024-08-03 18:26:55,099 - Merging ORF annotations
+2024-08-03 18:28:47,883 - Annotating old_originals_METABAT__426-contigs
+2024-08-03 18:29:34,092 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 18:29:35,929 - Getting hits from kofam
+2024-08-03 18:55:36,114 - Getting forward best hits from peptidase
+2024-08-03 18:55:44,999 - Getting reverse best hits from peptidase
+2024-08-03 18:55:49,748 - Getting descriptions of hits from peptidase
+2024-08-03 18:55:49,767 - Getting hits from pfam
+2024-08-03 18:56:06,498 - Getting hits from dbCAN
+2024-08-03 18:56:32,575 - Merging ORF annotations
+2024-08-03 18:57:37,048 - Annotating crabs_bin.210
+2024-08-03 18:58:04,481 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 18:58:06,275 - Getting hits from kofam
+2024-08-03 19:24:25,758 - Getting forward best hits from peptidase
+2024-08-03 19:24:34,814 - Getting reverse best hits from peptidase
+2024-08-03 19:24:38,850 - Getting descriptions of hits from peptidase
+2024-08-03 19:24:38,868 - Getting hits from pfam
+2024-08-03 19:24:55,434 - Getting hits from dbCAN
+2024-08-03 19:25:25,400 - Merging ORF annotations
+2024-08-03 19:26:15,685 - Annotating old_originals_METABAT__476-contigs
+2024-08-03 19:27:43,819 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 19:27:46,158 - Getting hits from kofam
+2024-08-03 20:04:59,836 - Getting forward best hits from peptidase
+2024-08-03 20:05:19,414 - Getting reverse best hits from peptidase
+2024-08-03 20:05:24,460 - Getting descriptions of hits from peptidase
+2024-08-03 20:05:24,495 - Getting hits from pfam
+2024-08-03 20:05:41,880 - Getting hits from dbCAN
+2024-08-03 20:06:26,701 - Merging ORF annotations
+2024-08-03 20:08:18,158 - Annotating crabs_bin.234_cleaned
+2024-08-03 20:08:20,927 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 20:08:22,635 - Getting hits from kofam
+2024-08-03 20:28:35,077 - Getting forward best hits from peptidase
+2024-08-03 20:28:39,738 - Getting reverse best hits from peptidase
+2024-08-03 20:28:44,234 - Getting descriptions of hits from peptidase
+2024-08-03 20:28:44,243 - Getting hits from pfam
+2024-08-03 20:28:59,273 - Getting hits from dbCAN
+2024-08-03 20:29:15,253 - Merging ORF annotations
+2024-08-03 20:29:56,281 - Annotating crabs_bin.268_cleaned
+2024-08-03 20:31:03,316 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 20:31:05,172 - Getting hits from kofam
+2024-08-03 21:04:04,027 - Getting forward best hits from peptidase
+2024-08-03 21:04:15,737 - Getting reverse best hits from peptidase
+2024-08-03 21:04:20,516 - Getting descriptions of hits from peptidase
+2024-08-03 21:04:20,540 - Getting hits from pfam
+2024-08-03 21:04:37,756 - Getting hits from dbCAN
+2024-08-03 21:05:05,873 - Merging ORF annotations
+2024-08-03 21:06:49,905 - Annotating old_originals_METABAT__291-contigs
+2024-08-03 21:07:18,443 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 21:07:20,323 - Getting hits from kofam
+2024-08-03 21:38:02,890 - Getting forward best hits from peptidase
+2024-08-03 21:38:13,954 - Getting reverse best hits from peptidase
+2024-08-03 21:38:18,770 - Getting descriptions of hits from peptidase
+2024-08-03 21:38:18,798 - Getting hits from pfam
+2024-08-03 21:38:36,097 - Getting hits from dbCAN
+2024-08-03 21:39:11,283 - Merging ORF annotations
+2024-08-03 21:40:08,337 - Annotating crabs_bin.204
+2024-08-03 21:40:11,782 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 21:40:13,932 - Getting hits from kofam
+2024-08-03 22:04:36,070 - Getting forward best hits from peptidase
+2024-08-03 22:04:41,229 - Getting reverse best hits from peptidase
+2024-08-03 22:04:45,758 - Getting descriptions of hits from peptidase
+2024-08-03 22:04:45,770 - Getting hits from pfam
+2024-08-03 22:05:01,447 - Getting hits from dbCAN
+2024-08-03 22:05:19,902 - Merging ORF annotations
+2024-08-03 22:06:10,275 - Annotating Birg_Half_DAS_BirgitHalves_bin.11
+2024-08-03 22:07:16,354 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 22:07:18,508 - Getting hits from kofam
+2024-08-03 22:40:53,289 - Getting forward best hits from peptidase
+2024-08-03 22:41:04,607 - Getting reverse best hits from peptidase
+2024-08-03 22:41:09,451 - Getting descriptions of hits from peptidase
+2024-08-03 22:41:09,475 - Getting hits from pfam
+2024-08-03 22:41:26,935 - Getting hits from dbCAN
+2024-08-03 22:41:53,704 - Merging ORF annotations
+2024-08-03 22:44:13,949 - Annotating old_originals_METABAT__282-contigs
+2024-08-03 22:44:17,399 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 22:44:19,301 - Getting hits from kofam
+2024-08-03 23:03:24,970 - Getting forward best hits from peptidase
+2024-08-03 23:03:29,241 - Getting reverse best hits from peptidase
+2024-08-03 23:03:33,733 - Getting descriptions of hits from peptidase
+2024-08-03 23:03:33,743 - Getting hits from pfam
+2024-08-03 23:03:48,793 - Getting hits from dbCAN
+2024-08-03 23:04:04,365 - Merging ORF annotations
+2024-08-03 23:04:31,967 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 23:04:32,680 - Annotating Birg_Half_DAS_BirgitHalves_maxbin.116
+2024-08-03 23:04:48,522 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 23:04:50,756 - Getting hits from kofam
+2024-08-03 23:32:39,602 - Getting forward best hits from peptidase
+2024-08-03 23:32:47,716 - Getting reverse best hits from peptidase
+2024-08-03 23:32:52,475 - Getting descriptions of hits from peptidase
+2024-08-03 23:32:52,497 - Getting hits from pfam
+2024-08-03 23:33:09,389 - Getting hits from dbCAN
+2024-08-03 23:33:35,098 - Merging ORF annotations
+2024-08-03 23:33:59,328 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-03 23:34:01,359 - Annotating old_originals_METABAT__338-contigs_cleaned
+2024-08-03 23:35:32,609 - Turning genes from prodigal to mmseqs2 db
+2024-08-03 23:35:34,763 - Getting hits from kofam
+2024-08-04 00:11:07,477 - Getting forward best hits from peptidase
+2024-08-04 00:11:20,537 - Getting reverse best hits from peptidase
+2024-08-04 00:11:25,261 - Getting descriptions of hits from peptidase
+2024-08-04 00:11:25,288 - Getting hits from pfam
+2024-08-04 00:11:41,960 - Getting hits from dbCAN
+2024-08-04 00:12:11,126 - Merging ORF annotations
+2024-08-04 00:14:24,427 - Annotating old_originals_METABAT__334-contigs
+2024-08-04 00:15:49,434 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 00:15:51,201 - Getting hits from kofam
+2024-08-04 00:53:57,564 - Getting forward best hits from peptidase
+2024-08-04 00:54:10,179 - Getting reverse best hits from peptidase
+2024-08-04 00:54:15,166 - Getting descriptions of hits from peptidase
+2024-08-04 00:54:15,207 - Getting hits from pfam
+2024-08-04 00:54:33,192 - Getting hits from dbCAN
+2024-08-04 00:55:04,885 - Merging ORF annotations
+2024-08-04 00:56:16,402 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.450
+2024-08-04 00:56:44,480 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 00:56:46,310 - Getting hits from kofam
+2024-08-04 01:30:35,718 - Getting forward best hits from peptidase
+2024-08-04 01:30:47,534 - Getting reverse best hits from peptidase
+2024-08-04 01:30:52,238 - Getting descriptions of hits from peptidase
+2024-08-04 01:30:52,266 - Getting hits from pfam
+2024-08-04 01:31:10,078 - Getting hits from dbCAN
+2024-08-04 01:31:38,691 - Merging ORF annotations
+2024-08-04 01:33:16,809 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 01:33:26,750 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.76
+2024-08-04 01:34:19,026 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 01:34:21,183 - Getting hits from kofam
+2024-08-04 02:02:38,963 - Getting forward best hits from peptidase
+2024-08-04 02:02:48,631 - Getting reverse best hits from peptidase
+2024-08-04 02:02:53,333 - Getting descriptions of hits from peptidase
+2024-08-04 02:02:53,358 - Getting hits from pfam
+2024-08-04 02:03:08,545 - Getting hits from dbCAN
+2024-08-04 02:03:32,926 - Merging ORF annotations
+2024-08-04 02:05:20,954 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 02:05:28,337 - Annotating crabs_bin.223
+2024-08-04 02:05:53,235 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 02:05:54,993 - Getting hits from kofam
+2024-08-04 02:32:05,177 - Getting forward best hits from peptidase
+2024-08-04 02:32:13,387 - Getting reverse best hits from peptidase
+2024-08-04 02:32:18,207 - Getting descriptions of hits from peptidase
+2024-08-04 02:32:18,227 - Getting hits from pfam
+2024-08-04 02:32:34,741 - Getting hits from dbCAN
+2024-08-04 02:33:00,500 - Merging ORF annotations
+2024-08-04 02:33:50,585 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.438
+2024-08-04 02:34:13,209 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 02:34:15,237 - Getting hits from kofam
+2024-08-04 03:00:41,504 - Getting forward best hits from peptidase
+2024-08-04 03:00:49,758 - Getting reverse best hits from peptidase
+2024-08-04 03:00:54,136 - Getting descriptions of hits from peptidase
+2024-08-04 03:00:54,156 - Getting hits from pfam
+2024-08-04 03:01:08,840 - Getting hits from dbCAN
+2024-08-04 03:01:37,284 - Merging ORF annotations
+2024-08-04 03:02:02,914 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.83_sub
+2024-08-04 03:02:28,004 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 03:02:30,083 - Getting hits from kofam
+2024-08-04 03:32:48,865 - Getting forward best hits from peptidase
+2024-08-04 03:32:58,393 - Getting reverse best hits from peptidase
+2024-08-04 03:33:03,770 - Getting descriptions of hits from peptidase
+2024-08-04 03:33:04,237 - Getting hits from pfam
+2024-08-04 03:33:19,910 - Getting hits from dbCAN
+2024-08-04 03:33:45,540 - Merging ORF annotations
+2024-08-04 03:35:12,083 - Annotating crabs_bin.498_cleaned
+2024-08-04 03:36:15,626 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 03:36:17,454 - Getting hits from kofam
+2024-08-04 04:05:34,115 - Getting forward best hits from peptidase
+2024-08-04 04:05:45,970 - Getting reverse best hits from peptidase
+2024-08-04 04:05:50,278 - Getting descriptions of hits from peptidase
+2024-08-04 04:05:50,351 - Getting hits from pfam
+2024-08-04 04:06:08,171 - Getting hits from dbCAN
+2024-08-04 04:06:44,355 - Merging ORF annotations
+2024-08-04 04:08:28,083 - Annotating old_originals_METABAT__363-contigs
+2024-08-04 04:08:46,835 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 04:08:48,850 - Getting hits from kofam
+2024-08-04 04:41:54,305 - Getting forward best hits from peptidase
+2024-08-04 04:42:01,624 - Getting reverse best hits from peptidase
+2024-08-04 04:42:06,131 - Getting descriptions of hits from peptidase
+2024-08-04 04:42:06,149 - Getting hits from pfam
+2024-08-04 04:42:22,249 - Getting hits from dbCAN
+2024-08-04 04:42:46,746 - Merging ORF annotations
+2024-08-04 04:43:26,089 - Annotating old_originals_METABAT__77-contigs
+2024-08-04 04:44:26,937 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 04:44:28,748 - Getting hits from kofam
+2024-08-04 05:17:14,130 - Getting forward best hits from peptidase
+2024-08-04 05:17:23,597 - Getting reverse best hits from peptidase
+2024-08-04 05:17:27,852 - Getting descriptions of hits from peptidase
+2024-08-04 05:17:27,876 - Getting hits from pfam
+2024-08-04 05:17:45,220 - Getting hits from dbCAN
+2024-08-04 05:18:10,785 - Merging ORF annotations
+2024-08-04 05:19:46,183 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.101
+2024-08-04 05:20:30,184 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 05:20:31,963 - Getting hits from kofam
+2024-08-04 05:53:27,260 - Getting forward best hits from peptidase
+2024-08-04 05:53:37,750 - Getting reverse best hits from peptidase
+2024-08-04 05:53:42,339 - Getting descriptions of hits from peptidase
+2024-08-04 05:53:42,362 - Getting hits from pfam
+2024-08-04 05:53:59,605 - Getting hits from dbCAN
+2024-08-04 05:54:23,838 - Merging ORF annotations
+2024-08-04 05:56:03,629 - Annotating old_originals_METABAT__238-contigs
+2024-08-04 05:58:18,634 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 05:58:20,688 - Getting hits from kofam
+2024-08-04 06:33:27,910 - Getting forward best hits from peptidase
+2024-08-04 06:33:41,113 - Getting reverse best hits from peptidase
+2024-08-04 06:33:45,373 - Getting descriptions of hits from peptidase
+2024-08-04 06:33:45,397 - Getting hits from pfam
+2024-08-04 06:34:03,105 - Getting hits from dbCAN
+2024-08-04 06:34:31,698 - Merging ORF annotations
+2024-08-04 06:36:03,522 - Annotating old_originals_METABAT__108-contigs
+2024-08-04 06:36:13,955 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 06:36:15,697 - Getting hits from kofam
+2024-08-04 07:00:49,424 - Getting forward best hits from peptidase
+2024-08-04 07:00:58,194 - Getting reverse best hits from peptidase
+2024-08-04 07:01:02,640 - Getting descriptions of hits from peptidase
+2024-08-04 07:01:02,659 - Getting hits from pfam
+2024-08-04 07:01:19,255 - Getting hits from dbCAN
+2024-08-04 07:01:40,562 - Merging ORF annotations
+2024-08-04 07:02:40,632 - Annotating crabs_bin.278
+2024-08-04 07:03:21,418 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 07:03:23,273 - Getting hits from kofam
+2024-08-04 07:36:23,207 - Getting forward best hits from peptidase
+2024-08-04 07:36:32,830 - Getting reverse best hits from peptidase
+2024-08-04 07:36:36,837 - Getting descriptions of hits from peptidase
+2024-08-04 07:36:36,875 - Getting hits from pfam
+2024-08-04 07:36:51,978 - Getting hits from dbCAN
+2024-08-04 07:37:17,266 - Merging ORF annotations
+2024-08-04 07:38:27,378 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.68
+2024-08-04 07:38:47,830 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 07:38:49,586 - Getting hits from kofam
+2024-08-04 08:07:20,189 - Getting forward best hits from peptidase
+2024-08-04 08:07:29,279 - Getting reverse best hits from peptidase
+2024-08-04 08:07:33,663 - Getting descriptions of hits from peptidase
+2024-08-04 08:07:33,684 - Getting hits from pfam
+2024-08-04 08:07:48,519 - Getting hits from dbCAN
+2024-08-04 08:08:10,658 - Merging ORF annotations
+2024-08-04 08:09:11,615 - Annotating old_originals_METABAT__24-contigs
+2024-08-04 08:09:49,270 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 08:09:51,286 - Getting hits from kofam
+2024-08-04 08:37:24,459 - Getting forward best hits from peptidase
+2024-08-04 08:37:34,682 - Getting reverse best hits from peptidase
+2024-08-04 08:37:39,195 - Getting descriptions of hits from peptidase
+2024-08-04 08:37:39,220 - Getting hits from pfam
+2024-08-04 08:37:54,403 - Getting hits from dbCAN
+2024-08-04 08:38:28,440 - Merging ORF annotations
+2024-08-04 08:39:11,987 - Annotating old_originals_METABAT__333-contigs
+2024-08-04 08:39:24,592 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 08:39:26,372 - Getting hits from kofam
+2024-08-04 09:05:13,256 - Getting forward best hits from peptidase
+2024-08-04 09:05:20,952 - Getting reverse best hits from peptidase
+2024-08-04 09:05:25,414 - Getting descriptions of hits from peptidase
+2024-08-04 09:05:25,436 - Getting hits from pfam
+2024-08-04 09:05:41,759 - Getting hits from dbCAN
+2024-08-04 09:06:03,257 - Merging ORF annotations
+2024-08-04 09:06:38,180 - Annotating crabs_bin.53
+2024-08-04 09:07:14,341 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 09:07:16,199 - Getting hits from kofam
+2024-08-04 09:45:20,776 - Getting forward best hits from peptidase
+2024-08-04 09:45:33,760 - Getting reverse best hits from peptidase
+2024-08-04 09:45:38,168 - Getting descriptions of hits from peptidase
+2024-08-04 09:45:38,203 - Getting hits from pfam
+2024-08-04 09:45:54,351 - Getting hits from dbCAN
+2024-08-04 09:46:23,348 - Merging ORF annotations
+2024-08-04 09:47:36,566 - Annotating crabs_bin.339
+2024-08-04 09:48:18,391 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 09:48:20,392 - Getting hits from kofam
+2024-08-04 10:20:43,484 - Getting forward best hits from peptidase
+2024-08-04 10:20:54,666 - Getting reverse best hits from peptidase
+2024-08-04 10:20:59,302 - Getting descriptions of hits from peptidase
+2024-08-04 10:20:59,332 - Getting hits from pfam
+2024-08-04 10:21:14,670 - Getting hits from dbCAN
+2024-08-04 10:21:42,155 - Merging ORF annotations
+2024-08-04 10:22:52,831 - Annotating crabs_bin.405
+2024-08-04 10:23:12,608 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 10:23:14,604 - Getting hits from kofam
+2024-08-04 10:46:41,422 - Getting forward best hits from peptidase
+2024-08-04 10:46:47,880 - Getting reverse best hits from peptidase
+2024-08-04 10:46:51,691 - Getting descriptions of hits from peptidase
+2024-08-04 10:46:51,706 - Getting hits from pfam
+2024-08-04 10:47:05,679 - Getting hits from dbCAN
+2024-08-04 10:47:25,174 - Merging ORF annotations
+2024-08-04 10:47:53,966 - Annotating old_originals_METABAT__82-contigs
+2024-08-04 10:50:12,550 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 10:50:14,380 - Getting hits from kofam
+2024-08-04 11:26:53,742 - Getting forward best hits from peptidase
+2024-08-04 11:27:07,088 - Getting reverse best hits from peptidase
+2024-08-04 11:27:11,673 - Getting descriptions of hits from peptidase
+2024-08-04 11:27:11,701 - Getting hits from pfam
+2024-08-04 11:27:30,003 - Getting hits from dbCAN
+2024-08-04 11:28:02,652 - Merging ORF annotations
+2024-08-04 11:29:28,479 - Annotating old_originals_METABAT__217-contigs
+2024-08-04 11:30:32,888 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 11:30:34,720 - Getting hits from kofam
+2024-08-04 12:00:56,789 - Getting forward best hits from peptidase
+2024-08-04 12:01:06,661 - Getting reverse best hits from peptidase
+2024-08-04 12:01:10,898 - Getting descriptions of hits from peptidase
+2024-08-04 12:01:10,918 - Getting hits from pfam
+2024-08-04 12:01:27,594 - Getting hits from dbCAN
+2024-08-04 12:01:49,035 - Merging ORF annotations
+2024-08-04 12:02:39,995 - Annotating Tuerk_Half_DAS_TuerkHalves_maxbin.370_sub_cleaned
+2024-08-04 12:03:03,495 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 12:03:05,386 - Getting hits from kofam
+2024-08-04 12:32:14,682 - Getting forward best hits from peptidase
+2024-08-04 12:32:22,312 - Getting reverse best hits from peptidase
+2024-08-04 12:32:26,334 - Getting descriptions of hits from peptidase
+2024-08-04 12:32:26,348 - Getting hits from pfam
+2024-08-04 12:32:40,604 - Getting hits from dbCAN
+2024-08-04 12:33:02,114 - Merging ORF annotations
+2024-08-04 12:34:04,714 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.477
+2024-08-04 12:35:12,008 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 12:35:13,808 - Getting hits from kofam
+2024-08-04 13:00:24,345 - Getting forward best hits from peptidase
+2024-08-04 13:00:31,083 - Getting reverse best hits from peptidase
+2024-08-04 13:00:35,210 - Getting descriptions of hits from peptidase
+2024-08-04 13:00:35,226 - Getting hits from pfam
+2024-08-04 13:00:49,424 - Getting hits from dbCAN
+2024-08-04 13:01:07,696 - Merging ORF annotations
+2024-08-04 13:01:56,196 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 13:01:57,692 - Annotating old_originals_METABAT__358-contigs
+2024-08-04 13:02:19,409 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 13:02:21,232 - Getting hits from kofam
+2024-08-04 13:29:41,615 - Getting forward best hits from peptidase
+2024-08-04 13:29:48,952 - Getting reverse best hits from peptidase
+2024-08-04 13:29:53,457 - Getting descriptions of hits from peptidase
+2024-08-04 13:29:53,473 - Getting hits from pfam
+2024-08-04 13:30:09,644 - Getting hits from dbCAN
+2024-08-04 13:30:32,393 - Merging ORF annotations
+2024-08-04 13:31:15,282 - Annotating old_originals_METABAT__248-contigs
+2024-08-04 13:31:28,648 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 13:31:30,558 - Getting hits from kofam
+2024-08-04 13:55:31,755 - Getting forward best hits from peptidase
+2024-08-04 13:55:40,222 - Getting reverse best hits from peptidase
+2024-08-04 13:55:44,707 - Getting descriptions of hits from peptidase
+2024-08-04 13:55:44,726 - Getting hits from pfam
+2024-08-04 13:56:00,697 - Getting hits from dbCAN
+2024-08-04 13:56:22,733 - Merging ORF annotations
+2024-08-04 13:56:58,829 - Annotating old_originals_METABAT__139-contigs
+2024-08-04 13:57:47,588 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 13:57:49,768 - Getting hits from kofam
+2024-08-04 14:32:56,407 - Getting forward best hits from peptidase
+2024-08-04 14:33:10,766 - Getting reverse best hits from peptidase
+2024-08-04 14:33:15,276 - Getting descriptions of hits from peptidase
+2024-08-04 14:33:15,303 - Getting hits from pfam
+2024-08-04 14:33:34,121 - Getting hits from dbCAN
+2024-08-04 14:34:08,794 - Merging ORF annotations
+2024-08-04 14:36:36,056 - Annotating crabs_nocov.24_sub
+2024-08-04 14:38:36,926 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 14:38:38,748 - Getting hits from kofam
+2024-08-04 15:09:42,685 - Getting forward best hits from peptidase
+2024-08-04 15:09:52,682 - Getting reverse best hits from peptidase
+2024-08-04 15:09:57,347 - Getting descriptions of hits from peptidase
+2024-08-04 15:09:57,365 - Getting hits from pfam
+2024-08-04 15:10:13,477 - Getting hits from dbCAN
+2024-08-04 15:10:38,268 - Merging ORF annotations
+2024-08-04 15:12:34,657 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.408
+2024-08-04 15:12:44,309 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 15:12:45,941 - Getting hits from kofam
+2024-08-04 15:33:07,326 - Getting forward best hits from peptidase
+2024-08-04 15:33:12,714 - Getting reverse best hits from peptidase
+2024-08-04 15:33:17,249 - Getting descriptions of hits from peptidase
+2024-08-04 15:33:17,265 - Getting hits from pfam
+2024-08-04 15:33:30,122 - Getting hits from dbCAN
+2024-08-04 15:33:47,944 - Merging ORF annotations
+2024-08-04 15:34:46,826 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 15:34:50,781 - Annotating crabs_bin.119
+2024-08-04 15:36:01,314 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 15:36:02,977 - Getting hits from kofam
+2024-08-04 16:02:08,340 - Getting forward best hits from peptidase
+2024-08-04 16:02:16,956 - Getting reverse best hits from peptidase
+2024-08-04 16:02:21,401 - Getting descriptions of hits from peptidase
+2024-08-04 16:02:21,417 - Getting hits from pfam
+2024-08-04 16:02:35,869 - Getting hits from dbCAN
+2024-08-04 16:02:58,775 - Merging ORF annotations
+2024-08-04 16:04:08,870 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 16:04:13,565 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.314
+2024-08-04 16:04:20,218 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 16:04:21,896 - Getting hits from kofam
+2024-08-04 16:28:20,709 - Getting forward best hits from peptidase
+2024-08-04 16:28:27,197 - Getting reverse best hits from peptidase
+2024-08-04 16:28:31,656 - Getting descriptions of hits from peptidase
+2024-08-04 16:28:31,671 - Getting hits from pfam
+2024-08-04 16:28:46,922 - Getting hits from dbCAN
+2024-08-04 16:29:07,668 - Merging ORF annotations
+2024-08-04 16:29:58,687 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 16:30:02,175 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.216_cleaned
+2024-08-04 16:30:11,889 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 16:30:13,558 - Getting hits from kofam
+2024-08-04 16:55:32,266 - Getting forward best hits from peptidase
+2024-08-04 16:55:41,295 - Getting reverse best hits from peptidase
+2024-08-04 16:55:45,843 - Getting descriptions of hits from peptidase
+2024-08-04 16:55:45,861 - Getting hits from pfam
+2024-08-04 16:56:01,625 - Getting hits from dbCAN
+2024-08-04 16:56:26,622 - Merging ORF annotations
+2024-08-04 16:58:12,494 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 16:58:23,399 - Annotating crabs_bin.298
+2024-08-04 16:58:32,017 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 16:58:33,687 - Getting hits from kofam
+2024-08-04 17:31:17,297 - Getting forward best hits from peptidase
+2024-08-04 17:31:24,906 - Getting reverse best hits from peptidase
+2024-08-04 17:31:29,470 - Getting descriptions of hits from peptidase
+2024-08-04 17:31:29,485 - Getting hits from pfam
+2024-08-04 17:31:43,298 - Getting hits from dbCAN
+2024-08-04 17:32:04,553 - Merging ORF annotations
+2024-08-04 17:32:38,435 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 17:32:40,146 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.389_sub
+2024-08-04 17:34:35,637 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 17:34:37,517 - Getting hits from kofam
+2024-08-04 18:11:00,227 - Getting forward best hits from peptidase
+2024-08-04 18:11:14,492 - Getting reverse best hits from peptidase
+2024-08-04 18:11:19,227 - Getting descriptions of hits from peptidase
+2024-08-04 18:11:19,252 - Getting hits from pfam
+2024-08-04 18:11:35,551 - Getting hits from dbCAN
+2024-08-04 18:12:08,341 - Merging ORF annotations
+2024-08-04 18:14:42,888 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.315
+2024-08-04 18:15:42,015 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 18:15:43,811 - Getting hits from kofam
+2024-08-04 18:44:15,183 - Getting forward best hits from peptidase
+2024-08-04 18:44:23,103 - Getting reverse best hits from peptidase
+2024-08-04 18:44:27,653 - Getting descriptions of hits from peptidase
+2024-08-04 18:44:27,672 - Getting hits from pfam
+2024-08-04 18:44:43,397 - Getting hits from dbCAN
+2024-08-04 18:45:05,518 - Merging ORF annotations
+2024-08-04 18:47:33,023 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.142_sub
+2024-08-04 18:48:35,350 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 18:48:37,197 - Getting hits from kofam
+2024-08-04 19:16:27,105 - Getting forward best hits from peptidase
+2024-08-04 19:16:36,254 - Getting reverse best hits from peptidase
+2024-08-04 19:16:40,938 - Getting descriptions of hits from peptidase
+2024-08-04 19:16:40,959 - Getting hits from pfam
+2024-08-04 19:16:56,840 - Getting hits from dbCAN
+2024-08-04 19:17:20,640 - Merging ORF annotations
+2024-08-04 19:18:26,566 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 19:18:30,905 - Annotating Birg_nocov.12
+2024-08-04 19:20:06,658 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 19:20:08,747 - Getting hits from kofam
+2024-08-04 19:48:50,834 - Getting forward best hits from peptidase
+2024-08-04 19:48:59,196 - Getting reverse best hits from peptidase
+2024-08-04 19:49:03,956 - Getting descriptions of hits from peptidase
+2024-08-04 19:49:03,977 - Getting hits from pfam
+2024-08-04 19:49:18,558 - Getting hits from dbCAN
+2024-08-04 19:49:41,242 - Merging ORF annotations
+2024-08-04 19:50:48,026 - Annotating Birg_Half_DAS_BirgitHalves_bin.89
+2024-08-04 19:50:52,728 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 19:50:54,407 - Getting hits from kofam
+2024-08-04 20:12:14,206 - Getting forward best hits from peptidase
+2024-08-04 20:12:19,275 - Getting reverse best hits from peptidase
+2024-08-04 20:12:23,726 - Getting descriptions of hits from peptidase
+2024-08-04 20:12:23,738 - Getting hits from pfam
+2024-08-04 20:12:37,228 - Getting hits from dbCAN
+2024-08-04 20:12:54,822 - Merging ORF annotations
+2024-08-04 20:13:38,995 - Annotating old_originals_METABAT__424-contigs
+2024-08-04 20:13:54,999 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 20:13:56,679 - Getting hits from kofam
+2024-08-04 20:38:01,695 - Getting forward best hits from peptidase
+2024-08-04 20:38:08,261 - Getting reverse best hits from peptidase
+2024-08-04 20:38:12,826 - Getting descriptions of hits from peptidase
+2024-08-04 20:38:12,842 - Getting hits from pfam
+2024-08-04 20:38:27,833 - Getting hits from dbCAN
+2024-08-04 20:38:47,507 - Merging ORF annotations
+2024-08-04 20:39:28,971 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.379
+2024-08-04 20:40:17,614 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 20:40:19,284 - Getting hits from kofam
+2024-08-04 21:12:16,244 - Getting forward best hits from peptidase
+2024-08-04 21:12:24,947 - Getting reverse best hits from peptidase
+2024-08-04 21:12:29,711 - Getting descriptions of hits from peptidase
+2024-08-04 21:12:29,726 - Getting hits from pfam
+2024-08-04 21:12:44,284 - Getting hits from dbCAN
+2024-08-04 21:13:08,391 - Merging ORF annotations
+2024-08-04 21:13:37,733 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 21:13:40,170 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.9
+2024-08-04 21:13:49,605 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 21:13:51,284 - Getting hits from kofam
+2024-08-04 21:36:39,267 - Getting forward best hits from peptidase
+2024-08-04 21:36:45,769 - Getting reverse best hits from peptidase
+2024-08-04 21:36:50,249 - Getting descriptions of hits from peptidase
+2024-08-04 21:36:50,264 - Getting hits from pfam
+2024-08-04 21:37:03,622 - Getting hits from dbCAN
+2024-08-04 21:37:22,367 - Merging ORF annotations
+2024-08-04 21:38:18,259 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-04 21:38:21,592 - Annotating old_originals_METABAT__235-contigs
+2024-08-04 21:39:33,464 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 21:39:35,300 - Getting hits from kofam
+2024-08-04 22:11:52,294 - Getting forward best hits from peptidase
+2024-08-04 22:12:02,965 - Getting reverse best hits from peptidase
+2024-08-04 22:12:07,577 - Getting descriptions of hits from peptidase
+2024-08-04 22:12:07,600 - Getting hits from pfam
+2024-08-04 22:12:22,972 - Getting hits from dbCAN
+2024-08-04 22:12:49,559 - Merging ORF annotations
+2024-08-04 22:13:55,373 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.250
+2024-08-04 22:14:30,691 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 22:14:32,364 - Getting hits from kofam
+2024-08-04 22:38:44,297 - Getting forward best hits from peptidase
+2024-08-04 22:38:51,995 - Getting reverse best hits from peptidase
+2024-08-04 22:38:56,584 - Getting descriptions of hits from peptidase
+2024-08-04 22:38:56,629 - Getting hits from pfam
+2024-08-04 22:39:11,927 - Getting hits from dbCAN
+2024-08-04 22:39:34,541 - Merging ORF annotations
+2024-08-04 22:40:51,538 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.349
+2024-08-04 22:41:03,283 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 22:41:05,106 - Getting hits from kofam
+2024-08-04 23:03:08,781 - Getting forward best hits from peptidase
+2024-08-04 23:03:16,316 - Getting reverse best hits from peptidase
+2024-08-04 23:03:20,821 - Getting descriptions of hits from peptidase
+2024-08-04 23:03:20,840 - Getting hits from pfam
+2024-08-04 23:03:34,910 - Getting hits from dbCAN
+2024-08-04 23:03:55,196 - Merging ORF annotations
+2024-08-04 23:04:51,344 - Annotating crabs_bin.500_sub
+2024-08-04 23:05:57,319 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 23:05:59,614 - Getting hits from kofam
+2024-08-04 23:36:25,227 - Getting forward best hits from peptidase
+2024-08-04 23:36:35,147 - Getting reverse best hits from peptidase
+2024-08-04 23:36:39,915 - Getting descriptions of hits from peptidase
+2024-08-04 23:36:39,938 - Getting hits from pfam
+2024-08-04 23:36:54,691 - Getting hits from dbCAN
+2024-08-04 23:37:18,770 - Merging ORF annotations
+2024-08-04 23:38:31,813 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.344_sub
+2024-08-04 23:39:00,619 - Turning genes from prodigal to mmseqs2 db
+2024-08-04 23:39:02,306 - Getting hits from kofam
+2024-08-05 00:07:30,460 - Getting forward best hits from peptidase
+2024-08-05 00:07:40,533 - Getting reverse best hits from peptidase
+2024-08-05 00:07:45,092 - Getting descriptions of hits from peptidase
+2024-08-05 00:07:45,116 - Getting hits from pfam
+2024-08-05 00:08:00,136 - Getting hits from dbCAN
+2024-08-05 00:08:32,283 - Merging ORF annotations
+2024-08-05 00:09:51,326 - Annotating crabs_bin.5
+2024-08-05 00:10:03,313 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 00:10:04,984 - Getting hits from kofam
+2024-08-05 00:35:15,628 - Getting forward best hits from peptidase
+2024-08-05 00:35:23,093 - Getting reverse best hits from peptidase
+2024-08-05 00:35:27,607 - Getting descriptions of hits from peptidase
+2024-08-05 00:35:27,624 - Getting hits from pfam
+2024-08-05 00:35:41,762 - Getting hits from dbCAN
+2024-08-05 00:36:03,153 - Merging ORF annotations
+2024-08-05 00:36:42,569 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.13
+2024-08-05 00:37:24,833 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 00:37:26,534 - Getting hits from kofam
+2024-08-05 01:05:53,127 - Getting forward best hits from peptidase
+2024-08-05 01:06:00,926 - Getting reverse best hits from peptidase
+2024-08-05 01:06:05,357 - Getting descriptions of hits from peptidase
+2024-08-05 01:06:05,377 - Getting hits from pfam
+2024-08-05 01:06:19,670 - Getting hits from dbCAN
+2024-08-05 01:06:43,108 - Merging ORF annotations
+2024-08-05 01:07:39,668 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.171
+2024-08-05 01:08:01,971 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 01:08:03,679 - Getting hits from kofam
+2024-08-05 01:38:50,839 - Getting forward best hits from peptidase
+2024-08-05 01:39:00,976 - Getting reverse best hits from peptidase
+2024-08-05 01:39:05,657 - Getting descriptions of hits from peptidase
+2024-08-05 01:39:05,675 - Getting hits from pfam
+2024-08-05 01:39:20,609 - Getting hits from dbCAN
+2024-08-05 01:39:48,526 - Merging ORF annotations
+2024-08-05 01:40:52,413 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-05 01:40:58,567 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.393
+2024-08-05 01:41:46,848 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 01:41:48,548 - Getting hits from kofam
+2024-08-05 02:09:41,708 - Getting forward best hits from peptidase
+2024-08-05 02:09:49,376 - Getting reverse best hits from peptidase
+2024-08-05 02:09:53,967 - Getting descriptions of hits from peptidase
+2024-08-05 02:09:53,983 - Getting hits from pfam
+2024-08-05 02:10:08,615 - Getting hits from dbCAN
+2024-08-05 02:10:32,579 - Merging ORF annotations
+2024-08-05 02:11:15,114 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.311
+2024-08-05 02:11:22,029 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 02:11:23,665 - Getting hits from kofam
+2024-08-05 02:35:15,065 - Getting forward best hits from peptidase
+2024-08-05 02:35:20,077 - Getting reverse best hits from peptidase
+2024-08-05 02:35:24,518 - Getting descriptions of hits from peptidase
+2024-08-05 02:35:24,530 - Getting hits from pfam
+2024-08-05 02:35:37,868 - Getting hits from dbCAN
+2024-08-05 02:35:56,439 - Merging ORF annotations
+2024-08-05 02:36:24,639 - Annotating Birg_Half_DAS_BirgitHalves_bin.45
+2024-08-05 02:36:58,441 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 02:37:00,099 - Getting hits from kofam
+2024-08-05 03:04:26,566 - Getting forward best hits from peptidase
+2024-08-05 03:04:35,393 - Getting reverse best hits from peptidase
+2024-08-05 03:04:40,110 - Getting descriptions of hits from peptidase
+2024-08-05 03:04:40,146 - Getting hits from pfam
+2024-08-05 03:04:56,000 - Getting hits from dbCAN
+2024-08-05 03:05:17,756 - Merging ORF annotations
+2024-08-05 03:08:04,735 - Annotating old_originals_METABAT__368-contigs_cleaned
+2024-08-05 03:08:29,244 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 03:08:30,930 - Getting hits from kofam
+2024-08-05 03:37:10,202 - Getting forward best hits from peptidase
+2024-08-05 03:37:22,099 - Getting reverse best hits from peptidase
+2024-08-05 03:37:26,892 - Getting descriptions of hits from peptidase
+2024-08-05 03:37:26,918 - Getting hits from pfam
+2024-08-05 03:37:41,468 - Getting hits from dbCAN
+2024-08-05 03:38:15,418 - Merging ORF annotations
+2024-08-05 03:39:45,322 - Annotating Tuerk_Half_DAS_TuerkHalves_bin.137
+2024-08-05 03:40:18,887 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 03:40:20,588 - Getting hits from kofam
+2024-08-05 04:05:14,768 - Getting forward best hits from peptidase
+2024-08-05 04:05:21,697 - Getting reverse best hits from peptidase
+2024-08-05 04:05:26,320 - Getting descriptions of hits from peptidase
+2024-08-05 04:05:26,337 - Getting hits from pfam
+2024-08-05 04:05:39,489 - Getting hits from dbCAN
+2024-08-05 04:05:58,472 - Merging ORF annotations
+2024-08-05 04:07:27,206 - No rRNAs were detected, no rrnas.tsv file will be created.
+2024-08-05 04:07:32,516 - Annotating crabs_bin.1
+2024-08-05 04:08:39,963 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 04:08:41,639 - Getting hits from kofam
+2024-08-05 04:40:29,810 - Getting forward best hits from peptidase
+2024-08-05 04:40:44,015 - Getting reverse best hits from peptidase
+2024-08-05 04:40:48,945 - Getting descriptions of hits from peptidase
+2024-08-05 04:40:48,974 - Getting hits from pfam
+2024-08-05 04:41:04,972 - Getting hits from dbCAN
+2024-08-05 04:41:48,080 - Merging ORF annotations
+2024-08-05 04:42:53,778 - Annotating crabs_bin.7
+2024-08-05 04:44:40,309 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 04:44:42,003 - Getting hits from kofam
+2024-08-05 05:17:16,012 - Getting forward best hits from peptidase
+2024-08-05 05:17:25,264 - Getting reverse best hits from peptidase
+2024-08-05 05:17:29,827 - Getting descriptions of hits from peptidase
+2024-08-05 05:17:29,848 - Getting hits from pfam
+2024-08-05 05:17:44,421 - Getting hits from dbCAN
+2024-08-05 05:18:09,355 - Merging ORF annotations
+2024-08-05 05:19:00,979 - Annotating crabs_bin.39
+2024-08-05 05:20:12,319 - Turning genes from prodigal to mmseqs2 db
+2024-08-05 05:20:13,976 - Getting hits from kofam
+2024-08-05 05:45:43,667 - Getting forward best hits from peptidase
+2024-08-05 05:45:53,257 - Getting reverse best hits from peptidase
+2024-08-05 05:45:57,763 - Getting descriptions of hits from peptidase
+2024-08-05 05:45:57,786 - Getting hits from pfam
+2024-08-05 05:46:12,432 - Getting hits from dbCAN
+2024-08-05 05:46:34,551 - Merging ORF annotations
+2024-08-05 05:48:30,338 - Annotations complete, processing annotations
+2024-08-05 05:48:59,419 - Completed annotations

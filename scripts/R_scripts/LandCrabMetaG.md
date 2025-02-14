@@ -1,7 +1,7 @@
 Land Crab Gut Microbiomes
 ================
 Cassie Ettinger
-2023-08-30
+2024-10-01
 
 Project: Unlocking the terrestrial realm: Are microbial symbioses the
 key to land crab terrestrial invasions? Collaborators: Cassie Ettinger,
@@ -33,6 +33,11 @@ library(pairwiseAdonis)
 library(ggtext)
 library(decontam)
 library(FSA)
+library(ggplotify)
+library(pheatmap)
+library(viridis)
+library(patchwork)
+library(caret)
 
 # Load custom R script with miscellaneous functions
 source(file = "scripts/R_scripts/misc_functions.R")
@@ -46,10 +51,10 @@ source(file = "scripts/R_scripts/misc_functions.R")
 metadata <- vroom("data/metadata_crabs.csv")
 ```
 
-    ## Rows: 33 Columns: 25
+    ## Rows: 33 Columns: 26
     ## ── Column specification ────────────────────────────────────────────────────────
     ## Delimiter: ","
-    ## chr (22): Species, FilePrefix, Samples used, Collector, ShortID, Individual,...
+    ## chr (23): Species, FilePrefix, Samples used, Collector, ShortID, Individual,...
     ## dbl  (2): Year, DNA Concentration
     ## lgl  (1): SRA Assession
     ## 
@@ -150,7 +155,7 @@ physeq_coverM
 
     ## phyloseq-class experiment-level object
     ## otu_table()   OTU Table:         [ 114 taxa and 33 samples ]
-    ## sample_data() Sample Data:       [ 33 samples by 25 sample variables ]
+    ## sample_data() Sample Data:       [ 33 samples by 26 sample variables ]
     ## tax_table()   Taxonomy Table:    [ 114 taxa by 7 taxonomic ranks ]
 
 ### Import kraken2/braken read-based information and prepare for analysis
@@ -428,10 +433,10 @@ tax_table_kraken_fungi <- tax_table(as.matrix(tax3_fungi))
 metadata <- vroom("data/metadata_crabs.csv")
 ```
 
-    ## Rows: 33 Columns: 25
+    ## Rows: 33 Columns: 26
     ## ── Column specification ────────────────────────────────────────────────────────
     ## Delimiter: ","
-    ## chr (22): Species, FilePrefix, Samples used, Collector, ShortID, Individual,...
+    ## chr (23): Species, FilePrefix, Samples used, Collector, ShortID, Individual,...
     ## dbl  (2): Year, DNA Concentration
     ## lgl  (1): SRA Assession
     ## 
@@ -456,7 +461,7 @@ physeq_krak
 
     ## phyloseq-class experiment-level object
     ## otu_table()   OTU Table:         [ 17864 taxa and 33 samples ]
-    ## sample_data() Sample Data:       [ 33 samples by 25 sample variables ]
+    ## sample_data() Sample Data:       [ 33 samples by 26 sample variables ]
     ## tax_table()   Taxonomy Table:    [ 17864 taxa by 8 taxonomic ranks ]
 
 ``` r
@@ -465,7 +470,7 @@ physeq_krak_fungitax
 
     ## phyloseq-class experiment-level object
     ## otu_table()   OTU Table:         [ 17864 taxa and 33 samples ]
-    ## sample_data() Sample Data:       [ 33 samples by 25 sample variables ]
+    ## sample_data() Sample Data:       [ 33 samples by 26 sample variables ]
     ## tax_table()   Taxonomy Table:    [ 17864 taxa by 7 taxonomic ranks ]
 
 ``` r
@@ -675,7 +680,6 @@ contams.arc <- run_decontam_threshold(physeq_krak_arc, 0.5, "NEG_S33")
 
     ## Warning in .is_contaminant(seqtab, conc = conc, neg = neg, method = method, :
     ## Removed 1 samples with zero total counts (or frequency).
-
     ## Warning in .is_contaminant(seqtab, conc = conc, neg = neg, method = method, :
     ## Removed 1 samples with zero total counts (or frequency).
 
@@ -702,7 +706,6 @@ contams.fungi <- run_decontam_threshold(physeq_krak_fun, 0.5,
 
     ## Warning in .is_contaminant(seqtab, conc = conc, neg = neg, method = method, :
     ## Removed 1 samples with zero total counts (or frequency).
-
     ## Warning in .is_contaminant(seqtab, conc = conc, neg = neg, method = method, :
     ## Removed 1 samples with zero total counts (or frequency).
 
@@ -988,9 +991,9 @@ krak_bray_crab_phylo = plot_ordination(physeq = physeq_krak_nC_bac,
 
 
 # All plots
-(rpkm_bray_crab_diet + rpkm_bray_crab_grade + rpkm_bray_crab_phylo)/(krak_bray_crab_diet +
-    krak_bray_crab_grade + krak_bray_crab_phylo) + plot_annotation(tag_levels = "A") +
-    plot_layout(guides = "collect")
+(rpkm_bray_crab_diet + krak_bray_crab_diet)/(rpkm_bray_crab_grade +
+    krak_bray_crab_grade)/(rpkm_bray_crab_phylo + krak_bray_crab_phylo) +
+    plot_annotation(tag_levels = "A") + plot_layout(guides = "collect")
 ```
 
 ![](LandCrabMetaG_files/figure-gfm/ordination2-1.png)<!-- -->
@@ -998,7 +1001,7 @@ krak_bray_crab_phylo = plot_ordination(physeq = physeq_krak_nC_bac,
 ``` r
 # Save as PNG
 ggsave("plots/ordination/mag_kraken_ordinations_diffgroup.png",
-    dpi = 300, device = "png", height = 6, width = 10, units = "in")
+    dpi = 300, device = "png", height = 10, width = 9, units = "in")
 ```
 
 ``` r
@@ -3887,4 +3890,1244 @@ plot
 ``` r
 ggsave("plots/relative_abundance/bacteria/krak_species_lignin.png",
     dpi = 300, device = "png", height = 12, width = 12, units = "in")
+```
+
+# FUCTIONS ACROSS SAMPLES
+
+### How does complex carbon metabolism detect change across metagenomic samples?
+
+``` r
+# import
+carbon <- vroom("data/metabolic_output_samples/overview_func.txt")
+carbon.meta <- vroom("data/metabolic_output_samples/overview_func.txt")
+
+sample_ids <- vroom("data/metadata_crabs.csv") %>%
+  mutate(ID = ifelse(Collector == 'Laetitia Wilkins', paste0("Meg", ShortID), as.character(ShortID) ))
+
+# preprocess
+carbon <- carbon %>%
+  select(-starts_with('NEG')) %>%
+  select(-starts_with('total')) %>%
+  filter(Category == 'Complex carbon degradation') %>%
+  select(Category, Function, Gene.name, ends_with('numbers')) %>%
+  pivot_longer(cols = ends_with("numbers"), names_to = "Sample",
+               values_to = "Count") %>%
+  mutate(Status = ifelse(Count > 0, "Present", "Absent")) %>%
+  mutate(StatusPA = ifelse(Count > 0, 1, 0)) %>%
+  mutate(Name = paste0(Function, " (", Gene.name,
+                       ")")) %>%
+  mutate_at("Sample", str_replace, ".Hit.numbers", "") %>%
+  mutate_at("Sample", str_replace, ".whokaryote.bac", "") %>%
+  mutate_at("Sample", str_replace, "BLBWG4", "BLB_WG4") %>%
+  mutate_at("Sample", str_replace, "BLRWG4", "BLR_WG4") %>%
+  left_join(sample_ids, by=c('Sample' = 'ID')) 
+
+# plot
+carbon %>%
+  mutate(Grade = factor(Grade, levels = c("I", "II", "III", "IV", "V"))) %>%
+  mutate(Status = factor(Status, levels = c("Present", "Absent"))) %>%
+  ggplot(aes(ShortID, Gene.name, fill = Status)) + 
+  geom_tile(color = "black", lwd = 0.5, linetype = 1) + 
+  facet_grid(Function ~ Grade+Genus_Code, 
+             scales = "free", 
+             space = "free", 
+             switch = "y") + 
+  xlab("") +
+  ylab("") + 
+  theme_classic() +
+  theme(strip.text.y.left = element_text(angle = 0, size=16)) + 
+  theme(panel.grid = element_blank(), 
+        panel.background = element_rect(fill = "transparent"))  +
+  scale_x_discrete(guide = guide_axis(angle = 90)) +        # removed overlapping axis labels
+  scale_fill_manual(values = c("#005A41","grey90")) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size=16))   +
+  theme(axis.line.x = element_blank(),
+        axis.line.y = element_blank(),
+        axis.text.y = element_text(size = 16),
+        axis.title.x = element_text(size = 18),
+        axis.title.y = element_text(size = 18),
+        strip.text = element_text(size = 18), 
+        legend.text = element_text(size = 16),
+        legend.title = element_text(size = 18),
+        legend.position="bottom", 
+        legend.box = "horizontal")
+```
+
+![](LandCrabMetaG_files/figure-gfm/fn_ac_samp-1.png)<!-- -->
+
+``` r
+ggsave(filename = 'plots/function/heatmap_samples_overview.png',plot = last_plot(), device = 'png', width =24, height = 10, dpi = 300)
+
+ggsave(filename = 'plots/function/heatmap_samples_overview.pdf',plot = last_plot(), device = 'pdf', width =24, height = 10, dpi = 300)
+```
+
+``` r
+car.stat <- carbon %>%
+  mutate(Grade = factor(Grade, levels = c("I", "II", "III", "IV", "V"))) %>%
+  mutate(Status = factor(Status, levels = c("Present", "Absent"))) %>% 
+  mutate_at("Gene.name", str_replace_all, "-", "_") %>%
+  mutate_at("Gene.name", str_replace_all, ",", "_") %>%
+  mutate_at("Gene.name", str_replace_all, " ", "_") %>%
+  mutate_at("Function", str_replace_all, " ", "_") %>%
+  pivot_wider(names_from = "Function",
+               values_from = "Count",
+              values_fn = sum,
+              id_cols = c("ShortID", "Species", "Diet_group", "Diet", "Grade", "Genus")) %>%
+  mutate(Diet = ifelse(str_detect(Diet, "Detritivore"), "Detritivore", as.character(Diet))) %>% 
+  mutate(Diet = factor(Diet))%>%
+  mutate(Diet_group = ifelse(Diet_group == "Carnivore/Omnivore", "Carnivore_Omnivore", as.character(Diet_group))) %>%
+  mutate(Diet_group = factor(Diet_group))%>%
+  mutate(Grade = factor(Grade)) %>%
+  mutate(Genus = factor(Genus))
+
+
+set.seed(5311)
+
+# Splitting data into train and test sets 
+trainIndex <- createDataPartition(car.stat$Diet_group, p = .7, list = FALSE, times = 1)
+train <- car.stat[trainIndex, ]
+test <- car.stat[-trainIndex, ]
+
+# Cross-validation control with 10 folds, repeated 10 times
+fitControl <- trainControl(method = "repeatedcv", number = 10, repeats = 10,
+                           summaryFunction = multiClassSummary, 
+                           classProbs = TRUE, savePredictions = TRUE)
+
+# Training Random Forest model
+rfFit1 <- train(Diet_group ~ ., 
+                data = train[-c(1,2,4,5,6)],  # Exclude irrelevant columns in both train and test
+                method = "ranger", 
+                trControl = fitControl,
+                importance = "permutation", 
+                weights = ifelse(train$Diet_group == "Carnivore_Omnivore", 2, 1))
+```
+
+    ## Warning in nominalTrainWorkflow(x = x, y = y, wts = weights, info = trainInfo,
+    ## : There were missing values in resampled performance measures.
+
+``` r
+# Print model summary and final model details
+print(rfFit1)
+```
+
+    ## Random Forest 
+    ## 
+    ## 25 samples
+    ##  6 predictor
+    ##  3 classes: 'Carnivore_Omnivore', 'Detritivore', 'Herbivore' 
+    ## 
+    ## No pre-processing
+    ## Resampling: Cross-Validated (10 fold, repeated 10 times) 
+    ## Summary of sample sizes: 23, 22, 23, 22, 22, 23, ... 
+    ## Resampling results across tuning parameters:
+    ## 
+    ##   mtry  splitrule   logLoss    AUC        prAUC       Accuracy   Kappa    
+    ##   2     gini        0.6269234  0.9625000  0.01638889  0.7900000  0.7000000
+    ##   2     extratrees  0.4610469  0.9733333  0.01222222  0.8100000  0.7283333
+    ##   4     gini        0.7563383  0.9708333  0.01111111  0.8133333  0.7333333
+    ##   4     extratrees  0.4650988  0.9691667  0.01347222  0.8066667  0.7200000
+    ##   6     gini        0.5787668  0.9716667  0.01180556  0.8450000  0.7783333
+    ##   6     extratrees  0.4740155  0.9633333  0.01361111  0.8066667  0.7200000
+    ##   Mean_F1  Mean_Sensitivity  Mean_Specificity  Mean_Pos_Pred_Value
+    ##   1        0.7600000         0.9100000         0.9682540          
+    ##   1        0.7800000         0.9183333         0.9682540          
+    ##   1        0.7866667         0.9200000         1.0000000          
+    ##   1        0.7733333         0.9150000         0.9666667          
+    ##   1        0.8200000         0.9333333         1.0000000          
+    ##   1        0.7733333         0.9150000         0.9666667          
+    ##   Mean_Neg_Pred_Value  Mean_Precision  Mean_Recall  Mean_Detection_Rate
+    ##   0.9160998            0.9682540       0.7600000    0.2633333          
+    ##   0.9263039            0.9682540       0.7800000    0.2700000          
+    ##   0.9285714            1.0000000       0.7866667    0.2711111          
+    ##   0.9240363            0.9666667       0.7733333    0.2688889          
+    ##   0.9421769            1.0000000       0.8200000    0.2816667          
+    ##   0.9240363            0.9666667       0.7733333    0.2688889          
+    ##   Mean_Balanced_Accuracy
+    ##   0.820                 
+    ##   0.835                 
+    ##   0.840                 
+    ##   0.830                 
+    ##   0.865                 
+    ##   0.830                 
+    ## 
+    ## Tuning parameter 'min.node.size' was held constant at a value of 1
+    ## Accuracy was used to select the optimal model using the largest value.
+    ## The final values used for the model were mtry = 6, splitrule = gini
+    ##  and min.node.size = 1.
+
+``` r
+print(rfFit1$finalModel)
+```
+
+    ## Ranger result
+    ## 
+    ## Call:
+    ##  ranger::ranger(dependent.variable.name = ".outcome", data = x,      mtry = min(param$mtry, ncol(x)), min.node.size = param$min.node.size,      splitrule = as.character(param$splitrule), write.forest = TRUE,      probability = classProbs, case.weights = wts, ...) 
+    ## 
+    ## Type:                             Probability estimation 
+    ## Number of trees:                  500 
+    ## Sample size:                      25 
+    ## Number of independent variables:  6 
+    ## Mtry:                             6 
+    ## Target node size:                 1 
+    ## Variable importance mode:         permutation 
+    ## Splitrule:                        gini 
+    ## OOB prediction error (Brier s.):  0.1527528
+
+``` r
+# Making predictions on the test set
+test_predictions <- predict(rfFit1, newdata = test[-c(1,2,4,5,6)])
+
+# Assess performance on test data
+print(postResample(test_predictions, test$Diet_group))
+```
+
+    ##  Accuracy     Kappa 
+    ## 0.8571429 0.7812500
+
+``` r
+# Confusion matrix for detailed classification performance
+confusionMatrix(test_predictions, test$Diet_group)
+```
+
+    ## Confusion Matrix and Statistics
+    ## 
+    ##                     Reference
+    ## Prediction           Carnivore_Omnivore Detritivore Herbivore
+    ##   Carnivore_Omnivore                  1           0         1
+    ##   Detritivore                         0           3         0
+    ##   Herbivore                           0           0         2
+    ## 
+    ## Overall Statistics
+    ##                                           
+    ##                Accuracy : 0.8571          
+    ##                  95% CI : (0.4213, 0.9964)
+    ##     No Information Rate : 0.4286          
+    ##     P-Value [Acc > NIR] : 0.02744         
+    ##                                           
+    ##                   Kappa : 0.7812          
+    ##                                           
+    ##  Mcnemar's Test P-Value : NA              
+    ## 
+    ## Statistics by Class:
+    ## 
+    ##                      Class: Carnivore_Omnivore Class: Detritivore
+    ## Sensitivity                             1.0000             1.0000
+    ## Specificity                             0.8333             1.0000
+    ## Pos Pred Value                          0.5000             1.0000
+    ## Neg Pred Value                          1.0000             1.0000
+    ## Prevalence                              0.1429             0.4286
+    ## Detection Rate                          0.1429             0.4286
+    ## Detection Prevalence                    0.2857             0.4286
+    ## Balanced Accuracy                       0.9167             1.0000
+    ##                      Class: Herbivore
+    ## Sensitivity                    0.6667
+    ## Specificity                    1.0000
+    ## Pos Pred Value                 1.0000
+    ## Neg Pred Value                 0.8000
+    ## Prevalence                     0.4286
+    ## Detection Rate                 0.2857
+    ## Detection Prevalence           0.2857
+    ## Balanced Accuracy              0.8333
+
+``` r
+# Plotting variable importance
+plot(varImp(rfFit1))
+```
+
+![](LandCrabMetaG_files/figure-gfm/random-1.png)<!-- -->
+
+# FUCTIONS ACROSS BINS
+
+### How do CAZYmes involved in ligin-cellulose degredation change in count across bins?
+
+``` r
+annot <- vroom("data/DRAM/annotation/annotations.tsv")
+```
+
+    ## New names:
+    ## Rows: 383528 Columns: 23
+    ## ── Column specification
+    ## ──────────────────────────────────────────────────────── Delimiter: "\t" chr
+    ## (14): ...1, fasta, scaffold, rank, ko_id, kegg_hit, peptidase_id, peptid... dbl
+    ## (8): gene_position, start_position, end_position, strandedness, peptida... lgl
+    ## (1): peptidase_RBH
+    ## ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
+    ## Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## • `` -> `...1`
+
+``` r
+fn_of_interset <- vroom("data/DRAM/functions_of_interest.txt")
+```
+
+    ## Rows: 41 Columns: 2
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (2): CAZY, KEGG
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+dbcan.dram.meta <- vroom("data/DRAM/carbon_util.txt")
+```
+
+    ## Rows: 911 Columns: 134
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr   (5): gene_id, gene_description, module, header, subheader
+    ## dbl (129): old_originals_METABAT__479-contigs, Birg_Half_DAS_BirgitHalves_bi...
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+mag_ids <- vroom("data/mag_table_vlc.txt") %>%
+    mutate(TaxName = paste0(`GTDB Taxonomy`, " ", `Bin ID`))
+```
+
+    ## Rows: 129 Columns: 17
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (11): Bin ID, GTDB Taxonomy, NCBI Taxonomy, classification, Relative Evo...
+    ## dbl  (6): Completeness, Contamination, N50 (bp), MAG size (bp), GC (%), No. ...
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+totals <- annot %>%
+    filter(!is.na(cazy_ids)) %>%
+    separate_longer_delim(cazy_ids, delim = "; ") %>%
+    separate_longer_delim(cazy_ids, delim = "in") %>%
+    mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_trans_3", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_tranf_2", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_tranf_4", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glycos_transf", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_tranf_5", "") %>%
+    filter(cazy_ids != "SLH") %>%
+    mutate(Family = ifelse(str_detect(cazy_ids, "GT"), "GT",
+        ifelse(str_detect(cazy_ids, "CE"), "CE", ifelse(str_detect(cazy_ids,
+            "GH"), "GH", ifelse(str_detect(cazy_ids, "AA"), "AA",
+            ifelse(str_detect(cazy_ids, "PL"), "PL", "CBM")))))) %>%
+    group_by(Family, cazy_ids) %>%
+    tally()
+
+
+
+annot.filt <- annot %>%
+    filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY,
+        "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit,
+        paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|",
+            sep = ""))) %>%
+    separate_longer_delim(cazy_ids, delim = "; ") %>%
+    mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_trans_3", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glycos_transf", "") %>%
+    mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
+    mutate_at("fasta", str_replace, "_cleaned", "") %>%
+    filter(cazy_ids != "SLH") %>%
+    left_join(mag_ids, by = c(fasta = "bin_name")) %>%
+    count(TaxName, cazy_ids) %>%
+    pivot_wider(names_from = cazy_ids, values_from = n, values_fill = 0)
+
+
+annot.filt <- as.data.frame(annot.filt)
+rownames(annot.filt) <- annot.filt$TaxName
+
+annot.filt <- annot.filt[-c(1)] %>%
+    select_if(colSums(.) > 0) %>%
+    mutate(total = rowSums(.)) %>%
+    filter(total > 0) %>%
+    select(-total)
+
+dbcan.dram.annot <- dbcan.dram.meta %>%
+    filter(gene_id %in% colnames(annot.filt)) %>%
+    select(gene_id, module)
+
+missing_cazy_families <- c("GH166", "CE17")
+missing_cazy_categories <- c("Glycoside Hydrolases", "Carbohydrate Esterases")
+
+# Create a dataframe
+cazy_df <- data.frame(gene_id = missing_cazy_families, module = missing_cazy_categories)
+
+dbcan.dram.annot <- full_join(dbcan.dram.annot, cazy_df)
+```
+
+    ## Joining with `by = join_by(gene_id, module)`
+
+``` r
+dbcan.dram.annot <- as.data.frame(dbcan.dram.annot)
+rownames(dbcan.dram.annot) <- dbcan.dram.annot$gene_id
+
+ann_colors = list(module = c(`Auxiliary Activities` = "#00466B",
+    `Carbohydrate Esterases` = "#FFF7AA", `Carbohydrate-Binding Modules` = "#7B498D",
+    `Glycoside Hydrolases` = "lightblue", GlycosylTransferases = "#804515",
+    `Polysaccharide Lyases` = "#009E73"), Class = c(Acidimicrobiia = "#FDE725FF",
+    Actinomycetia = "#D5E21AFF", Alphaproteobacteria = "#AADC32FF",
+    Bacilli = "#82D34DFF", Bacteroidia = "#5DC863FF", Blastocatellia = "#3EBC74FF",
+    Campylobacteria = "#27AD81FF", Chlamydiia = "#1F9F88FF",
+    Clostridia = "#21908CFF", Desulfobulbia = "#26828EFF", Desulfovibrionia = "#2C728EFF",
+    Fusobacteriia = "#33638DFF", Gammaproteobacteria = "#3B528BFF",
+    Negativicutes = "#424086FF", Planctomycetia = "#472D7BFF",
+    Saccharimonadia = "#48186AFF", Verrucomicrobiae = "#440154FF"))
+
+mag_ids_annot <- mag_ids %>%
+    select(TaxName, Class) %>%
+    filter(TaxName %in% rownames(annot.filt))
+
+
+mag_ids_annot <- as.data.frame(mag_ids_annot)
+rownames(mag_ids_annot) <- mag_ids_annot$TaxName
+
+
+
+ph.sup <- as.ggplot(pheatmap(log(annot.filt + 1), cluster_cols = TRUE,
+    cluster_rows = TRUE, show_rownames = TRUE, annotation_row = mag_ids_annot[-c(1)],
+    annotation_col = dbcan.dram.annot[-c(1)], annotation_colors = ann_colors,
+    drop_levels = TRUE, fontsize = 14, border_color = NA, color = inferno(10,
+        begin = 0.05), ))
+```
+
+![](LandCrabMetaG_files/figure-gfm/czy_heat_raw-1.png)<!-- -->
+
+``` r
+# ph.sup ggsave(filename =
+# 'plots/function/raw_dbcan_supp.png',plot = last_plot(),
+# device = 'png', width =25, height = 25, dpi = 300)
+# ggsave(filename =
+# 'plots/function/raw_dbcan_supp.pdf',plot = last_plot(),
+# device = 'pdf', width =25, height = 25, dpi = 300)
+```
+
+### Focus on Bacteroidia
+
+``` r
+annot.filt <- annot %>%
+    filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY,
+        "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit,
+        paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|",
+            sep = ""))) %>%
+    separate_longer_delim(cazy_ids, delim = "; ") %>%
+    mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_trans_3", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glycos_transf", "") %>%
+    mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
+    mutate_at("fasta", str_replace, "_cleaned", "") %>%
+    filter(cazy_ids != "SLH") %>%
+    left_join(mag_ids, by = c(fasta = "bin_name")) %>%
+    filter(Class == "Bacteroidia") %>%
+    count(TaxName, cazy_ids) %>%
+    pivot_wider(names_from = cazy_ids, values_from = n, values_fill = 0)
+
+annot.filt <- as.data.frame(annot.filt)
+rownames(annot.filt) <- annot.filt$TaxName
+
+annot.filt <- annot.filt[-c(1)] %>%
+    select_if(colSums(.) > 0) %>%
+    mutate(total = rowSums(.)) %>%
+    filter(total > 0) %>%
+    select(-total)
+
+dbcan.dram.annot <- dbcan.dram.meta %>%
+    filter(gene_id %in% colnames(annot.filt)) %>%
+    select(gene_id, module)
+
+missing_cazy_families <- c("GH166", "CE17")
+missing_cazy_categories <- c("Glycoside Hydrolases", "Carbohydrate Esterases")
+
+# Create a dataframe
+cazy_df <- data.frame(gene_id = missing_cazy_families, module = missing_cazy_categories)
+
+dbcan.dram.annot <- full_join(dbcan.dram.annot, cazy_df)
+```
+
+    ## Joining with `by = join_by(gene_id, module)`
+
+``` r
+dbcan.dram.annot <- as.data.frame(dbcan.dram.annot)
+rownames(dbcan.dram.annot) <- dbcan.dram.annot$gene_id
+
+ann_colors = list(module = c(`Auxiliary Activities` = "#00466B",
+    `Carbohydrate Esterases` = "#FFF7AA", `Carbohydrate-Binding Modules` = "#7B498D",
+    `Glycoside Hydrolases` = "lightblue", GlycosylTransferases = "#804515",
+    `Polysaccharide Lyases` = "#009E73"), Order = c(Bacteroidales = "#0d0887",
+    Chitinophagales = "#cc4778", Flavobacteriales = "#f0f921"),
+    Class = c(Bacteroidia = "#5DC863FF"))
+
+
+mag_ids_annot <- mag_ids %>%
+    select(TaxName, Class, Order) %>%
+    filter(TaxName %in% rownames(annot.filt))
+
+
+mag_ids_annot <- as.data.frame(mag_ids_annot)
+rownames(mag_ids_annot) <- mag_ids_annot$TaxName
+
+
+ph.e <- as.ggplot(pheatmap(log(annot.filt + 1), cluster_cols = TRUE,
+    cluster_rows = TRUE, show_rownames = TRUE, annotation_row = mag_ids_annot[-c(1)],
+    annotation_col = dbcan.dram.annot[-c(1)], annotation_colors = ann_colors,
+    drop_levels = TRUE, fontsize = 18, border_color = NA, color = inferno(100,
+        begin = 0.05), ))
+```
+
+![](LandCrabMetaG_files/figure-gfm/czy_heat-1.png)<!-- -->
+
+``` r
+# ph.e ggsave(filename =
+# 'plots/function/raw_dbcan_bact.png',plot = last_plot(),
+# device = 'png', width =30, height = 10, dpi = 300)
+# ggsave(filename =
+# 'plots/function/raw_dbcan_bact.pdf',plot = last_plot(),
+# device = 'pdf', width =30, height = 10, dpi = 300)
+```
+
+``` r
+# MAG Transform counts to Relative Abundance (RA) and
+# aggregate to genus level
+ps.RA <- transform_sample_counts(physeq_coverM_nC, function(x) x/sum(x))
+ps.RA.gen <- tax_glom(ps.RA, taxrank = "genus", NArm = FALSE)
+ps.RA.gen = filter_taxa(ps.RA.gen, function(x) mean(x) > 0.01,
+    TRUE)
+df_ps.RA.filt <- psmelt(ps.RA.gen)
+
+
+mag_ids_RA <- mag_ids %>%
+    filter(TaxName %in% rownames(annot.filt))
+
+# Plotting only genera with significant differences based
+# on diet
+avgs_grouped <- df_ps.RA.filt %>%
+    group_by(Genus, phylum, class, order, family, genus, OTU) %>%
+    filter(OTU %in% mag_ids_RA$bin_name) %>%
+    summarise(meanA = 100 * mean(Abundance), sdA = 100 * sd(Abundance),
+        seA = 100 * se(Abundance))
+```
+
+    ## `summarise()` has grouped output by 'Genus', 'phylum', 'class', 'order',
+    ## 'family', 'genus'. You can override using the `.groups` argument.
+
+``` r
+# Create a bar plot with error bars
+bar_side_plot_mag = ggplot(avgs_grouped, aes(x = Genus, y = (meanA),
+    fill = order)) + geom_bar(stat = "identity", position = "dodge") +
+    geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA + seA)),
+        width = 0.4, position = position_dodge(0.9)) + theme_bw() +
+    theme(text = element_text(size = 18)) + ylab("Mean Relative Abundance") +
+    xlab("") + guides(fill = guide_legend(title = "Order")) +
+    scale_fill_viridis_d(option = "C") + theme(axis.text.x = element_text(angle = -55,
+    hjust = 0, vjust = 0.5)) + facet_wrap(~genus, ncol = 4, scale = "free_y")
+
+bar_side_plot_mag
+```
+
+![](LandCrabMetaG_files/figure-gfm/ra_for_heatmap4-1.png)<!-- -->
+
+``` r
+# Display and save the plot as a PNG
+ggsave("plots/function/ra_heatmap_bact.png", dpi = 300, device = "png",
+    height = 6, width = 14, units = "in")
+ggsave("plots/function/ra_heatmap_bact.pdf", dpi = 300, device = "pdf",
+    height = 6, width = 14, units = "in")
+```
+
+### Focus on Actinomycetia
+
+``` r
+annot.filt <- annot %>%
+    filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY,
+        "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit,
+        paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|",
+            sep = ""))) %>%
+    separate_longer_delim(cazy_ids, delim = "; ") %>%
+    mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glyco_trans_3", "") %>%
+    mutate_at("cazy_ids", str_replace, "_Glycos_transf", "") %>%
+    mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
+    mutate_at("fasta", str_replace, "_cleaned", "") %>%
+    filter(cazy_ids != "SLH") %>%
+    left_join(mag_ids, by = c(fasta = "bin_name")) %>%
+    filter(Class == "Actinomycetia") %>%
+    count(TaxName, cazy_ids) %>%
+    pivot_wider(names_from = cazy_ids, values_from = n, values_fill = 0)
+
+annot.filt <- as.data.frame(annot.filt)
+rownames(annot.filt) <- annot.filt$TaxName
+
+annot.filt <- annot.filt[-c(1)] %>%
+    select_if(colSums(.) > 0) %>%
+    mutate(total = rowSums(.)) %>%
+    filter(total > 0) %>%
+    select(-total)
+
+dbcan.dram.annot <- dbcan.dram.meta %>%
+    filter(gene_id %in% colnames(annot.filt)) %>%
+    select(gene_id, module)
+
+missing_cazy_families <- c("GH166", "CE17")
+missing_cazy_categories <- c("Glycoside Hydrolases", "Carbohydrate Esterases")
+
+# Create a dataframe
+cazy_df <- data.frame(gene_id = missing_cazy_families, module = missing_cazy_categories)
+
+dbcan.dram.annot <- full_join(dbcan.dram.annot, cazy_df)
+```
+
+    ## Joining with `by = join_by(gene_id, module)`
+
+``` r
+dbcan.dram.annot <- as.data.frame(dbcan.dram.annot)
+rownames(dbcan.dram.annot) <- dbcan.dram.annot$gene_id
+
+ann_colors = list(module = c(`Auxiliary Activities` = "#00466B",
+    `Carbohydrate Esterases` = "#FFF7AA", `Carbohydrate-Binding Modules` = "#7B498D",
+    `Glycoside Hydrolases` = "lightblue", GlycosylTransferases = "#804515",
+    `Polysaccharide Lyases` = "#009E73"), Order = c(Actinomycetales = "#0d0887",
+    Propionibacteriales = "#cc4778", Mycobacteriales = "#f0f921"),
+    Class = c(Actinomycetia = "#D5E21AFF"))
+
+
+mag_ids_annot <- mag_ids %>%
+    select(TaxName, Class, Order) %>%
+    filter(TaxName %in% rownames(annot.filt))
+
+
+mag_ids_annot <- as.data.frame(mag_ids_annot)
+rownames(mag_ids_annot) <- mag_ids_annot$TaxName
+
+
+ph.act <- as.ggplot(pheatmap(log(annot.filt + 1), cluster_cols = TRUE,
+    cluster_rows = TRUE, show_rownames = TRUE, annotation_row = mag_ids_annot[-c(1)],
+    annotation_col = dbcan.dram.annot[-c(1)], annotation_colors = ann_colors,
+    drop_levels = TRUE, fontsize = 18, border_color = NA, color = inferno(100,
+        begin = 0.05), ))
+```
+
+![](LandCrabMetaG_files/figure-gfm/czy_heat_2-1.png)<!-- -->
+
+``` r
+# ph.act ggsave(filename =
+# 'plots/function/raw_dbcan_act.png',plot = last_plot(),
+# device = 'png', width =15, height = 6, dpi = 300)
+# ggsave(filename = 'plots/function/raw_dbcan_act.pdf',plot
+# = last_plot(), device = 'pdf', width =15, height = 6, dpi
+# = 300)
+```
+
+``` r
+# MAG Transform counts to Relative Abundance (RA) and
+# aggregate to genus level
+ps.RA <- transform_sample_counts(physeq_coverM_nC, function(x) x/sum(x))
+ps.RA.gen <- tax_glom(ps.RA, taxrank = "genus", NArm = FALSE)
+ps.RA.gen = filter_taxa(ps.RA.gen, function(x) mean(x) > 0.001,
+    TRUE)
+df_ps.RA.filt <- psmelt(ps.RA.gen)
+
+
+mag_ids_RA <- mag_ids %>%
+    filter(TaxName %in% rownames(annot.filt))
+
+# Plotting only genera with significant differences based
+# on diet
+avgs_grouped <- df_ps.RA.filt %>%
+    group_by(Genus, phylum, class, order, family, genus, OTU) %>%
+    filter(OTU %in% mag_ids_RA$bin_name) %>%
+    summarise(meanA = 100 * mean(Abundance), sdA = 100 * sd(Abundance),
+        seA = 100 * se(Abundance))
+```
+
+    ## `summarise()` has grouped output by 'Genus', 'phylum', 'class', 'order',
+    ## 'family', 'genus'. You can override using the `.groups` argument.
+
+``` r
+# Create a bar plot with error bars
+bar_side_plot_mag = ggplot(avgs_grouped, aes(x = Genus, y = (meanA),
+    fill = order)) + geom_bar(stat = "identity", position = "dodge") +
+    geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA + seA)),
+        width = 0.4, position = position_dodge(0.9)) + theme_bw() +
+    theme(text = element_text(size = 18)) + ylab("Mean Relative Abundance") +
+    xlab("") + guides(fill = guide_legend(title = "Order")) +
+    scale_fill_viridis_d(option = "C") + theme(axis.text.x = element_text(angle = -55,
+    hjust = 0, vjust = 0.5)) + facet_wrap(~genus, ncol = 4, scale = "free_y")
+
+bar_side_plot_mag
+```
+
+![](LandCrabMetaG_files/figure-gfm/ra_for_heatmap5-1.png)<!-- -->
+
+``` r
+# Display and save the plot as a PNG
+ggsave("plots/function/ra_heatmap_act.png", dpi = 300, device = "png",
+    height = 6, width = 14, units = "in")
+ggsave("plots/function/ra_heatmap_act.pdf", dpi = 300, device = "pdf",
+    height = 6, width = 14, units = "in")
+```
+
+### Focus on Clostridia
+
+``` r
+annot.filt <- annot %>%
+  filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY, "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit, paste("\\b",na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep=""))) %>%
+  separate_longer_delim(cazy_ids, delim = "; ") %>%
+  mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glyco_trans_3", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glycos_transf", "") %>%
+  mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
+  mutate_at("fasta", str_replace, "_cleaned", "") %>%
+  filter(cazy_ids != 'SLH') %>%
+  left_join(mag_ids, by=c('fasta' = 'bin_name')) %>%
+  filter(Class == "Clostridia") %>% 
+  count(TaxName, cazy_ids) %>% 
+  pivot_wider(names_from = cazy_ids, values_from = n, values_fill = 0)
+
+annot.filt <- as.data.frame(annot.filt)
+rownames(annot.filt) <- annot.filt$TaxName
+
+annot.filt <- annot.filt[-c(1)] %>%
+  select_if(colSums(.) > 0) %>%
+  mutate(total = rowSums(.)) %>%
+  filter(total > 0) %>%
+  select(-total)
+
+dbcan.dram.annot <- dbcan.dram.meta %>%
+  filter(gene_id %in% colnames(annot.filt)) %>%
+  select(gene_id, module)
+
+missing_cazy_families <- c("GH166", "CE17")
+missing_cazy_categories <- c("Glycoside Hydrolases", "Carbohydrate Esterases")
+
+# Create a dataframe
+cazy_df <- data.frame(gene_id = missing_cazy_families, module = missing_cazy_categories)
+
+dbcan.dram.annot <- full_join(dbcan.dram.annot, cazy_df)
+```
+
+    ## Joining with `by = join_by(gene_id, module)`
+
+``` r
+dbcan.dram.annot <- as.data.frame(dbcan.dram.annot)
+rownames(dbcan.dram.annot) <- dbcan.dram.annot$gene_id
+
+ann_colors = list(
+  `module` = c("Auxiliary Activities" = "#00466B", "Carbohydrate Esterases" = "#FFF7AA","Carbohydrate-Binding Modules"="#7B498D", "Glycoside Hydrolases"  = "lightblue", "GlycosylTransferases" = "#804515", "Polysaccharide Lyases" = "#009E73"),
+  `Order` = c( "Lachnospirales" = "#0d0887", 
+               "Oscillospirales" = "#cc4778",
+             "Peptostreptococcales" = "#f0f921"
+             
+             ),
+  `Class` = c(
+              "Clostridia"  =  "#21908CFF"
+              
+  ))
+
+
+mag_ids_annot <- mag_ids %>%
+  select(TaxName, Class, Order) %>%
+  filter(TaxName %in% rownames(annot.filt)) 
+
+
+mag_ids_annot <- as.data.frame(mag_ids_annot)
+rownames(mag_ids_annot) <- mag_ids_annot$TaxName
+
+
+ph.clo <- as.ggplot(pheatmap(log(annot.filt+1),
+                           cluster_cols=TRUE,
+                           cluster_rows = TRUE,
+                           show_rownames = TRUE,
+                           annotation_row = mag_ids_annot[-c(1)],
+                           annotation_col =  dbcan.dram.annot[-c(1)],
+                           annotation_colors = ann_colors,
+                           drop_levels       = TRUE,
+                           fontsize          = 18,
+                           border_color = NA,
+                           color = inferno(100, begin=.05),
+))
+```
+
+![](LandCrabMetaG_files/figure-gfm/czy_heat_3-1.png)<!-- -->
+
+``` r
+# 
+# ph.clo
+# ggsave(filename = 'plots/function/raw_dbcan_clo.png',plot = last_plot(), device = 'png', width =15, height = 6, dpi = 300)
+# ggsave(filename = 'plots/function/raw_dbcan_clo.pdf',plot = last_plot(), device = 'pdf', width =15, height = 6, dpi = 300)
+```
+
+``` r
+# MAG Transform counts to Relative Abundance (RA) and
+# aggregate to genus level
+ps.RA <- transform_sample_counts(physeq_coverM_nC, function(x) x/sum(x))
+ps.RA.gen <- tax_glom(ps.RA, taxrank = "genus", NArm = FALSE)
+# ps.RA.gen = filter_taxa(ps.RA.gen, function(x) mean(x) >
+# 0.001, TRUE)
+df_ps.RA.filt <- psmelt(ps.RA.gen)
+
+
+mag_ids_RA <- mag_ids %>%
+    filter(TaxName %in% rownames(annot.filt))
+
+# Plotting only genera with significant differences based
+# on diet
+avgs_grouped <- df_ps.RA.filt %>%
+    group_by(Genus, phylum, class, order, family, genus, OTU) %>%
+    filter(OTU %in% mag_ids_RA$bin_name) %>%
+    summarise(meanA = 100 * mean(Abundance), sdA = 100 * sd(Abundance),
+        seA = 100 * se(Abundance))
+```
+
+    ## `summarise()` has grouped output by 'Genus', 'phylum', 'class', 'order',
+    ## 'family', 'genus'. You can override using the `.groups` argument.
+
+``` r
+# Create a bar plot with error bars
+bar_side_plot_mag = ggplot(avgs_grouped, aes(x = Genus, y = (meanA),
+    fill = order)) + geom_bar(stat = "identity", position = "dodge") +
+    geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA + seA)),
+        width = 0.4, position = position_dodge(0.9)) + theme_bw() +
+    theme(text = element_text(size = 18)) + ylab("Mean Relative Abundance") +
+    xlab("") + guides(fill = guide_legend(title = "Order")) +
+    scale_fill_viridis_d(option = "C") + theme(axis.text.x = element_text(angle = -55,
+    hjust = 0, vjust = 0.5)) + facet_wrap(~genus, ncol = 6, scale = "free_y")
+
+bar_side_plot_mag
+```
+
+![](LandCrabMetaG_files/figure-gfm/ra_for_heatmap-1.png)<!-- -->
+
+``` r
+# Display and save the plot as a PNG
+ggsave("plots/function/ra_heatmap_clo.png", dpi = 300, device = "png",
+    height = 6, width = 16, units = "in")
+ggsave("plots/function/ra_heatmap_clo.pdf", dpi = 300, device = "pdf",
+    height = 6, width = 16, units = "in")
+```
+
+### Focus on Gammaproteobacteria
+
+``` r
+annot.filt <-  annot %>%
+  filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY, "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit, paste("\\b",na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep=""))) %>%
+  separate_longer_delim(cazy_ids, delim = "; ") %>%
+  mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glyco_trans_3", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glycos_transf", "") %>%
+  mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
+  mutate_at("fasta", str_replace, "_cleaned", "") %>%
+  filter(cazy_ids != 'SLH') %>%
+  left_join(mag_ids, by=c('fasta' = 'bin_name')) %>%
+  filter(Class == "Gammaproteobacteria") %>% 
+  count(TaxName, cazy_ids) %>% 
+  pivot_wider(names_from = cazy_ids, values_from = n, values_fill = 0)
+
+annot.filt <- as.data.frame(annot.filt)
+rownames(annot.filt) <- annot.filt$TaxName
+
+annot.filt <- annot.filt[-c(1)] %>%
+  select_if(colSums(.) > 0) %>%
+  mutate(total = rowSums(.)) %>%
+  filter(total > 0) %>%
+  select(-total)
+
+dbcan.dram.annot <- dbcan.dram.meta %>%
+  filter(gene_id %in% colnames(annot.filt)) %>%
+  select(gene_id, module)
+
+missing_cazy_families <- c("GH166", "CE17")
+missing_cazy_categories <- c("Glycoside Hydrolases", "Carbohydrate Esterases")
+
+# Create a dataframe
+cazy_df <- data.frame(gene_id = missing_cazy_families, module = missing_cazy_categories)
+
+dbcan.dram.annot <- full_join(dbcan.dram.annot, cazy_df)
+```
+
+    ## Joining with `by = join_by(gene_id, module)`
+
+``` r
+dbcan.dram.annot <- as.data.frame(dbcan.dram.annot)
+rownames(dbcan.dram.annot) <- dbcan.dram.annot$gene_id
+
+ann_colors = list(
+  `module` = c("Auxiliary Activities" = "#00466B", "Carbohydrate Esterases" = "#FFF7AA","Carbohydrate-Binding Modules"="#7B498D", "Glycoside Hydrolases"  = "lightblue", "GlycosylTransferases" = "#804515", "Polysaccharide Lyases" = "#009E73"),
+  `Order` = c( "Burkholderiales" = "#0d0887", 
+               "Enterobacterales" = "#9c179e",
+             "Xanthomonadales" = "#f0f921",
+             "Pseudomonadales" = "#ed7953"
+             ),
+  `Class` = c(
+              "Gammaproteobacteria"= "#3B528BFF"
+              
+  ))
+
+
+mag_ids_annot <- mag_ids %>%
+  select(TaxName, Class, Order) %>%
+  filter(TaxName %in% rownames(annot.filt)) 
+
+
+mag_ids_annot <- as.data.frame(mag_ids_annot)
+rownames(mag_ids_annot) <- mag_ids_annot$TaxName
+
+
+ph.gam <- as.ggplot(pheatmap(log(annot.filt+1),
+                           cluster_cols=TRUE,
+                           cluster_rows = TRUE,
+                           show_rownames = TRUE,
+                           annotation_row = mag_ids_annot[-c(1)],
+                           annotation_col =  dbcan.dram.annot[-c(1)],
+                           annotation_colors = ann_colors,
+                           drop_levels       = TRUE,
+                           fontsize          = 18,
+                           border_color = NA,
+                           color = inferno(100, begin=.05),
+))
+```
+
+![](LandCrabMetaG_files/figure-gfm/czy_heat_4-1.png)<!-- -->
+
+``` r
+# ph.gam
+# ggsave(filename = 'plots/function/raw_dbcan_gam.png',plot = last_plot(), device = 'png', width =15, height = 6, dpi = 300)
+# ggsave(filename = 'plots/function/raw_dbcan_gam.pdf',plot = last_plot(), device = 'pdf', width =15, height = 6, dpi = 300)
+```
+
+``` r
+# MAG Transform counts to Relative Abundance (RA) and
+# aggregate to genus level
+ps.RA <- transform_sample_counts(physeq_coverM_nC, function(x) x/sum(x))
+ps.RA.gen <- tax_glom(ps.RA, taxrank = "genus", NArm = FALSE)
+ps.RA.gen = filter_taxa(ps.RA.gen, function(x) mean(x) > 0.001,
+    TRUE)
+df_ps.RA.filt <- psmelt(ps.RA.gen)
+
+
+mag_ids_RA <- mag_ids %>%
+    filter(TaxName %in% rownames(annot.filt))
+
+# Plotting only genera with significant differences based
+# on diet
+avgs_grouped <- df_ps.RA.filt %>%
+    group_by(Genus, phylum, class, order, family, genus, OTU) %>%
+    filter(OTU %in% mag_ids_RA$bin_name) %>%
+    summarise(meanA = 100 * mean(Abundance), sdA = 100 * sd(Abundance),
+        seA = 100 * se(Abundance))
+```
+
+    ## `summarise()` has grouped output by 'Genus', 'phylum', 'class', 'order',
+    ## 'family', 'genus'. You can override using the `.groups` argument.
+
+``` r
+# Create a bar plot with error bars
+bar_side_plot_mag = ggplot(avgs_grouped, aes(x = Genus, y = (meanA),
+    fill = order)) + geom_bar(stat = "identity", position = "dodge") +
+    geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA + seA)),
+        width = 0.4, position = position_dodge(0.9)) + theme_bw() +
+    theme(text = element_text(size = 18)) + ylab("Mean Relative Abundance") +
+    xlab("") + guides(fill = guide_legend(title = "Order")) +
+    scale_fill_viridis_d(option = "C") + theme(axis.text.x = element_text(angle = -55,
+    hjust = 0, vjust = 0.5)) + facet_wrap(~genus, ncol = 5, scale = "free_y")
+
+bar_side_plot_mag
+```
+
+![](LandCrabMetaG_files/figure-gfm/ra_for_heatmap2-1.png)<!-- -->
+
+``` r
+# Display and save the plot as a PNG
+ggsave("plots/function/ra_heatmap_gam.png", dpi = 300, device = "png",
+    height = 6, width = 16, units = "in")
+ggsave("plots/function/ra_heatmap_gam.pdf", dpi = 300, device = "pdf",
+    height = 6, width = 16, units = "in")
+```
+
+### Focus on Alphaproteobacteria
+
+``` r
+annot.filt <- annot %>%
+  filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY, "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit, paste("\\b",na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep=""))) %>%
+  separate_longer_delim(cazy_ids, delim = "; ") %>%
+  mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glyco_trans_3", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glycos_transf", "") %>%
+  mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
+  mutate_at("fasta", str_replace, "_cleaned", "") %>%
+  filter(cazy_ids != 'SLH') %>%
+  left_join(mag_ids, by=c('fasta' = 'bin_name')) %>%
+  filter(Class == "Alphaproteobacteria") %>% 
+  count(TaxName, cazy_ids) %>% 
+  pivot_wider(names_from = cazy_ids, values_from = n, values_fill = 0)
+
+annot.filt <- as.data.frame(annot.filt)
+rownames(annot.filt) <- annot.filt$TaxName
+
+annot.filt <- annot.filt[-c(1)] %>%
+  select_if(colSums(.) > 0) %>%
+  mutate(total = rowSums(.)) %>%
+  filter(total > 0) %>%
+  select(-total)
+
+dbcan.dram.annot <- dbcan.dram.meta %>%
+  filter(gene_id %in% colnames(annot.filt)) %>%
+  select(gene_id, module)
+
+missing_cazy_families <- c("GH166", "CE17")
+missing_cazy_categories <- c("Glycoside Hydrolases", "Carbohydrate Esterases")
+
+# Create a dataframe
+cazy_df <- data.frame(gene_id = missing_cazy_families, module = missing_cazy_categories)
+
+dbcan.dram.annot <- full_join(dbcan.dram.annot, cazy_df)
+```
+
+    ## Joining with `by = join_by(gene_id, module)`
+
+``` r
+dbcan.dram.annot <- as.data.frame(dbcan.dram.annot)
+rownames(dbcan.dram.annot) <- dbcan.dram.annot$gene_id
+
+ann_colors = list(
+  `module` = c("Auxiliary Activities" = "#00466B", "Carbohydrate Esterases" = "#FFF7AA","Carbohydrate-Binding Modules"="#7B498D", "Glycoside Hydrolases"  = "lightblue", "GlycosylTransferases" = "#804515", "Polysaccharide Lyases" = "#009E73"
+               ),
+  `Order` = c( "Alphaproteobacteria" = "#0d0887", 
+               "Rhizobiales" = "#cc4778",
+             "Sphingomonadales" = "#f0f921",
+             "Rhodobacterales" = "#ed7953",
+             "RF32" = "#7e03a8"
+             ),
+  `Class` = c(
+
+              "Alphaproteobacteria" = "#AADC32FF"
+
+  ))
+
+
+mag_ids_annot <- mag_ids %>%
+  select(TaxName, Class, Order) %>%
+  filter(TaxName %in% rownames(annot.filt)) %>%
+  mutate(Order = ifelse(is.na(Order), "Alphaproteobacteria", as.character(Order)))
+
+
+mag_ids_annot <- as.data.frame(mag_ids_annot)
+rownames(mag_ids_annot) <- mag_ids_annot$TaxName
+
+
+ph.alp <- as.ggplot(pheatmap(log(annot.filt+1),
+                           cluster_cols=TRUE,
+                           cluster_rows = TRUE,
+                           show_rownames = TRUE,
+                           annotation_row = mag_ids_annot[-c(1)],
+                           annotation_col =  dbcan.dram.annot[-c(1)],
+                           annotation_colors = ann_colors,
+                           drop_levels       = TRUE,
+                           fontsize          = 18,
+                           border_color = NA,
+                           color = inferno(100, begin=.05),
+))
+```
+
+![](LandCrabMetaG_files/figure-gfm/czy_heat_5-1.png)<!-- -->
+
+``` r
+# ph.alp
+# ggsave(filename = 'plots/function/raw_dbcan_alp.png',plot = last_plot(), device = 'png', width =15, height = 6, dpi = 300)
+# ggsave(filename = 'plots/function/raw_dbcan_alp.pdf',plot = last_plot(), device = 'pdf', width =15, height = 6, dpi = 300)
+# 
+```
+
+``` r
+# MAG Transform counts to Relative Abundance (RA) and
+# aggregate to genus level
+ps.RA <- transform_sample_counts(physeq_coverM_nC, function(x) x/sum(x))
+ps.RA.gen <- tax_glom(ps.RA, taxrank = "genus", NArm = FALSE)
+ps.RA.gen = filter_taxa(ps.RA.gen, function(x) mean(x) > 0.001,
+    TRUE)
+df_ps.RA.filt <- psmelt(ps.RA.gen)
+
+
+mag_ids_RA <- mag_ids %>%
+    filter(TaxName %in% rownames(annot.filt))
+
+# Plotting only genera with significant differences based
+# on diet
+avgs_grouped <- df_ps.RA.filt %>%
+    group_by(Genus, phylum, class, order, family, genus, OTU) %>%
+    filter(OTU %in% mag_ids_RA$bin_name) %>%
+    summarise(meanA = 100 * mean(Abundance), sdA = 100 * sd(Abundance),
+        seA = 100 * se(Abundance))
+```
+
+    ## `summarise()` has grouped output by 'Genus', 'phylum', 'class', 'order',
+    ## 'family', 'genus'. You can override using the `.groups` argument.
+
+``` r
+# Create a bar plot with error bars
+bar_side_plot_mag = ggplot(avgs_grouped, aes(x = Genus, y = (meanA),
+    fill = order)) + geom_bar(stat = "identity", position = "dodge") +
+    geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA + seA)),
+        width = 0.4, position = position_dodge(0.9)) + theme_bw() +
+    theme(text = element_text(size = 18)) + ylab("Mean Relative Abundance") +
+    xlab("") + guides(fill = guide_legend(title = "Order")) +
+    scale_fill_viridis_d(option = "C") + theme(axis.text.x = element_text(angle = -55,
+    hjust = 0, vjust = 0.5)) + facet_wrap(~genus, ncol = 5, scale = "free_y")
+
+bar_side_plot_mag
+```
+
+![](LandCrabMetaG_files/figure-gfm/ra_for_heatmap3-1.png)<!-- -->
+
+``` r
+# Display and save the plot as a PNG
+ggsave("plots/function/ra_heatmap_alp.png", dpi = 300, device = "png",
+    height = 6, width = 16, units = "in")
+ggsave("plots/function/ra_heatmap_alp.pdf", dpi = 300, device = "pdf",
+    height = 6, width = 16, units = "in")
+```
+
+### Focus on Bacilli
+
+``` r
+annot.filt <- annot %>%
+  filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY, "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit, paste("\\b",na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep=""))) %>%
+  separate_longer_delim(cazy_ids, delim = "; ") %>%
+  mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glyco_trans_3", "") %>%
+  mutate_at("cazy_ids", str_replace, "_Glycos_transf", "") %>%
+  mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
+  mutate_at("fasta", str_replace, "_cleaned", "") %>%
+  filter(cazy_ids != 'SLH') %>%
+  left_join(mag_ids, by=c('fasta' = 'bin_name')) %>%
+  filter(Class == "Bacilli") %>% 
+  count(TaxName, cazy_ids) %>% 
+  pivot_wider(names_from = cazy_ids, values_from = n, values_fill = 0)
+
+annot.filt <- as.data.frame(annot.filt)
+rownames(annot.filt) <- annot.filt$TaxName
+
+annot.filt <- annot.filt[-c(1)] %>%
+  select_if(colSums(.) > 0) %>%
+  mutate(total = rowSums(.)) %>%
+  filter(total > 0) %>%
+  select(-total)
+
+dbcan.dram.annot <- dbcan.dram.meta %>%
+  filter(gene_id %in% colnames(annot.filt)) %>%
+  select(gene_id, module)
+
+missing_cazy_families <- c("GH166", "CE17")
+missing_cazy_categories <- c("Glycoside Hydrolases", "Carbohydrate Esterases")
+
+# Create a dataframe
+cazy_df <- data.frame(gene_id = missing_cazy_families, module = missing_cazy_categories)
+
+dbcan.dram.annot <- full_join(dbcan.dram.annot, cazy_df)
+```
+
+    ## Joining with `by = join_by(gene_id, module)`
+
+``` r
+dbcan.dram.annot <- as.data.frame(dbcan.dram.annot)
+rownames(dbcan.dram.annot) <- dbcan.dram.annot$gene_id
+
+ann_colors = list(
+  `module` = c("Auxiliary Activities" = "#00466B", "Carbohydrate Esterases" = "#FFF7AA","Carbohydrate-Binding Modules"="#7B498D", "Glycoside Hydrolases"  = "lightblue", "GlycosylTransferases" = "#804515", "Polysaccharide Lyases" = "#009E73"
+               ),
+  `Order` = c( "Erysipelotrichales" = "#0d0887", 
+               "Lactobacillales" = "#9c179e",
+             "RF39" = "#f0f921",
+             "Mycoplasmatales" = "#ed7953"
+             ),
+  `Class` = c(
+
+                  "Bacilli" = "#82D34DFF"
+
+  ))
+
+
+mag_ids_annot <- mag_ids %>%
+  select(TaxName, Class, Order) %>%
+  filter(TaxName %in% rownames(annot.filt))
+
+mag_ids_annot <- as.data.frame(mag_ids_annot)
+rownames(mag_ids_annot) <- mag_ids_annot$TaxName
+
+
+ph.bacil <- as.ggplot(pheatmap(log(annot.filt+1),
+                           cluster_cols=TRUE,
+                           cluster_rows = TRUE,
+                           show_rownames = TRUE,
+                           annotation_row = mag_ids_annot[-c(1)],
+                           annotation_col =  dbcan.dram.annot[-c(1)],
+                           annotation_colors = ann_colors,
+                           drop_levels       = TRUE,
+                           fontsize          = 18,
+                           border_color = NA,
+                           color = inferno(100, begin=.05),
+))
+```
+
+![](LandCrabMetaG_files/figure-gfm/czy_heat_6-1.png)<!-- -->
+
+``` r
+#ph.bacil
+#ggsave(filename = 'plots/function/raw_dbcan_bacil.png',plot = last_plot(), device = 'png', width =15, height = 6, dpi = 300)
+#ggsave(filename = 'plots/function/raw_dbcan_bacil.pdf',plot = last_plot(), device = 'pdf', width =15, height = 6, dpi = 300)
+```
+
+``` r
+# MAG Transform counts to Relative Abundance (RA) and
+# aggregate to genus level
+ps.RA <- transform_sample_counts(physeq_coverM_nC, function(x) x/sum(x))
+ps.RA.gen <- tax_glom(ps.RA, taxrank = "genus", NArm = FALSE)
+ps.RA.gen = filter_taxa(ps.RA.gen, function(x) mean(x) > 0.001,
+    TRUE)
+df_ps.RA.filt <- psmelt(ps.RA.gen)
+
+
+mag_ids_RA <- mag_ids %>%
+    filter(TaxName %in% rownames(annot.filt))
+
+# Plotting only genera with significant differences based
+# on diet
+avgs_grouped <- df_ps.RA.filt %>%
+    group_by(Genus, phylum, class, order, family, genus, OTU) %>%
+    filter(OTU %in% mag_ids_RA$bin_name) %>%
+    summarise(meanA = 100 * mean(Abundance), sdA = 100 * sd(Abundance),
+        seA = 100 * se(Abundance))
+```
+
+    ## `summarise()` has grouped output by 'Genus', 'phylum', 'class', 'order',
+    ## 'family', 'genus'. You can override using the `.groups` argument.
+
+``` r
+# Create a bar plot with error bars
+bar_side_plot_mag = ggplot(avgs_grouped, aes(x = Genus, y = (meanA),
+    fill = order)) + geom_bar(stat = "identity", position = "dodge") +
+    geom_errorbar(aes(ymin = (meanA - seA), ymax = (meanA + seA)),
+        width = 0.4, position = position_dodge(0.9)) + theme_bw() +
+    theme(text = element_text(size = 18)) + ylab("Mean Relative Abundance") +
+    xlab("") + guides(fill = guide_legend(title = "Order")) +
+    scale_fill_viridis_d(option = "C") + theme(axis.text.x = element_text(angle = -55,
+    hjust = 0, vjust = 0.5)) + facet_wrap(~genus, ncol = 4, scale = "free_y")
+
+bar_side_plot_mag
+```
+
+![](LandCrabMetaG_files/figure-gfm/ra_for_heatmap6-1.png)<!-- -->
+
+``` r
+# Display and save the plot as a PNG
+ggsave("plots/function/ra_heatmap_bacilli.png", dpi = 300, device = "png",
+    height = 6, width = 14, units = "in")
+ggsave("plots/function/ra_heatmap_bacilli.pdf", dpi = 300, device = "pdf",
+    height = 6, width = 14, units = "in")
 ```

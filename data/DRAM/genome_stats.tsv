@@ -1,0 +1,130 @@
+genome	number of scaffolds	5S rRNA	16S rRNA	23S rRNA	tRNA count
+Birg_Half_DAS_BirgitHalves_bin.11	354	2 present			57
+Birg_Half_DAS_BirgitHalves_bin.19	118				33
+Birg_Half_DAS_BirgitHalves_bin.38_sub_cleaned	671	2 present			32
+Birg_Half_DAS_BirgitHalves_bin.45	585	Birg_Half_DAS_BirgitHalves_bin.45_k121_14039856 (1585, 1692)		Birg_Half_DAS_BirgitHalves_bin.45_k121_14039856 (3, 1454)	21
+Birg_Half_DAS_BirgitHalves_bin.61	396		Birg_Half_DAS_BirgitHalves_bin.61_k121_20709934 (2, 591)		39
+Birg_Half_DAS_BirgitHalves_bin.70	70				27
+Birg_Half_DAS_BirgitHalves_bin.72	21				33
+Birg_Half_DAS_BirgitHalves_bin.86	54				31
+Birg_Half_DAS_BirgitHalves_bin.89	79		Birg_Half_DAS_BirgitHalves_bin.89_k121_10116862 (5764, 6279)		30
+Birg_Half_DAS_BirgitHalves_maxbin.116	49				33
+Birg_Half_DAS_BirgitHalves_nocov.2	16	Birg_Half_DAS_BirgitHalves_nocov.2_k121_13894827 (92563, 92673)			47
+Birg_nocov.12	85	Birg_nocov.12_k121_324276 (883, 989)	Birg_nocov.12_k121_14323620 (8, 1532)		49
+Birg_nocov.35	373	2 present	Birg_nocov.35_k121_12129698 (1, 1344)		67
+Tuerk_Half_DAS_TuerkHalves_bin.100	77				36
+Tuerk_Half_DAS_TuerkHalves_bin.101	172	4 present			52
+Tuerk_Half_DAS_TuerkHalves_bin.121_sub	208				36
+Tuerk_Half_DAS_TuerkHalves_bin.122	183	2 present			36
+Tuerk_Half_DAS_TuerkHalves_bin.13	95	Tuerk_Half_DAS_TuerkHalves_bin.13_k121_3063085 (583, 690)			47
+Tuerk_Half_DAS_TuerkHalves_bin.137	256				37
+Tuerk_Half_DAS_TuerkHalves_bin.142_sub	145				42
+Tuerk_Half_DAS_TuerkHalves_bin.158_cleaned	151				44
+Tuerk_Half_DAS_TuerkHalves_bin.171	218				39
+Tuerk_Half_DAS_TuerkHalves_bin.177	49				33
+Tuerk_Half_DAS_TuerkHalves_bin.20	95				34
+Tuerk_Half_DAS_TuerkHalves_bin.216_cleaned	394				39
+Tuerk_Half_DAS_TuerkHalves_bin.237	193	Tuerk_Half_DAS_TuerkHalves_bin.237_k121_7327238 (1148, 1241)			37
+Tuerk_Half_DAS_TuerkHalves_bin.246	67	5 present	Tuerk_Half_DAS_TuerkHalves_bin.246_k121_10329074 (104459, 105181)		63
+Tuerk_Half_DAS_TuerkHalves_bin.250	216	Tuerk_Half_DAS_TuerkHalves_bin.250_k121_4204026 (2391, 2501)		Tuerk_Half_DAS_TuerkHalves_bin.250_k121_4204026 (2, 2175)	43
+Tuerk_Half_DAS_TuerkHalves_bin.261	225		Tuerk_Half_DAS_TuerkHalves_bin.261_k121_3472338 (4560, 5081)		38
+Tuerk_Half_DAS_TuerkHalves_bin.285	303				41
+Tuerk_Half_DAS_TuerkHalves_bin.288	273	Tuerk_Half_DAS_TuerkHalves_bin.288_k121_1548071 (25827, 25913)			43
+Tuerk_Half_DAS_TuerkHalves_bin.305	282	5 present		Tuerk_Half_DAS_TuerkHalves_bin.305_k121_10319025 (16737, 19538)	52
+Tuerk_Half_DAS_TuerkHalves_bin.311	91	Tuerk_Half_DAS_TuerkHalves_bin.311_k121_16652903 (11499, 11596)			36
+Tuerk_Half_DAS_TuerkHalves_bin.314	172				30
+Tuerk_Half_DAS_TuerkHalves_bin.315	475		Tuerk_Half_DAS_TuerkHalves_bin.315_k121_14850997 (6142, 7132)		31
+Tuerk_Half_DAS_TuerkHalves_bin.331	202	7 present	Tuerk_Half_DAS_TuerkHalves_bin.331_k121_2123062 (52480, 53982)	Tuerk_Half_DAS_TuerkHalves_bin.331_k121_2123062 (49398, 52300)	57
+Tuerk_Half_DAS_TuerkHalves_bin.344_sub	243	Tuerk_Half_DAS_TuerkHalves_bin.344_sub_k121_6267 (52611, 52718)			41
+Tuerk_Half_DAS_TuerkHalves_bin.349	180	Tuerk_Half_DAS_TuerkHalves_bin.349_k121_13120863 (1538, 1638)		Tuerk_Half_DAS_TuerkHalves_bin.349_k121_13120863 (1789, 2692)	30
+Tuerk_Half_DAS_TuerkHalves_bin.354	72	4 present			32
+Tuerk_Half_DAS_TuerkHalves_bin.360	65	5 present			38
+Tuerk_Half_DAS_TuerkHalves_bin.363	99	2 present	Tuerk_Half_DAS_TuerkHalves_bin.363_k121_12637811 (18112, 18543)		48
+Tuerk_Half_DAS_TuerkHalves_bin.379	79				33
+Tuerk_Half_DAS_TuerkHalves_bin.389_sub	471			Tuerk_Half_DAS_TuerkHalves_bin.389_sub_k121_14737642 (640, 3424)	38
+Tuerk_Half_DAS_TuerkHalves_bin.393	65	Tuerk_Half_DAS_TuerkHalves_bin.393_k121_18435651 (63, 171)	Tuerk_Half_DAS_TuerkHalves_bin.393_k121_10151320 (1478, 2999)	Tuerk_Half_DAS_TuerkHalves_bin.393_k121_10151320 (11, 1205)	44
+Tuerk_Half_DAS_TuerkHalves_bin.408	245				22
+Tuerk_Half_DAS_TuerkHalves_bin.417	182	3 present			53
+Tuerk_Half_DAS_TuerkHalves_bin.427	94	Tuerk_Half_DAS_TuerkHalves_bin.427_k121_17585776 (2, 93)			44
+Tuerk_Half_DAS_TuerkHalves_bin.430_cleaned	672	Tuerk_Half_DAS_TuerkHalves_bin.430_cleaned_k121_17171885 (2, 103)			40
+Tuerk_Half_DAS_TuerkHalves_bin.431	329	Tuerk_Half_DAS_TuerkHalves_bin.431_k121_20053641 (9003, 9084)			34
+Tuerk_Half_DAS_TuerkHalves_bin.438	49	Tuerk_Half_DAS_TuerkHalves_bin.438_k121_13760308 (21686, 21792)			46
+Tuerk_Half_DAS_TuerkHalves_bin.450	277				42
+Tuerk_Half_DAS_TuerkHalves_bin.477	40				42
+Tuerk_Half_DAS_TuerkHalves_bin.68	107	3 present	Tuerk_Half_DAS_TuerkHalves_bin.68_k121_19310720 (22996, 23583)		39
+Tuerk_Half_DAS_TuerkHalves_bin.76	260				43
+Tuerk_Half_DAS_TuerkHalves_bin.79	153	Tuerk_Half_DAS_TuerkHalves_bin.79_k121_13134479 (451, 561)			44
+Tuerk_Half_DAS_TuerkHalves_bin.83_sub	223	Tuerk_Half_DAS_TuerkHalves_bin.83_sub_k121_7064267 (175, 284)			43
+Tuerk_Half_DAS_TuerkHalves_bin.9	150				33
+Tuerk_Half_DAS_TuerkHalves_bin.95	270				50
+Tuerk_Half_DAS_TuerkHalves_maxbin.370_sub_cleaned	196	Tuerk_Half_DAS_TuerkHalves_maxbin.370_sub_cleaned_k121_10368036 (16041, 16149)			37
+Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned	373	2 present	2 present		48
+Tuerk_Half_DAS_TuerkHalves_nocov.84_sub	138				38
+crabs_bin.1	139	4 present			63
+crabs_bin.119	199				36
+crabs_bin.178	415				36
+crabs_bin.192	29	4 present	2 present	2 present	52
+crabs_bin.204	102	crabs_bin.204_k251_3174980 (15367, 15455)	crabs_bin.204_k251_2372511 (2765, 4328)	3 present	29
+crabs_bin.205	159	2 present	crabs_bin.205_k251_4034738 (2, 796)		47
+crabs_bin.210	106	2 present	crabs_bin.210_k251_1937428 (12958, 13884)	crabs_bin.210_k251_2984533 (22475, 23775)	42
+crabs_bin.213	153	2 present			47
+crabs_bin.223	146	2 present			31
+crabs_bin.234_cleaned	54	2 present			31
+crabs_bin.266	108	crabs_bin.266_k251_4309560 (29545, 29650)			35
+crabs_bin.268_cleaned	192	crabs_bin.268_cleaned_k251_691240 (332, 441)			42
+crabs_bin.278	133	crabs_bin.278_k251_2491957 (64457, 64554)	crabs_bin.278_k251_1087219 (1, 519)		48
+crabs_bin.298	45				45
+crabs_bin.339	142	crabs_bin.339_k251_3245992 (39255, 39365)	crabs_bin.339_k251_1293164 (18446, 19360)		41
+crabs_bin.352_cleaned	259	2 present			51
+crabs_bin.363	82	3 present			34
+crabs_bin.374	44				41
+crabs_bin.389	21	2 present	crabs_bin.389_k251_112687 (64294, 64993)		37
+crabs_bin.39	306	crabs_bin.39_k251_1713745 (5, 114)			44
+crabs_bin.393	36		crabs_bin.393_k251_4403661 (16781, 17620)		26
+crabs_bin.405	20	2 present			38
+crabs_bin.498_cleaned	274	crabs_bin.498_cleaned_k251_345938 (17003, 17109)			48
+crabs_bin.5	97	3 present	crabs_bin.5_k251_2858561 (27, 485)		35
+crabs_bin.500_sub	105		crabs_bin.500_sub_k251_2078235 (85405, 86147)		42
+crabs_bin.53	115	crabs_bin.53_k251_2594376 (18759, 18868)	crabs_bin.53_k251_2473507 (2, 1032)		52
+crabs_bin.7	46	3 present			59
+crabs_bin.89	34	crabs_bin.89_k251_1506973 (26780, 26879)			48
+crabs_nocov.24_sub	287	2 present	crabs_nocov.24_sub_k251_1953521 (3898, 5435)	crabs_nocov.24_sub_k251_1953521 (805, 3718)	50
+old_originals_CRABS_nocov.155	10	old_originals_CRABS_nocov.155_c_000000454255 (91462, 91539)	old_originals_CRABS_nocov.155_c_000001882839 (225475, 226947)	old_originals_CRABS_nocov.155_c_000000082187 (1, 808)	47
+old_originals_CRABS_nocov.29_cleaned	389				27
+old_originals_METABAT__108-contigs	171	3 present	old_originals_METABAT__108-contigs_c_000002003384 (5104, 6624)		35
+old_originals_METABAT__139-contigs	439		old_originals_METABAT__139-contigs_c_000003497185 (1, 416)		43
+old_originals_METABAT__164-contigs	113	4 present			59
+old_originals_METABAT__183-contigs	61	4 present			65
+old_originals_METABAT__200-contigs	175			old_originals_METABAT__200-contigs_c_000001416166 (5, 1930)	42
+old_originals_METABAT__206-contigs	149	old_originals_METABAT__206-contigs_c_000001860062 (89, 196)			41
+old_originals_METABAT__216-contigs_cleaned	572		old_originals_METABAT__216-contigs_cleaned_c_000001757969 (1208, 2667)		38
+old_originals_METABAT__217-contigs	43	2 present			40
+old_originals_METABAT__235-contigs	99		old_originals_METABAT__235-contigs_c_000003574186 (1, 524)		42
+old_originals_METABAT__238-contigs	144	4 present	2 present	old_originals_METABAT__238-contigs_c_000001698369 (2, 2223)	47
+old_originals_METABAT__24-contigs	77	2 present			38
+old_originals_METABAT__248-contigs	71	2 present			36
+old_originals_METABAT__271-contigs_cleaned	224	6 present			61
+old_originals_METABAT__282-contigs	15				26
+old_originals_METABAT__291-contigs	135	old_originals_METABAT__291-contigs_c_000000415385 (177, 272)			40
+old_originals_METABAT__307-contigs	135	2 present			49
+old_originals_METABAT__332-contigs	108	5 present	2 present	old_originals_METABAT__332-contigs_c_000000812549 (1778, 4680)	40
+old_originals_METABAT__333-contigs	87	old_originals_METABAT__333-contigs_c_000003453265 (40, 142)	old_originals_METABAT__333-contigs_c_000001621607 (34279, 35286)		29
+old_originals_METABAT__334-contigs	101	8 present			78
+old_originals_METABAT__338-contigs_cleaned	299		old_originals_METABAT__338-contigs_cleaned_c_000004066019 (26992, 27987)		48
+old_originals_METABAT__358-contigs	67	2 present		old_originals_METABAT__358-contigs_c_000002387362 (3, 1025)	37
+old_originals_METABAT__361-contigs	119	3 present			49
+old_originals_METABAT__363-contigs	96	4 present	old_originals_METABAT__363-contigs_c_000000943436 (14702, 15113)		24
+old_originals_METABAT__368-contigs_cleaned	282	4 present			41
+old_originals_METABAT__381-contigs	63				50
+old_originals_METABAT__402-contigs	159				36
+old_originals_METABAT__410-contigs	43	4 present			39
+old_originals_METABAT__424-contigs	113	old_originals_METABAT__424-contigs_c_000001044927 (8869, 8978)	old_originals_METABAT__424-contigs_c_000000889883 (80300, 80868)		36
+old_originals_METABAT__426-contigs	187	3 present			43
+old_originals_METABAT__437-contigs	165	4 present			31
+old_originals_METABAT__476-contigs	245	6 present			69
+old_originals_METABAT__479-contigs	98	6 present			59
+old_originals_METABAT__485-contigs	71	3 present	old_originals_METABAT__485-contigs_c_000004026882 (46584, 47638)		35
+old_originals_METABAT__59-contigs	168	2 present			75
+old_originals_METABAT__77-contigs	187		old_originals_METABAT__77-contigs_c_000003497091 (3, 415)		38
+old_originals_METABAT__82-contigs	127	7 present			66
+porc_Full_DAS_AndFulls_bin.4	138				29

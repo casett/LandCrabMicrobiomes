@@ -1,0 +1,266 @@
+scaffold	fasta	begin	end	strand	type	e-value	note
+Tuerk_Half_DAS_TuerkHalves_bin.79_k121_13134479	Tuerk_Half_DAS_TuerkHalves_bin.79	451	561	+	5S rRNA	9.8e-17	
+old_originals_METABAT__361-contigs_c_000001357540	old_originals_METABAT__361-contigs	33926	34035	-	5S rRNA	2.8e-13	
+old_originals_METABAT__361-contigs_c_000001385695	old_originals_METABAT__361-contigs	140	249	+	5S rRNA	2.8e-13	
+old_originals_METABAT__361-contigs_c_000001600612	old_originals_METABAT__361-contigs	23391	23500	-	5S rRNA	2.8e-13	
+Tuerk_Half_DAS_TuerkHalves_bin.431_k121_20053641	Tuerk_Half_DAS_TuerkHalves_bin.431	9003	9084	-	5S rRNA	2e-07	aligned only 68 percent of the 5S ribosomal RNA
+old_originals_METABAT__216-contigs_cleaned_c_000001757969	old_originals_METABAT__216-contigs_cleaned	1208	2667	-	16S rRNA	0	
+old_originals_METABAT__164-contigs_c_000000500485	old_originals_METABAT__164-contigs	17829	17934	-	5S rRNA	4.2e-11	
+old_originals_METABAT__164-contigs_c_000001284921	old_originals_METABAT__164-contigs	189	294	+	5S rRNA	4.2e-11	
+old_originals_METABAT__164-contigs_c_000003079370	old_originals_METABAT__164-contigs	307	412	+	5S rRNA	4.2e-11	
+old_originals_METABAT__164-contigs_c_000003711866	old_originals_METABAT__164-contigs	43213	43318	-	5S rRNA	4.2e-11	
+crabs_bin.205_k251_4034738	crabs_bin.205	2	796	-	16S rRNA	2.4e-165	aligned only 50 percent of the 16S ribosomal RNA
+crabs_bin.205_k251_4162740	crabs_bin.205	283	390	+	5S rRNA	5.5e-12	
+crabs_bin.205_k251_670944	crabs_bin.205	283	390	+	5S rRNA	5.5e-12	
+Tuerk_Half_DAS_TuerkHalves_bin.360_k121_16806225	Tuerk_Half_DAS_TuerkHalves_bin.360	75601	75677	-	5S rRNA	3.5e-07	aligned only 64 percent of the 5S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.360_k121_18222042	Tuerk_Half_DAS_TuerkHalves_bin.360	31652	31762	-	5S rRNA	1.8e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.360_k121_18222042	Tuerk_Half_DAS_TuerkHalves_bin.360	31880	31990	-	5S rRNA	7.9e-15	
+Tuerk_Half_DAS_TuerkHalves_bin.360_k121_2796274	Tuerk_Half_DAS_TuerkHalves_bin.360	298	407	+	5S rRNA	1.9e-10	
+Tuerk_Half_DAS_TuerkHalves_bin.360_k121_8599643	Tuerk_Half_DAS_TuerkHalves_bin.360	54901	54977	-	5S rRNA	3.5e-07	aligned only 64 percent of the 5S ribosomal RNA
+old_originals_METABAT__200-contigs_c_000001416166	old_originals_METABAT__200-contigs	5	1930	+	23S rRNA	0	aligned only 59 percent of the 23S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.288_k121_1548071	Tuerk_Half_DAS_TuerkHalves_bin.288	25827	25913	-	5S rRNA	1.4e-12	aligned only 73 percent of the 5S ribosomal RNA
+crabs_bin.363_k251_3838336	crabs_bin.363	63908	63991	-	5S rRNA	1.2e-10	aligned only 70 percent of the 5S ribosomal RNA
+crabs_bin.363_k251_3861761	crabs_bin.363	26731	26817	+	5S rRNA	3.7e-09	aligned only 73 percent of the 5S ribosomal RNA
+crabs_bin.363_k251_972920	crabs_bin.363	58	141	+	5S rRNA	1.2e-10	aligned only 70 percent of the 5S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.430_cleaned_k121_17171885	Tuerk_Half_DAS_TuerkHalves_bin.430_cleaned	2	103	+	5S rRNA	6.9e-10	
+crabs_bin.352_cleaned_k251_2708361	crabs_bin.352_cleaned	5821	5925	-	5S rRNA	8.9e-10	
+crabs_bin.352_cleaned_k251_3434547	crabs_bin.352_cleaned	25174	25278	-	5S rRNA	8.9e-10	
+Tuerk_Half_DAS_TuerkHalves_bin.354_k121_15198889	Tuerk_Half_DAS_TuerkHalves_bin.354	2	70	+	5S rRNA	1.2e-08	aligned only 57 percent of the 5S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.354_k121_16904611	Tuerk_Half_DAS_TuerkHalves_bin.354	9972	10040	-	5S rRNA	1.2e-08	aligned only 57 percent of the 5S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.354_k121_49813	Tuerk_Half_DAS_TuerkHalves_bin.354	74	150	+	5S rRNA	5.9e-10	aligned only 64 percent of the 5S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.354_k121_8790948	Tuerk_Half_DAS_TuerkHalves_bin.354	11244	11334	+	5S rRNA	1.1e-11	aligned only 76 percent of the 5S ribosomal RNA
+crabs_bin.89_k251_1506973	crabs_bin.89	26780	26879	-	5S rRNA	2.4e-09	
+Tuerk_Half_DAS_TuerkHalves_bin.261_k121_3472338	Tuerk_Half_DAS_TuerkHalves_bin.261	4560	5081	+	16S rRNA	4.8e-123	aligned only 32 percent of the 16S ribosomal RNA
+crabs_bin.192_k251_1117055	crabs_bin.192	56	166	+	5S rRNA	1.1e-11	
+crabs_bin.192_k251_1610473	crabs_bin.192	1	615	+	16S rRNA	2.3000000000000002e-164	aligned only 38 percent of the 16S ribosomal RNA
+crabs_bin.192_k251_1610473	crabs_bin.192	1022	3928	+	23S rRNA	0.0	
+crabs_bin.192_k251_1610473	crabs_bin.192	4228	4338	+	5S rRNA	1.1e-11	
+crabs_bin.192_k251_2108867	crabs_bin.192	142	252	+	5S rRNA	1.1e-11	
+crabs_bin.192_k251_2694844	crabs_bin.192	100	210	+	5S rRNA	9.1e-12	
+crabs_bin.192_k251_3923864	crabs_bin.192	195798	197354	+	16S rRNA	0.0	
+crabs_bin.192_k251_3923864	crabs_bin.192	197601	199726	+	23S rRNA	0.0	aligned only 65 percent of the 23S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.246_k121_10329074	Tuerk_Half_DAS_TuerkHalves_bin.246	104459	105181	+	16S rRNA	2e-155	aligned only 45 percent of the 16S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.246_k121_10435316	Tuerk_Half_DAS_TuerkHalves_bin.246	5339	5449	-	5S rRNA	7.9e-14	
+Tuerk_Half_DAS_TuerkHalves_bin.246_k121_12200453	Tuerk_Half_DAS_TuerkHalves_bin.246	217	327	+	5S rRNA	4.8e-12	
+Tuerk_Half_DAS_TuerkHalves_bin.246_k121_12250544	Tuerk_Half_DAS_TuerkHalves_bin.246	96304	96414	-	5S rRNA	6.7e-14	
+Tuerk_Half_DAS_TuerkHalves_bin.246_k121_12250544	Tuerk_Half_DAS_TuerkHalves_bin.246	96600	96710	-	5S rRNA	7.9e-14	
+Tuerk_Half_DAS_TuerkHalves_bin.246_k121_15713846	Tuerk_Half_DAS_TuerkHalves_bin.246	146	255	+	5S rRNA	4.9e-14	
+Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned_k121_10816505	Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned	15541	15651	-	5S rRNA	9.4e-14	
+Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned_k121_14880229	Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned	718	828	+	5S rRNA	4.6e-14	
+Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned_k121_9159727	Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned	11162	11564	+	16S rRNA	2.9e-95	aligned only 25 percent of the 16S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned_k121_9899540	Tuerk_Half_DAS_TuerkHalves_maxbin.383_cleaned	23704	24149	+	16S rRNA	5.2e-88	aligned only 28 percent of the 16S ribosomal RNA
+Birg_nocov.35_k121_12129698	Birg_nocov.35	1	1344	-	16S rRNA	0.0	
+Birg_nocov.35_k121_2466796	Birg_nocov.35	4318	4428	-	5S rRNA	2.1e-14	
+Birg_nocov.35_k121_9839868	Birg_nocov.35	58716	58825	-	5S rRNA	3.8e-14	
+Birg_Half_DAS_BirgitHalves_bin.61_k121_20709934	Birg_Half_DAS_BirgitHalves_bin.61	2	591	-	16S rRNA	3.8e-142	aligned only 37 percent of the 16S ribosomal RNA
+old_originals_METABAT__183-contigs_c_000000891701	old_originals_METABAT__183-contigs	131	237	+	5S rRNA	8.3e-11	
+old_originals_METABAT__183-contigs_c_000001808394	old_originals_METABAT__183-contigs	98549	98654	-	5S rRNA	2.2e-10	
+old_originals_METABAT__183-contigs_c_000001847401	old_originals_METABAT__183-contigs	217192	217298	-	5S rRNA	8.3e-11	
+old_originals_METABAT__183-contigs_c_000002878640	old_originals_METABAT__183-contigs	67623	67729	-	5S rRNA	8.3e-11	
+crabs_bin.266_k251_4309560	crabs_bin.266	29545	29650	-	5S rRNA	1.5e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.237_k121_7327238	Tuerk_Half_DAS_TuerkHalves_bin.237	1148	1241	+	5S rRNA	6.5e-09	aligned only 78 percent of the 5S ribosomal RNA
+old_originals_METABAT__59-contigs_c_000000067721	old_originals_METABAT__59-contigs	20544	20654	-	5S rRNA	3.9e-14	
+old_originals_METABAT__59-contigs_c_000003700887	old_originals_METABAT__59-contigs	50829	50939	-	5S rRNA	3.9e-14	
+crabs_bin.393_k251_4403661	crabs_bin.393	16781	17620	+	16S rRNA	1.9999999999999999e-193	aligned only 52 percent of the 16S ribosomal RNA
+old_originals_METABAT__410-contigs_c_000000969003	old_originals_METABAT__410-contigs	19102	19206	-	5S rRNA	1.1e-11	
+old_originals_METABAT__410-contigs_c_000000999935	old_originals_METABAT__410-contigs	100	204	+	5S rRNA	1.1e-11	
+old_originals_METABAT__410-contigs_c_000003386690	old_originals_METABAT__410-contigs	37480	37584	-	5S rRNA	1.1e-11	
+old_originals_METABAT__410-contigs_c_000003967517	old_originals_METABAT__410-contigs	100	204	+	5S rRNA	1.1e-11	
+old_originals_METABAT__307-contigs_c_000000564691	old_originals_METABAT__307-contigs	37005	37115	-	5S rRNA	3.2e-13	
+old_originals_METABAT__307-contigs_c_000001612342	old_originals_METABAT__307-contigs	93677	93787	-	5S rRNA	3.2e-13	
+old_originals_METABAT__485-contigs_c_000000264688	old_originals_METABAT__485-contigs	256903	256999	-	5S rRNA	1.3e-07	
+old_originals_METABAT__485-contigs_c_000001293405	old_originals_METABAT__485-contigs	218	314	+	5S rRNA	1.3e-07	
+old_originals_METABAT__485-contigs_c_000003731994	old_originals_METABAT__485-contigs	164	260	+	5S rRNA	1.3e-07	
+old_originals_METABAT__485-contigs_c_000004026882	old_originals_METABAT__485-contigs	46584	47638	+	16S rRNA	1.4999999999999998e-231	aligned only 66 percent of the 16S ribosomal RNA
+old_originals_METABAT__437-contigs_c_000000972809	old_originals_METABAT__437-contigs	607	709	+	5S rRNA	6e-10	
+old_originals_METABAT__437-contigs_c_000001331444	old_originals_METABAT__437-contigs	8351	8453	-	5S rRNA	6e-10	
+old_originals_METABAT__437-contigs_c_000001698038	old_originals_METABAT__437-contigs	41790	41892	-	5S rRNA	6e-10	
+old_originals_METABAT__437-contigs_c_000001722686	old_originals_METABAT__437-contigs	139757	139859	-	5S rRNA	6e-10	
+Tuerk_Half_DAS_TuerkHalves_bin.363_k121_12637811	Tuerk_Half_DAS_TuerkHalves_bin.363	18112	18543	+	16S rRNA	1.5e-103	aligned only 27 percent of the 16S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.363_k121_2277727	Tuerk_Half_DAS_TuerkHalves_bin.363	597	705	+	5S rRNA	2.8e-12	
+Tuerk_Half_DAS_TuerkHalves_bin.363_k121_79523	Tuerk_Half_DAS_TuerkHalves_bin.363	458	566	+	5S rRNA	1.5e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.305_k121_10319025	Tuerk_Half_DAS_TuerkHalves_bin.305	16555	16659	-	5S rRNA	6.1e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.305_k121_10319025	Tuerk_Half_DAS_TuerkHalves_bin.305	16737	19538	-	23S rRNA	0.0	
+Tuerk_Half_DAS_TuerkHalves_bin.305_k121_10743155	Tuerk_Half_DAS_TuerkHalves_bin.305	3	96	+	5S rRNA	1.1e-08	aligned only 78 percent of the 5S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.305_k121_13870120	Tuerk_Half_DAS_TuerkHalves_bin.305	9	113	+	5S rRNA	6.1e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.305_k121_2089033	Tuerk_Half_DAS_TuerkHalves_bin.305	20174	20278	-	5S rRNA	6.1e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.305_k121_8766777	Tuerk_Half_DAS_TuerkHalves_bin.305	4133	4226	-	5S rRNA	1.1e-08	aligned only 78 percent of the 5S ribosomal RNA
+Birg_Half_DAS_BirgitHalves_nocov.2_k121_13894827	Birg_Half_DAS_BirgitHalves_nocov.2	92563	92673	-	5S rRNA	1.2e-12	
+Tuerk_Half_DAS_TuerkHalves_bin.331_k121_13116216	Tuerk_Half_DAS_TuerkHalves_bin.331	18043	18135	-	5S rRNA	1.9e-11	aligned only 78 percent of the 5S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.331_k121_2123062	Tuerk_Half_DAS_TuerkHalves_bin.331	49220	49314	-	5S rRNA	2.5e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.331_k121_2123062	Tuerk_Half_DAS_TuerkHalves_bin.331	49398	52300	-	23S rRNA	0.0	
+Tuerk_Half_DAS_TuerkHalves_bin.331_k121_2123062	Tuerk_Half_DAS_TuerkHalves_bin.331	52480	53982	-	16S rRNA	0.0	
+Tuerk_Half_DAS_TuerkHalves_bin.331_k121_2720137	Tuerk_Half_DAS_TuerkHalves_bin.331	15	109	+	5S rRNA	4.4e-12	
+Tuerk_Half_DAS_TuerkHalves_bin.331_k121_3608096	Tuerk_Half_DAS_TuerkHalves_bin.331	4	92	+	5S rRNA	7.9e-11	aligned only 74 percent of the 5S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.331_k121_5569011	Tuerk_Half_DAS_TuerkHalves_bin.331	67487	67581	-	5S rRNA	6.9e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.331_k121_5569011	Tuerk_Half_DAS_TuerkHalves_bin.331	67634	67728	-	5S rRNA	1.3e-12	
+Tuerk_Half_DAS_TuerkHalves_bin.331_k121_7643173	Tuerk_Half_DAS_TuerkHalves_bin.331	41676	41768	-	5S rRNA	4.9e-12	aligned only 78 percent of the 5S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.417_k121_12005023	Tuerk_Half_DAS_TuerkHalves_bin.417	3179	3285	-	5S rRNA	2.6e-10	
+Tuerk_Half_DAS_TuerkHalves_bin.417_k121_4755385	Tuerk_Half_DAS_TuerkHalves_bin.417	2	108	+	5S rRNA	2.6e-10	
+Tuerk_Half_DAS_TuerkHalves_bin.417_k121_8669304	Tuerk_Half_DAS_TuerkHalves_bin.417	457	564	+	5S rRNA	1.2e-10	
+old_originals_METABAT__206-contigs_c_000001860062	old_originals_METABAT__206-contigs	89	196	+	5S rRNA	1.2e-10	
+crabs_bin.213_k251_1665004	crabs_bin.213	27815	27922	-	5S rRNA	4.7e-13	
+crabs_bin.213_k251_2930645	crabs_bin.213	368	475	+	5S rRNA	4.7e-13	
+Tuerk_Half_DAS_TuerkHalves_bin.427_k121_17585776	Tuerk_Half_DAS_TuerkHalves_bin.427	2	93	+	5S rRNA	9.2e-13	aligned only 77 percent of the 5S ribosomal RNA
+crabs_bin.389_k251_112687	crabs_bin.389	64294	64993	+	16S rRNA	1.9e-156	aligned only 44 percent of the 16S ribosomal RNA
+crabs_bin.389_k251_3486717	crabs_bin.389	774	882	+	5S rRNA	3.5e-11	
+crabs_bin.389_k251_772784	crabs_bin.389	29567	29675	-	5S rRNA	3.5e-11	
+Birg_Half_DAS_BirgitHalves_bin.38_sub_cleaned_k121_13823605	Birg_Half_DAS_BirgitHalves_bin.38_sub_cleaned	515	620	+	5S rRNA	6.6e-10	
+Birg_Half_DAS_BirgitHalves_bin.38_sub_cleaned_k121_17090121	Birg_Half_DAS_BirgitHalves_bin.38_sub_cleaned	5741	5817	-	5S rRNA	2.5e-07	aligned only 64 percent of the 5S ribosomal RNA
+old_originals_METABAT__479-contigs_c_000001470394	old_originals_METABAT__479-contigs	78400	78504	-	5S rRNA	3.4e-10	
+old_originals_METABAT__479-contigs_c_000002564312	old_originals_METABAT__479-contigs	15810	15914	-	5S rRNA	3.4e-10	
+old_originals_METABAT__479-contigs_c_000002783779	old_originals_METABAT__479-contigs	48814	48918	-	5S rRNA	3.4e-10	
+old_originals_METABAT__479-contigs_c_000003086711	old_originals_METABAT__479-contigs	37800	37904	-	5S rRNA	1.6e-10	
+old_originals_METABAT__479-contigs_c_000003291424	old_originals_METABAT__479-contigs	19626	19730	-	5S rRNA	3.4e-10	
+old_originals_METABAT__479-contigs_c_000003637386	old_originals_METABAT__479-contigs	3838	3942	-	5S rRNA	3.4e-10	
+old_originals_CRABS_nocov.155_c_000000082187	old_originals_CRABS_nocov.155	1	808	-	23S rRNA	9.699999999999999e-127	aligned only 25 percent of the 23S ribosomal RNA
+old_originals_CRABS_nocov.155_c_000000454255	old_originals_CRABS_nocov.155	91462	91539	-	5S rRNA	6.3e-11	aligned only 65 percent of the 5S ribosomal RNA
+old_originals_CRABS_nocov.155_c_000001882839	old_originals_CRABS_nocov.155	225475	226947	+	16S rRNA	0.0	
+old_originals_METABAT__332-contigs_c_000000257447	old_originals_METABAT__332-contigs	75	178	+	5S rRNA	4.2e-10	
+old_originals_METABAT__332-contigs_c_000000306639	old_originals_METABAT__332-contigs	35	139	+	5S rRNA	1.8e-09	
+old_originals_METABAT__332-contigs_c_000000404753	old_originals_METABAT__332-contigs	51375	51479	-	5S rRNA	1.8e-09	
+old_originals_METABAT__332-contigs_c_000000812549	old_originals_METABAT__332-contigs	96	1598	+	16S rRNA	0.0	
+old_originals_METABAT__332-contigs_c_000000812549	old_originals_METABAT__332-contigs	1778	4680	+	23S rRNA	0.0	
+old_originals_METABAT__332-contigs_c_000000812549	old_originals_METABAT__332-contigs	4764	4858	+	5S rRNA	5.1e-12	
+old_originals_METABAT__332-contigs_c_000001572842	old_originals_METABAT__332-contigs	26527	26631	-	5S rRNA	1.8e-09	
+old_originals_METABAT__332-contigs_c_000004165348	old_originals_METABAT__332-contigs	60973	61621	-	16S rRNA	1.3e-158	aligned only 40 percent of the 16S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.122_k121_18317494	Tuerk_Half_DAS_TuerkHalves_bin.122	7747	7850	-	5S rRNA	3.4e-08	
+Tuerk_Half_DAS_TuerkHalves_bin.122_k121_18843799	Tuerk_Half_DAS_TuerkHalves_bin.122	51	153	+	5S rRNA	1.3e-09	
+old_originals_METABAT__271-contigs_cleaned_c_000000465177	old_originals_METABAT__271-contigs_cleaned	25511	25616	-	5S rRNA	1.2e-10	
+old_originals_METABAT__271-contigs_cleaned_c_000000862349	old_originals_METABAT__271-contigs_cleaned	64	169	+	5S rRNA	1.2e-10	
+old_originals_METABAT__271-contigs_cleaned_c_000001204349	old_originals_METABAT__271-contigs_cleaned	4743	4848	-	5S rRNA	6.2e-11	
+old_originals_METABAT__271-contigs_cleaned_c_000001434035	old_originals_METABAT__271-contigs_cleaned	13647	13752	-	5S rRNA	1.2e-10	
+old_originals_METABAT__271-contigs_cleaned_c_000002049053	old_originals_METABAT__271-contigs_cleaned	73	178	+	5S rRNA	2.7e-10	
+old_originals_METABAT__271-contigs_cleaned_c_000002443451	old_originals_METABAT__271-contigs_cleaned	56	161	+	5S rRNA	7.3e-10	
+old_originals_METABAT__426-contigs_c_000000510102	old_originals_METABAT__426-contigs	10	114	+	5S rRNA	1.5e-10	
+old_originals_METABAT__426-contigs_c_000001625869	old_originals_METABAT__426-contigs	271	375	+	5S rRNA	6.7e-12	
+old_originals_METABAT__426-contigs_c_000003211720	old_originals_METABAT__426-contigs	699	803	+	5S rRNA	6.7e-12	
+crabs_bin.210_k251_1937428	crabs_bin.210	12958	13884	+	16S rRNA	1.1e-212	aligned only 58 percent of the 16S ribosomal RNA
+crabs_bin.210_k251_2984533	crabs_bin.210	22185	22289	-	5S rRNA	4.6e-09	
+crabs_bin.210_k251_2984533	crabs_bin.210	22475	23775	-	23S rRNA	0.0	aligned only 40 percent of the 23S ribosomal RNA
+crabs_bin.210_k251_4201507	crabs_bin.210	22677	22779	-	5S rRNA	6e-09	
+old_originals_METABAT__476-contigs_c_000000166243	old_originals_METABAT__476-contigs	51600	51702	-	5S rRNA	1.5e-08	
+old_originals_METABAT__476-contigs_c_000000360282	old_originals_METABAT__476-contigs	114	216	+	5S rRNA	1.5e-08	
+old_originals_METABAT__476-contigs_c_000000974398	old_originals_METABAT__476-contigs	30943	31045	-	5S rRNA	1.5e-08	
+old_originals_METABAT__476-contigs_c_000001064070	old_originals_METABAT__476-contigs	97	199	+	5S rRNA	1.5e-08	
+old_originals_METABAT__476-contigs_c_000001737092	old_originals_METABAT__476-contigs	9118	9220	-	5S rRNA	1.5e-08	
+old_originals_METABAT__476-contigs_c_000002004856	old_originals_METABAT__476-contigs	359	461	+	5S rRNA	1.5e-08	
+crabs_bin.234_cleaned_k251_3731553	crabs_bin.234_cleaned	17073	17157	-	5S rRNA	1.7e-07	aligned only 71 percent of the 5S ribosomal RNA
+crabs_bin.234_cleaned_k251_4057614	crabs_bin.234_cleaned	2768	2852	-	5S rRNA	1.6e-07	aligned only 71 percent of the 5S ribosomal RNA
+crabs_bin.268_cleaned_k251_691240	crabs_bin.268_cleaned	332	441	+	5S rRNA	1.4e-13	
+old_originals_METABAT__291-contigs_c_000000415385	old_originals_METABAT__291-contigs	177	272	+	5S rRNA	2.4e-07	
+crabs_bin.204_k251_1867963	crabs_bin.204	6751	7704	-	23S rRNA	5.2e-68	aligned only 29 percent of the 23S ribosomal RNA
+crabs_bin.204_k251_2372511	crabs_bin.204	1	2266	-	23S rRNA	0.0	aligned only 70 percent of the 23S ribosomal RNA
+crabs_bin.204_k251_2372511	crabs_bin.204	2765	4328	-	16S rRNA	0.0	
+crabs_bin.204_k251_2940611	crabs_bin.204	1107	4916	+	23S rRNA	0.0	
+crabs_bin.204_k251_3174980	crabs_bin.204	15367	15455	-	5S rRNA	4e-10	aligned only 74 percent of the 5S ribosomal RNA
+Birg_Half_DAS_BirgitHalves_bin.11_k121_14752922	Birg_Half_DAS_BirgitHalves_bin.11	9563	9671	-	5S rRNA	8.5e-11	
+Birg_Half_DAS_BirgitHalves_bin.11_k121_4437361	Birg_Half_DAS_BirgitHalves_bin.11	16695	16774	-	5S rRNA	4.8e-07	aligned only 67 percent of the 5S ribosomal RNA
+old_originals_METABAT__338-contigs_cleaned_c_000004066019	old_originals_METABAT__338-contigs_cleaned	26992	27987	+	16S rRNA	2e-251	aligned only 62 percent of the 16S ribosomal RNA
+old_originals_METABAT__334-contigs_c_000001652584	old_originals_METABAT__334-contigs	80	190	+	5S rRNA	2.6e-14	
+old_originals_METABAT__334-contigs_c_000001866965	old_originals_METABAT__334-contigs	80	190	+	5S rRNA	2.6e-14	
+old_originals_METABAT__334-contigs_c_000002000510	old_originals_METABAT__334-contigs	51839	51949	-	5S rRNA	2.6e-14	
+old_originals_METABAT__334-contigs_c_000002314517	old_originals_METABAT__334-contigs	61564	61673	-	5S rRNA	4.4e-14	
+old_originals_METABAT__334-contigs_c_000002377788	old_originals_METABAT__334-contigs	52454	52563	-	5S rRNA	4.4e-14	
+old_originals_METABAT__334-contigs_c_000003475066	old_originals_METABAT__334-contigs	41	151	+	5S rRNA	2.6e-14	
+old_originals_METABAT__334-contigs_c_000003607254	old_originals_METABAT__334-contigs	31344	31454	-	5S rRNA	2.6e-14	
+old_originals_METABAT__334-contigs_c_000004146837	old_originals_METABAT__334-contigs	93	203	+	5S rRNA	2.6e-14	
+crabs_bin.223_k251_2591237	crabs_bin.223	10513	10618	-	5S rRNA	1.5e-11	
+crabs_bin.223_k251_3860993	crabs_bin.223	66247	66353	-	5S rRNA	1.4e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.438_k121_13760308	Tuerk_Half_DAS_TuerkHalves_bin.438	21686	21792	-	5S rRNA	4.1e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.83_sub_k121_7064267	Tuerk_Half_DAS_TuerkHalves_bin.83_sub	175	284	+	5S rRNA	3.2e-15	
+crabs_bin.498_cleaned_k251_345938	crabs_bin.498_cleaned	17003	17109	-	5S rRNA	4.9e-13	
+old_originals_METABAT__363-contigs_c_000000845378	old_originals_METABAT__363-contigs	169	279	+	5S rRNA	1.2e-12	
+old_originals_METABAT__363-contigs_c_000000943436	old_originals_METABAT__363-contigs	14702	15113	+	16S rRNA	1.7e-89	aligned only 25 percent of the 16S ribosomal RNA
+old_originals_METABAT__363-contigs_c_000002409541	old_originals_METABAT__363-contigs	137	247	+	5S rRNA	8.3e-13	
+old_originals_METABAT__363-contigs_c_000002409541	old_originals_METABAT__363-contigs	320	427	+	5S rRNA	3.1e-12	
+old_originals_METABAT__363-contigs_c_000004083179	old_originals_METABAT__363-contigs	137	247	+	5S rRNA	8.3e-13	
+old_originals_METABAT__77-contigs_c_000003497091	old_originals_METABAT__77-contigs	3	415	-	16S rRNA	3.6e-99	aligned only 26 percent of the 16S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.101_k121_3177657	Tuerk_Half_DAS_TuerkHalves_bin.101	126	236	+	5S rRNA	7.6e-09	
+Tuerk_Half_DAS_TuerkHalves_bin.101_k121_3709643	Tuerk_Half_DAS_TuerkHalves_bin.101	3	113	+	5S rRNA	1.1e-10	
+Tuerk_Half_DAS_TuerkHalves_bin.101_k121_3915697	Tuerk_Half_DAS_TuerkHalves_bin.101	8751	8861	-	5S rRNA	7.9e-12	
+Tuerk_Half_DAS_TuerkHalves_bin.101_k121_3915697	Tuerk_Half_DAS_TuerkHalves_bin.101	9124	9226	-	5S rRNA	2.2e-10	
+old_originals_METABAT__238-contigs_c_000000644239	old_originals_METABAT__238-contigs	111	222	+	5S rRNA	5.3e-17	
+old_originals_METABAT__238-contigs_c_000000695814	old_originals_METABAT__238-contigs	41987	42098	-	5S rRNA	5.3e-17	
+old_originals_METABAT__238-contigs_c_000001698369	old_originals_METABAT__238-contigs	2	2223	-	23S rRNA	0.0	aligned only 68 percent of the 23S ribosomal RNA
+old_originals_METABAT__238-contigs_c_000001698369	old_originals_METABAT__238-contigs	2457	2939	-	16S rRNA	2.6e-138	aligned only 30 percent of the 16S ribosomal RNA
+old_originals_METABAT__238-contigs_c_000001901940	old_originals_METABAT__238-contigs	45532	45643	-	5S rRNA	5.3e-17	
+old_originals_METABAT__238-contigs_c_000003233654	old_originals_METABAT__238-contigs	25279	26203	+	16S rRNA	5.9e-233	aligned only 58 percent of the 16S ribosomal RNA
+old_originals_METABAT__238-contigs_c_000003970445	old_originals_METABAT__238-contigs	11	122	+	5S rRNA	5.3e-17	
+old_originals_METABAT__108-contigs_c_000000501679	old_originals_METABAT__108-contigs	3262	3342	-	5S rRNA	1.9e-07	aligned only 68 percent of the 5S ribosomal RNA
+old_originals_METABAT__108-contigs_c_000000501679	old_originals_METABAT__108-contigs	3947	4055	-	5S rRNA	7.3e-10	
+old_originals_METABAT__108-contigs_c_000002003384	old_originals_METABAT__108-contigs	5104	6624	+	16S rRNA	0.0	
+old_originals_METABAT__108-contigs_c_000003560171	old_originals_METABAT__108-contigs	6506	6614	-	5S rRNA	7.3e-10	
+crabs_bin.278_k251_1087219	crabs_bin.278	1	519	-	16S rRNA	2.7e-120	aligned only 32 percent of the 16S ribosomal RNA
+crabs_bin.278_k251_2491957	crabs_bin.278	64457	64554	-	5S rRNA	6.4e-10	
+Tuerk_Half_DAS_TuerkHalves_bin.68_k121_16256352	Tuerk_Half_DAS_TuerkHalves_bin.68	111	222	+	5S rRNA	6.8e-15	
+Tuerk_Half_DAS_TuerkHalves_bin.68_k121_19310720	Tuerk_Half_DAS_TuerkHalves_bin.68	22996	23583	+	16S rRNA	4.5e-133	aligned only 37 percent of the 16S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.68_k121_5615385	Tuerk_Half_DAS_TuerkHalves_bin.68	392	503	+	5S rRNA	6.8e-15	
+Tuerk_Half_DAS_TuerkHalves_bin.68_k121_575591	Tuerk_Half_DAS_TuerkHalves_bin.68	7739	7850	-	5S rRNA	2e-15	
+old_originals_METABAT__24-contigs_c_000002842502	old_originals_METABAT__24-contigs	290	391	+	5S rRNA	4.4e-09	
+old_originals_METABAT__24-contigs_c_000003402401	old_originals_METABAT__24-contigs	5842	5943	-	5S rRNA	4.4e-09	
+old_originals_METABAT__333-contigs_c_000001621607	old_originals_METABAT__333-contigs	34279	35286	+	16S rRNA	4.799999999999999e-229	aligned only 63 percent of the 16S ribosomal RNA
+old_originals_METABAT__333-contigs_c_000003453265	old_originals_METABAT__333-contigs	40	142	+	5S rRNA	4.4e-07	
+crabs_bin.53_k251_2473507	crabs_bin.53	2	1032	-	16S rRNA	1.1e-248	aligned only 65 percent of the 16S ribosomal RNA
+crabs_bin.53_k251_2594376	crabs_bin.53	18759	18868	-	5S rRNA	6.1e-16	
+crabs_bin.339_k251_1293164	crabs_bin.339	18446	19360	+	16S rRNA	4.8e-224	aligned only 57 percent of the 16S ribosomal RNA
+crabs_bin.339_k251_3245992	crabs_bin.339	39255	39365	-	5S rRNA	4.9e-13	
+crabs_bin.405_k251_2011132	crabs_bin.405	34363	34472	-	5S rRNA	1.1e-11	
+crabs_bin.405_k251_2505009	crabs_bin.405	361920	362029	-	5S rRNA	1.1e-11	
+old_originals_METABAT__82-contigs_c_000000317365	old_originals_METABAT__82-contigs	249	359	+	5S rRNA	4.8e-11	
+old_originals_METABAT__82-contigs_c_000001590180	old_originals_METABAT__82-contigs	45424	45534	-	5S rRNA	4.8e-11	
+old_originals_METABAT__82-contigs_c_000002317456	old_originals_METABAT__82-contigs	135	245	+	5S rRNA	6.6e-07	
+old_originals_METABAT__82-contigs_c_000002792322	old_originals_METABAT__82-contigs	136	246	+	5S rRNA	4.8e-11	
+old_originals_METABAT__82-contigs_c_000002792322	old_originals_METABAT__82-contigs	380	490	+	5S rRNA	3.2e-11	
+old_originals_METABAT__82-contigs_c_000003483846	old_originals_METABAT__82-contigs	21779	21889	-	5S rRNA	4.8e-11	
+old_originals_METABAT__82-contigs_c_000003896184	old_originals_METABAT__82-contigs	6	100	+	5S rRNA	2.1e-09	
+old_originals_METABAT__217-contigs_c_000002227293	old_originals_METABAT__217-contigs	33213	33320	-	5S rRNA	5.1e-11	
+old_originals_METABAT__217-contigs_c_000003259459	old_originals_METABAT__217-contigs	80	187	+	5S rRNA	5.1e-11	
+Tuerk_Half_DAS_TuerkHalves_maxbin.370_sub_cleaned_k121_10368036	Tuerk_Half_DAS_TuerkHalves_maxbin.370_sub_cleaned	16041	16149	-	5S rRNA	4.7e-12	
+old_originals_METABAT__358-contigs_c_000002387362	old_originals_METABAT__358-contigs	3	1025	+	23S rRNA	1.3e-288	aligned only 31 percent of the 23S ribosomal RNA
+old_originals_METABAT__358-contigs_c_000002387362	old_originals_METABAT__358-contigs	1180	1289	+	5S rRNA	2.2e-08	
+old_originals_METABAT__358-contigs_c_000002556552	old_originals_METABAT__358-contigs	167	276	+	5S rRNA	1.3e-10	
+old_originals_METABAT__248-contigs_c_000000375080	old_originals_METABAT__248-contigs	43	147	+	5S rRNA	1.7e-08	
+old_originals_METABAT__248-contigs_c_000003096981	old_originals_METABAT__248-contigs	20207	20311	-	5S rRNA	1.7e-08	
+old_originals_METABAT__139-contigs_c_000003497185	old_originals_METABAT__139-contigs	1	416	-	16S rRNA	1e-80	aligned only 26 percent of the 16S ribosomal RNA
+crabs_nocov.24_sub_k251_1953521	crabs_nocov.24_sub	552	662	-	5S rRNA	1.3e-09	
+crabs_nocov.24_sub_k251_1953521	crabs_nocov.24_sub	805	3718	-	23S rRNA	0.0	
+crabs_nocov.24_sub_k251_1953521	crabs_nocov.24_sub	3898	5435	-	16S rRNA	0.0	
+crabs_nocov.24_sub_k251_2521505	crabs_nocov.24_sub	5818	5926	-	5S rRNA	6e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.389_sub_k121_14737642	Tuerk_Half_DAS_TuerkHalves_bin.389_sub	640	3424	+	23S rRNA	0	
+Tuerk_Half_DAS_TuerkHalves_bin.315_k121_14850997	Tuerk_Half_DAS_TuerkHalves_bin.315	6142	7132	+	16S rRNA	9.600000000000001e-246	aligned only 62 percent of the 16S ribosomal RNA
+Birg_nocov.12_k121_14323620	Birg_nocov.12	8	1532	-	16S rRNA	0.0	
+Birg_nocov.12_k121_324276	Birg_nocov.12	883	989	+	5S rRNA	5.4e-09	
+Birg_Half_DAS_BirgitHalves_bin.89_k121_10116862	Birg_Half_DAS_BirgitHalves_bin.89	5764	6279	+	16S rRNA	2.4e-104	aligned only 32 percent of the 16S ribosomal RNA
+old_originals_METABAT__424-contigs_c_000000889883	old_originals_METABAT__424-contigs	80300	80868	+	16S rRNA	8.799999999999999e-141	aligned only 35 percent of the 16S ribosomal RNA
+old_originals_METABAT__424-contigs_c_000001044927	old_originals_METABAT__424-contigs	8869	8978	-	5S rRNA	2.1e-15	
+old_originals_METABAT__235-contigs_c_000003574186	old_originals_METABAT__235-contigs	1	524	-	16S rRNA	1.5999999999999999e-114	aligned only 33 percent of the 16S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.250_k121_4204026	Tuerk_Half_DAS_TuerkHalves_bin.250	2	2175	+	23S rRNA	0.0	aligned only 67 percent of the 23S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.250_k121_4204026	Tuerk_Half_DAS_TuerkHalves_bin.250	2391	2501	+	5S rRNA	1e-11	
+Tuerk_Half_DAS_TuerkHalves_bin.349_k121_13120863	Tuerk_Half_DAS_TuerkHalves_bin.349	1538	1638	-	5S rRNA	4.9e-10	
+Tuerk_Half_DAS_TuerkHalves_bin.349_k121_13120863	Tuerk_Half_DAS_TuerkHalves_bin.349	1789	2692	-	23S rRNA	8.5e-210	aligned only 27 percent of the 23S ribosomal RNA
+crabs_bin.500_sub_k251_2078235	crabs_bin.500_sub	85405	86147	+	16S rRNA	1.9e-185	aligned only 46 percent of the 16S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.344_sub_k121_6267	Tuerk_Half_DAS_TuerkHalves_bin.344_sub	52611	52718	-	5S rRNA	9.2e-11	
+crabs_bin.5_k251_14479	crabs_bin.5	100	196	+	5S rRNA	4.5e-09	
+crabs_bin.5_k251_1647919	crabs_bin.5	28801	28897	-	5S rRNA	4.5e-09	
+crabs_bin.5_k251_2858561	crabs_bin.5	27	485	-	16S rRNA	7.4999999999999995e-93	aligned only 28 percent of the 16S ribosomal RNA
+crabs_bin.5_k251_4240595	crabs_bin.5	100	196	+	5S rRNA	4.5e-09	
+Tuerk_Half_DAS_TuerkHalves_bin.13_k121_3063085	Tuerk_Half_DAS_TuerkHalves_bin.13	583	690	+	5S rRNA	1.5e-10	
+Tuerk_Half_DAS_TuerkHalves_bin.393_k121_10151320	Tuerk_Half_DAS_TuerkHalves_bin.393	11	1205	-	23S rRNA	4.3e-265	aligned only 36 percent of the 23S ribosomal RNA
+Tuerk_Half_DAS_TuerkHalves_bin.393_k121_10151320	Tuerk_Half_DAS_TuerkHalves_bin.393	1478	2999	-	16S rRNA	0.0	
+Tuerk_Half_DAS_TuerkHalves_bin.393_k121_18435651	Tuerk_Half_DAS_TuerkHalves_bin.393	63	171	+	5S rRNA	7.8e-16	
+Tuerk_Half_DAS_TuerkHalves_bin.311_k121_16652903	Tuerk_Half_DAS_TuerkHalves_bin.311	11499	11596	-	5S rRNA	2.1e-10	
+Birg_Half_DAS_BirgitHalves_bin.45_k121_14039856	Birg_Half_DAS_BirgitHalves_bin.45	3	1454	+	23S rRNA	0.0	aligned only 44 percent of the 23S ribosomal RNA
+Birg_Half_DAS_BirgitHalves_bin.45_k121_14039856	Birg_Half_DAS_BirgitHalves_bin.45	1585	1692	+	5S rRNA	1.1e-12	
+old_originals_METABAT__368-contigs_cleaned_c_000000262533	old_originals_METABAT__368-contigs_cleaned	75	178	+	5S rRNA	4.3e-10	
+old_originals_METABAT__368-contigs_cleaned_c_000000262573	old_originals_METABAT__368-contigs_cleaned	31	134	+	5S rRNA	4.3e-10	
+old_originals_METABAT__368-contigs_cleaned_c_000001053184	old_originals_METABAT__368-contigs_cleaned	62	165	+	5S rRNA	1.6e-10	
+old_originals_METABAT__368-contigs_cleaned_c_000003517658	old_originals_METABAT__368-contigs_cleaned	2906	3009	-	5S rRNA	4.3e-10	
+crabs_bin.1_k251_131023	crabs_bin.1	375	480	+	5S rRNA	4.7e-11	
+crabs_bin.1_k251_1338178	crabs_bin.1	282	387	+	5S rRNA	4.7e-11	
+crabs_bin.1_k251_2512589	crabs_bin.1	318	423	+	5S rRNA	4.7e-11	
+crabs_bin.1_k251_3558180	crabs_bin.1	272	377	+	5S rRNA	4.7e-11	
+crabs_bin.7_k251_3103486	crabs_bin.7	28	136	+	5S rRNA	3.5e-13	
+crabs_bin.7_k251_692600	crabs_bin.7	75	183	+	5S rRNA	3.5e-13	
+crabs_bin.7_k251_706409	crabs_bin.7	12900	13008	-	5S rRNA	3.5e-13	
+crabs_bin.39_k251_1713745	crabs_bin.39	5	114	+	5S rRNA	6e-13	

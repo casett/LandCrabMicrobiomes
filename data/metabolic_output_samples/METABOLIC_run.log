@@ -1,0 +1,11 @@
+METABOLIC-G.pl v4.0
+Run Start: 2024-08-05 17:29:12
+Run End: 2024-08-07 01:25:56
+Total running time: 31:56:44 (hh:mm:ss)
+Input Reads: N/A
+Input Genome directory (nucleotides): whokaryote_results/who_bac
+Number of Threads: 24
+Prodigal Method: meta
+KOfam DB: full
+Module Cutoff Value: 0.75
+Output directory: metabolic_output_samples
