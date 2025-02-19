@@ -4,7 +4,9 @@
 ## by Cassie Ettinger, Victoria Watson-Zink, Laetitia Wilkins et al.
 
 ### To cite this work or code
-	
+
+Ettinger, C., Watson-Zink, V., & Wilkins, L. (2025). casett/LandCrabMicrobiomes: v1 (Version v1). Zenodo. https://doi.org/10.5281/zenodo.14895642
+ 
 <i> Preprint coming soon</i>
 
 ### Abstract
