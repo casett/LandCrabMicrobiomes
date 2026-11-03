@@ -1,7 +1,7 @@
 Land Crab Gut Microbiomes
 ================
 Cassie Ettinger
-2024-10-01
+2026-11-02
 
 Project: Unlocking the terrestrial realm: Are microbial symbioses the
 key to land crab terrestrial invasions? Collaborators: Cassie Ettinger,
@@ -1002,6 +1002,9 @@ krak_bray_crab_phylo = plot_ordination(physeq = physeq_krak_nC_bac,
 # Save as PNG
 ggsave("plots/ordination/mag_kraken_ordinations_diffgroup.png",
     dpi = 300, device = "png", height = 10, width = 9, units = "in")
+
+ggsave("plots/ordination/mag_kraken_ordinations_diffgroup.pdf",
+    dpi = 300, device = "pdf", height = 10, width = 9, units = "in")
 ```
 
 ``` r
@@ -4182,6 +4185,14 @@ dbcan.dram.meta <- vroom("data/DRAM/carbon_util.txt")
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
+gff <- vroom("data/DRAM/annotation/genes.gff", delim = "\t",
+    comment = "#", col_names = FALSE, quote = "", show_col_types = FALSE) %>%
+    transmute(...1 = str_match(X9, "ID=([^;]+)")[, 2], partial = str_match(X9,
+        "partial=([01]{2})")[, 2])
+
+annot <- annot %>%
+    left_join(gff, by = "...1")
+
 mag_ids <- vroom("data/mag_table_vlc.txt") %>%
     mutate(TaxName = paste0(`GTDB Taxonomy`, " ", `Bin ID`))
 ```
@@ -4208,6 +4219,7 @@ totals <- annot %>%
     mutate_at("cazy_ids", str_replace, "_Glycos_transf", "") %>%
     mutate_at("cazy_ids", str_replace, "_Glyco_tranf_5", "") %>%
     filter(cazy_ids != "SLH") %>%
+    distinct(...1, cazy_ids) %>%
     mutate(Family = ifelse(str_detect(cazy_ids, "GT"), "GT",
         ifelse(str_detect(cazy_ids, "CE"), "CE", ifelse(str_detect(cazy_ids,
             "GH"), "GH", ifelse(str_detect(cazy_ids, "AA"), "AA",
@@ -4218,10 +4230,10 @@ totals <- annot %>%
 
 
 annot.filt <- annot %>%
-    filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY,
-        "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit,
+    filter((str_detect(cazy_ids, paste("\\b", trimws(fn_of_interset$CAZY),
+        "(_\\d+)?\\b", collapse = "|", sep = "")) | str_detect(kegg_hit,
         paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|",
-            sep = ""))) %>%
+            sep = ""))) & partial == "00") %>%
     separate_longer_delim(cazy_ids, delim = "; ") %>%
     mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
     mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
@@ -4230,6 +4242,8 @@ annot.filt <- annot %>%
     mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
     mutate_at("fasta", str_replace, "_cleaned", "") %>%
     filter(cazy_ids != "SLH") %>%
+    distinct(...1, fasta, cazy_ids) %>%
+    filter(cazy_ids %in% trimws(fn_of_interset$CAZY)) %>%
     left_join(mag_ids, by = c(fasta = "bin_name")) %>%
     count(TaxName, cazy_ids) %>%
     pivot_wider(names_from = cazy_ids, values_from = n, values_fill = 0)
@@ -4307,10 +4321,10 @@ ph.sup <- as.ggplot(pheatmap(log(annot.filt + 1), cluster_cols = TRUE,
 
 ``` r
 annot.filt <- annot %>%
-    filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY,
-        "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit,
+    filter((str_detect(cazy_ids, paste("\\b", trimws(fn_of_interset$CAZY),
+        "(_\\d+)?\\b", collapse = "|", sep = "")) | str_detect(kegg_hit,
         paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|",
-            sep = ""))) %>%
+            sep = ""))) & partial == "00") %>%
     separate_longer_delim(cazy_ids, delim = "; ") %>%
     mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
     mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
@@ -4319,6 +4333,8 @@ annot.filt <- annot %>%
     mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
     mutate_at("fasta", str_replace, "_cleaned", "") %>%
     filter(cazy_ids != "SLH") %>%
+    distinct(...1, fasta, cazy_ids) %>%
+    filter(cazy_ids %in% trimws(fn_of_interset$CAZY)) %>%
     left_join(mag_ids, by = c(fasta = "bin_name")) %>%
     filter(Class == "Bacteroidia") %>%
     count(TaxName, cazy_ids) %>%
@@ -4440,10 +4456,10 @@ ggsave("plots/function/ra_heatmap_bact.pdf", dpi = 300, device = "pdf",
 
 ``` r
 annot.filt <- annot %>%
-    filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY,
-        "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit,
+    filter((str_detect(cazy_ids, paste("\\b", trimws(fn_of_interset$CAZY),
+        "(_\\d+)?\\b", collapse = "|", sep = "")) | str_detect(kegg_hit,
         paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|",
-            sep = ""))) %>%
+            sep = ""))) & partial == "00") %>%
     separate_longer_delim(cazy_ids, delim = "; ") %>%
     mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
     mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
@@ -4452,6 +4468,8 @@ annot.filt <- annot %>%
     mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
     mutate_at("fasta", str_replace, "_cleaned", "") %>%
     filter(cazy_ids != "SLH") %>%
+    distinct(...1, fasta, cazy_ids) %>%
+    filter(cazy_ids %in% trimws(fn_of_interset$CAZY)) %>%
     left_join(mag_ids, by = c(fasta = "bin_name")) %>%
     filter(Class == "Actinomycetia") %>%
     count(TaxName, cazy_ids) %>%
@@ -4564,16 +4582,17 @@ bar_side_plot_mag
 ``` r
 # Display and save the plot as a PNG
 ggsave("plots/function/ra_heatmap_act.png", dpi = 300, device = "png",
-    height = 6, width = 14, units = "in")
+    height = 7, width = 17, units = "in")
 ggsave("plots/function/ra_heatmap_act.pdf", dpi = 300, device = "pdf",
-    height = 6, width = 14, units = "in")
+    height = 7, width = 17, units = "in")
 ```
 
 ### Focus on Clostridia
 
 ``` r
 annot.filt <- annot %>%
-  filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY, "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit, paste("\\b",na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep=""))) %>%
+    filter((str_detect(cazy_ids, paste("\\b", trimws(fn_of_interset$CAZY), "(_\\d+)?\\b", collapse = "|", sep = "")) |str_detect(kegg_hit, paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep = ""))) &
+           partial == "00") %>%
   separate_longer_delim(cazy_ids, delim = "; ") %>%
   mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
   mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
@@ -4582,6 +4601,8 @@ annot.filt <- annot %>%
   mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
   mutate_at("fasta", str_replace, "_cleaned", "") %>%
   filter(cazy_ids != 'SLH') %>%
+  distinct(`...1`, fasta, cazy_ids) %>% 
+  filter(cazy_ids %in% trimws(fn_of_interset$CAZY)) %>%
   left_join(mag_ids, by=c('fasta' = 'bin_name')) %>%
   filter(Class == "Clostridia") %>% 
   count(TaxName, cazy_ids) %>% 
@@ -4713,7 +4734,8 @@ ggsave("plots/function/ra_heatmap_clo.pdf", dpi = 300, device = "pdf",
 
 ``` r
 annot.filt <-  annot %>%
-  filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY, "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit, paste("\\b",na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep=""))) %>%
+    filter((str_detect(cazy_ids, paste("\\b", trimws(fn_of_interset$CAZY), "(_\\d+)?\\b", collapse = "|", sep = "")) |str_detect(kegg_hit, paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep = ""))) &
+           partial == "00") %>%
   separate_longer_delim(cazy_ids, delim = "; ") %>%
   mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
   mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
@@ -4722,6 +4744,8 @@ annot.filt <-  annot %>%
   mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
   mutate_at("fasta", str_replace, "_cleaned", "") %>%
   filter(cazy_ids != 'SLH') %>%
+  distinct(`...1`, fasta, cazy_ids) %>% 
+  filter(cazy_ids %in% trimws(fn_of_interset$CAZY)) %>%
   left_join(mag_ids, by=c('fasta' = 'bin_name')) %>%
   filter(Class == "Gammaproteobacteria") %>% 
   count(TaxName, cazy_ids) %>% 
@@ -4843,16 +4867,17 @@ bar_side_plot_mag
 ``` r
 # Display and save the plot as a PNG
 ggsave("plots/function/ra_heatmap_gam.png", dpi = 300, device = "png",
-    height = 6, width = 16, units = "in")
+    height = 8, width = 22, units = "in")
 ggsave("plots/function/ra_heatmap_gam.pdf", dpi = 300, device = "pdf",
-    height = 6, width = 16, units = "in")
+    height = 8, width = 22, units = "in")
 ```
 
 ### Focus on Alphaproteobacteria
 
 ``` r
 annot.filt <- annot %>%
-  filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY, "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit, paste("\\b",na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep=""))) %>%
+    filter((str_detect(cazy_ids, paste("\\b", trimws(fn_of_interset$CAZY), "(_\\d+)?\\b", collapse = "|", sep = "")) |str_detect(kegg_hit, paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep = ""))) &
+           partial == "00") %>%
   separate_longer_delim(cazy_ids, delim = "; ") %>%
   mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
   mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
@@ -4861,6 +4886,8 @@ annot.filt <- annot %>%
   mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
   mutate_at("fasta", str_replace, "_cleaned", "") %>%
   filter(cazy_ids != 'SLH') %>%
+  distinct(`...1`, fasta, cazy_ids) %>% 
+  filter(cazy_ids %in% trimws(fn_of_interset$CAZY)) %>%
   left_join(mag_ids, by=c('fasta' = 'bin_name')) %>%
   filter(Class == "Alphaproteobacteria") %>% 
   count(TaxName, cazy_ids) %>% 
@@ -4996,7 +5023,8 @@ ggsave("plots/function/ra_heatmap_alp.pdf", dpi = 300, device = "pdf",
 
 ``` r
 annot.filt <- annot %>%
-  filter(str_detect(cazy_hits, paste("\\b", fn_of_interset$CAZY, "\\b", collapse = "|", sep = "")) | str_detect(kegg_hit, paste("\\b",na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep=""))) %>%
+    filter((str_detect(cazy_ids, paste("\\b", trimws(fn_of_interset$CAZY), "(_\\d+)?\\b", collapse = "|", sep = "")) |str_detect(kegg_hit, paste("\\b", na.omit(fn_of_interset$KEGG), "\\b", collapse = "|", sep = ""))) &
+           partial == "00") %>%
   separate_longer_delim(cazy_ids, delim = "; ") %>%
   mutate_at("cazy_ids", str_replace, "_\\d+", "") %>%
   mutate_at("cazy_ids", str_replace, "_Glyco_tranf_3", "") %>%
@@ -5005,6 +5033,8 @@ annot.filt <- annot %>%
   mutate_at("fasta", str_replace, ".contigs", "-contigs") %>%
   mutate_at("fasta", str_replace, "_cleaned", "") %>%
   filter(cazy_ids != 'SLH') %>%
+  distinct(`...1`, fasta, cazy_ids) %>% 
+  filter(cazy_ids %in% trimws(fn_of_interset$CAZY)) %>%
   left_join(mag_ids, by=c('fasta' = 'bin_name')) %>%
   filter(Class == "Bacilli") %>% 
   count(TaxName, cazy_ids) %>% 
